@@ -1,0 +1,71 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "ad729eb1430b4c2c8f4ec58c29ed4ee5"
+  OwnerAccountId: "d2ddd59699e84161ab44b9ce94f9a0d8"
+  OwnerName: "Flappy"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1068287017289931094
+  value: 15046611595865322464
+}
+AssetIdsOriginalToNew {
+  key: 2055194980155698029
+  value: 15495035187240751958
+}
+AssetIdsOriginalToNew {
+  key: 2254363875720098689
+  value: 15699080701792978214
+}
+AssetIdsOriginalToNew {
+  key: 2434381350500733757
+  value: 10105491290642256394
+}
+AssetIdsOriginalToNew {
+  key: 5833405957719423888
+  value: 13145336353873642663
+}
+AssetIdsOriginalToNew {
+  key: 8641623384130400122
+  value: 1789654089272185715
+}
+AssetIdsOriginalToNew {
+  key: 9277494776396693920
+  value: 13739453003426531817
+}
+AssetIdsOriginalToNew {
+  key: 10430794833275672027
+  value: 1483697498628031595
+}
+AssetIdsOriginalToNew {
+  key: 10782785647081047472
+  value: 1404681853325870306
+}
+AssetIdsOriginalToNew {
+  key: 10864873900399049726
+  value: 17901905447990733099
+}
+AssetIdsOriginalToNew {
+  key: 11646773699877358940
+  value: 11093322802381649517
+}
+AssetIdsOriginalToNew {
+  key: 14435462279566861972
+  value: 12523095024234686336
+}
+AssetIdsOriginalToNew {
+  key: 14677791504672370625
+  value: 5850359711810594439
+}
+AssetIdsOriginalToNew {
+  key: 15604114368780626798
+  value: 2756821793674896450
+}
+AssetIdsOriginalToNew {
+  key: 17616921854838581563
+  value: 14031908572020585242
+}
+AssetIdsOriginalToNew {
+  key: 17683375827559850150
+  value: 6522042290834918365
+}

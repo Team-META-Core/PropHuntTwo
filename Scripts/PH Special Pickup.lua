@@ -1,0 +1,12 @@
+local EQUIPMENT = script:GetCustomProperty("Equipment"):WaitForObject()
+
+function OnEquipped(equipment, player)
+	player.serverUserData["Weapon"] = equipment
+end
+
+function OnUnequipped(equipment, player)
+	player.serverUserData["Weapon"] = nil
+end
+
+EQUIPMENT.equippedEvent:Connect(OnEquipped)
+EQUIPMENT.unequippedEvent:Connect(OnUnequipped)

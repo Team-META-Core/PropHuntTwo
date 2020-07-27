@@ -1,0 +1,20 @@
+Assets {
+  Id: 6522042290834918365
+  Name: "Custom Base Material from Pipe - Thin"
+  PlatformAssetType: 13
+  SerializationVersion: 61
+  CustomMaterialAsset {
+    BaseMaterialId: 8525043278028421962
+    ParameterOverrides {
+    }
+    Assets {
+      Id: 8525043278028421962
+      Name: "Basic Material"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_pbr_material_001"
+      }
+    }
+  }
+}
