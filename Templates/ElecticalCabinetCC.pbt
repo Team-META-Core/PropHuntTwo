@@ -728,7 +728,7 @@ Assets {
         Name: "Ring"
         Transform {
           Location {
-            X: 167.882813
+            X: 167.882812
             Y: 53.3603516
             Z: 255.331833
           }
@@ -852,8 +852,8 @@ Assets {
         Name: "Ring"
         Transform {
           Location {
-            X: 167.882813
-            Y: -38.5664063
+            X: 167.882812
+            Y: -38.5664062
             Z: 255.331833
           }
           Rotation {
@@ -977,7 +977,7 @@ Assets {
         Transform {
           Location {
             X: -182.117188
-            Y: -38.5664063
+            Y: -38.5664062
             Z: 255.331833
           }
           Rotation {

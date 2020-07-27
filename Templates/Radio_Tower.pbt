@@ -2621,7 +2621,7 @@ Assets {
         Name: "Craftsman Part - Stair Balust"
         Transform {
           Location {
-            X: -32.2539063
+            X: -32.2539062
             Y: 62.1689453
           }
           Rotation {
@@ -2717,7 +2717,7 @@ Assets {
         Name: "Pyramid - 3-Sided"
         Transform {
           Location {
-            Z: 9.67382813
+            Z: 9.67382812
           }
           Rotation {
             Yaw: 30

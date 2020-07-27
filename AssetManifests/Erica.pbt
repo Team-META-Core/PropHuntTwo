@@ -395,15 +395,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15497073600758326276
-  Name: "Rope"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_rope_001"
-  }
-}
-Assets {
   Id: 15444479746233137098
   Name: "Sci-Fi Gear Med 01"
   PlatformAssetType: 1
@@ -665,6 +656,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13752228007153956865
+  Name: "Decal Bullet Damage Metal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_bullet_metal_001"
+  }
+}
+Assets {
   Id: 13642204757580273705
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -707,6 +707,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x3m_angledR_001"
+  }
+}
+Assets {
+  Id: 13408400831664161508
+  Name: "Cylinder - Chamfered"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_chamfer"
   }
 }
 Assets {
@@ -1331,6 +1340,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9711641657236799398
+  Name: "Decal Letters 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_letters_001"
+  }
+}
+Assets {
   Id: 9677665090513604967
   Name: ">"
   PlatformAssetType: 1
@@ -1544,6 +1562,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_wing_small_001_ref"
+  }
+}
+Assets {
+  Id: 8063868133702323256
+  Name: "Sphere - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_002"
   }
 }
 Assets {
@@ -2276,15 +2303,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3682206342183528038
-  Name: "Fantasy Sword Grip 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_fan_grip_sword_001"
-  }
-}
-Assets {
   Id: 3396001719245941860
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -2435,6 +2453,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_003"
+  }
+}
+Assets {
+  Id: 2408921510563552035
+  Name: "Street Sign - Round"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street-sign_round_001"
   }
 }
 Assets {

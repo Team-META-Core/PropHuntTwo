@@ -505,7 +505,7 @@ Assets {
         Name: "Eyes"
         Transform {
           Location {
-            X: -24.1445313
+            X: -24.1445312
             Y: 0.0478515625
             Z: 4.07287598
           }
@@ -560,7 +560,7 @@ Assets {
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: -23.0532227
+            X: -23.0532226
             Y: 17.3642578
             Z: 5.29815674
           }
@@ -754,7 +754,7 @@ Assets {
             Z: 0.468994141
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -89.9999084
             Roll: 114.135101
           }
@@ -864,7 +864,7 @@ Assets {
         Name: "Lip"
         Transform {
           Location {
-            X: -19.7382813
+            X: -19.7382812
             Y: 0.29296875
             Z: -14.0869751
           }

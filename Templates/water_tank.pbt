@@ -1493,7 +1493,7 @@ Assets {
         Name: "Sphere - Half"
         Transform {
           Location {
-            Z: -87.2226563
+            Z: -87.2226562
           }
           Rotation {
             Pitch: -3.05175781e-05

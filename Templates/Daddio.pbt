@@ -3832,7 +3832,7 @@ Assets {
         Transform {
           Location {
             X: 115.002655
-            Y: -3754.91895
+            Y: -3754.91894
             Z: 885
           }
           Rotation {
@@ -4112,7 +4112,7 @@ Assets {
         Name: "Urban Water Tank 01"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 1.52587891e-05
             Z: 94.9999313
           }
@@ -8530,7 +8530,7 @@ Assets {
         Transform {
           Location {
             X: 254.994095
-            Y: -999.976563
+            Y: -999.976562
             Z: 585
           }
           Rotation {
@@ -11617,7 +11617,7 @@ Assets {
         Transform {
           Location {
             X: -4085.46387
-            Y: -5204.76563
+            Y: -5204.76562
             Z: 379.774902
           }
           Rotation {
@@ -12045,7 +12045,7 @@ Assets {
         Name: "Cone - Truncated Wide"
         Transform {
           Location {
-            X: 2950.14893
+            X: 2950.14892
             Y: -6666.80566
             Z: 144.818481
           }
@@ -12280,7 +12280,7 @@ Assets {
         Transform {
           Location {
             X: 4969.4209
-            Y: -2993.46143
+            Y: -2993.46142
             Z: 174.533691
           }
           Rotation {
@@ -12358,7 +12358,7 @@ Assets {
         Transform {
           Location {
             X: 4971.35352
-            Y: -1463.48145
+            Y: -1463.48144
             Z: 232.526978
           }
           Rotation {
@@ -12397,7 +12397,7 @@ Assets {
         Transform {
           Location {
             X: 4971.35352
-            Y: -2199.08643
+            Y: -2199.08642
             Z: 151.585693
           }
           Rotation {
@@ -13641,7 +13641,7 @@ Assets {
         Transform {
           Location {
             X: -4844.26
-            Y: 1717.43311
+            Y: 1717.4331
             Z: 468.194458
           }
           Rotation {
@@ -15561,7 +15561,7 @@ Assets {
         Transform {
           Location {
             X: -2770.21387
-            Y: 6516.71143
+            Y: 6516.71142
             Z: 270.664734
           }
           Rotation {
@@ -15720,7 +15720,7 @@ Assets {
         Transform {
           Location {
             X: -5027.6709
-            Y: 4582.88477
+            Y: 4582.88476
             Z: 216.847351
           }
           Rotation {
@@ -15800,7 +15800,7 @@ Assets {
         Transform {
           Location {
             X: -5209.03955
-            Y: 3221.79395
+            Y: 3221.79394
             Z: 88.6195679
           }
           Rotation {
@@ -15964,7 +15964,7 @@ Assets {
         Transform {
           Location {
             X: -137.830444
-            Y: 5710.21729
+            Y: 5710.21728
             Z: 17.2046814
           }
           Rotation {

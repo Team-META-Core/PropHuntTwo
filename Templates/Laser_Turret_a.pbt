@@ -1896,7 +1896,7 @@ Assets {
             Pitch: -66.505127
             Volume: 0.37
             Falloff: 3500
-            Radius: 4270.28809
+            Radius: 4270.28808
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }

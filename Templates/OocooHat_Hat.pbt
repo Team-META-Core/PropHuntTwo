@@ -412,7 +412,7 @@ Assets {
         Name: "Horn"
         Transform {
           Location {
-            X: 12.1938477
+            X: 12.1938476
             Y: -19.2206116
             Z: 34.9232941
           }
@@ -461,7 +461,7 @@ Assets {
         Name: "Horn"
         Transform {
           Location {
-            X: 12.1938477
+            X: 12.1938476
             Y: 16.1900024
             Z: 34.9232941
           }

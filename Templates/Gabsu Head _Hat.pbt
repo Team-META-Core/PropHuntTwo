@@ -1596,7 +1596,7 @@ Assets {
         Transform {
           Location {
             X: -51.277832
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 54.2339783
           }
           Rotation {
@@ -1645,7 +1645,7 @@ Assets {
         Transform {
           Location {
             X: -51.277832
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 54.2339783
           }
           Rotation {
@@ -2772,7 +2772,7 @@ Assets {
         Transform {
           Location {
             X: 51.090332
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 21.2407684
           }
           Rotation {
@@ -2821,7 +2821,7 @@ Assets {
         Transform {
           Location {
             X: 51.090332
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 21.2407684
           }
           Rotation {
@@ -2870,7 +2870,7 @@ Assets {
         Transform {
           Location {
             X: 71.2437744
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 36.1226044
           }
           Rotation {
@@ -3887,7 +3887,7 @@ Assets {
         Transform {
           Location {
             X: 46.1248779
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 1.11853027
           }
           Rotation {
@@ -4405,7 +4405,7 @@ Assets {
         Name: "Thorn"
         Transform {
           Location {
-            X: -23.2382813
+            X: -23.2382812
             Y: 152.566467
             Z: 36.4719
           }

@@ -74,7 +74,7 @@ Assets {
         Name: "MetalSmallHalf"
         Transform {
           Location {
-            X: 1424.39063
+            X: 1424.39062
             Y: 2610.61914
             Z: 27.1116791
           }
@@ -7145,7 +7145,7 @@ Assets {
           Location {
             X: 1391.55273
             Y: 3029.63892
-            Z: 298.935059
+            Z: 298.935058
           }
           Rotation {
             Pitch: -0.31416136
@@ -9596,7 +9596,7 @@ Assets {
         Transform {
           Location {
             X: 1392.11
-            Y: 2994.98145
+            Y: 2994.98144
             Z: 112.743233
           }
           Rotation {

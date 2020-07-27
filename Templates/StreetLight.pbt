@@ -229,9 +229,9 @@ Assets {
         Name: "Street Light 01"
         Transform {
           Location {
-            X: 628.778809
+            X: 628.778808
             Y: -9.90527344
-            Z: 876.882813
+            Z: 876.882812
           }
           Rotation {
           }
