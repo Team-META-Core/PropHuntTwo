@@ -16,11 +16,9 @@ Objects {
   }
   ChildIds: 7988870148366925295
   ChildIds: 13584568679335986257
-  ChildIds: 10412283807992892945
-  ChildIds: 16883501134874085984
   ChildIds: 8647594342684677069
   ChildIds: 7179769915645255894
-  ChildIds: 9741949524888147118
+  ChildIds: 10412283807992892945
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,147 +28,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 9741949524888147118
-  Name: "PH - Minimap UI - v1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 523751064217786437
-      value {
-        Overrides {
-          Name: "UIX"
-          Float: 37
-        }
-        Overrides {
-          Name: "UIY"
-          Float: 185.847244
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17761292541228104951
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Minimap - V1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 6310.15186
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8411170203253194188
-    }
-  }
-}
-Objects {
-  Id: 7179769915645255894
-  Name: "Aj"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Aj"
-  }
-}
-Objects {
-  Id: 8647594342684677069
-  Name: "Ben"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Ben"
-  }
-}
-Objects {
-  Id: 16883501134874085984
-  Name: "Fantasy Human Guy"
-  Transform {
-    Location {
-      X: -588.417603
-      Y: -5213.58643
-      Z: 1362.89258
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6198872897553896330
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-    }
   }
 }
 Objects {
@@ -301,6 +158,58 @@ Objects {
   }
 }
 Objects {
+  Id: 7179769915645255894
+  Name: "Aj"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Aj"
+  }
+}
+Objects {
+  Id: 8647594342684677069
+  Name: "Ben"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Ben"
+  }
+}
+Objects {
   Id: 13584568679335986257
   Name: "Erica"
   Transform {
@@ -372,6 +281,8 @@ Objects {
   ChildIds: 17288436379222204859
   ChildIds: 16357105689446732404
   ChildIds: 10216363404491379880
+  ChildIds: 16883501134874085984
+  ChildIds: 9741949524888147118
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -380,6 +291,108 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 9741949524888147118
+  Name: "PH - Minimap UI - v1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7988870148366925295
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 523751064217786437
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 37
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 185.847244
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17761292541228104951
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Minimap - V1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 6310.15186
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8411170203253194188
+    }
+  }
+}
+Objects {
+  Id: 16883501134874085984
+  Name: "Fantasy Human Guy"
+  Transform {
+    Location {
+      X: -588.417603
+      Y: -5213.58643
+      Z: 1362.89258
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7988870148366925295
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6198872897553896330
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
   }
 }
 Objects {
