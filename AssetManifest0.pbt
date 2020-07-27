@@ -125,15 +125,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6198872897553896330
-  Name: "Fantasy Human Guy"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_guy_fantasy_001_ref"
-  }
-}
-Assets {
   Id: 6174025716456888100
   Name: "Metal Simple Tech Panel Wall 03"
   PlatformAssetType: 2
