@@ -1704,7 +1704,7 @@ Objects {
   Name: "Flags"
   Transform {
     Location {
-      X: -3605.47558
+      X: -3605.47559
       Y: -28.2955933
       Z: 223.950439
     }
@@ -2367,7 +2367,7 @@ Objects {
   Name: "Flags"
   Transform {
     Location {
-      X: -4370.46728
+      X: -4370.46729
       Y: -2034.75757
       Z: 423.828491
     }

@@ -76,7 +76,7 @@ Assets {
         Transform {
           Location {
             X: 75.7861328
-            Y: -177.563476
+            Y: -177.563477
             Z: 99.2800674
           }
           Rotation {
@@ -208,7 +208,7 @@ Assets {
         Transform {
           Location {
             X: -1.05383301
-            Y: 0.200195312
+            Y: 0.200195313
             Z: 23.1502113
           }
           Rotation {
@@ -1570,7 +1570,7 @@ Assets {
         Transform {
           Location {
             X: -18.6120605
-            Y: -15.3945312
+            Y: -15.3945313
             Z: 86.8738251
           }
           Rotation {
@@ -1701,7 +1701,7 @@ Assets {
         Transform {
           Location {
             X: -1.05383301
-            Y: 0.200195312
+            Y: 0.200195313
             Z: 23.1502113
           }
           Rotation {
@@ -1954,7 +1954,7 @@ Assets {
         Transform {
           Location {
             X: -1.05383301
-            Y: 0.200195312
+            Y: 0.200195313
             Z: 23.1502113
           }
           Rotation {
@@ -2207,7 +2207,7 @@ Assets {
         Transform {
           Location {
             X: -1.05383301
-            Y: 0.200195312
+            Y: 0.200195313
             Z: 23.1502113
           }
           Rotation {
@@ -2459,7 +2459,7 @@ Assets {
         Transform {
           Location {
             X: -1.05383301
-            Y: 0.200195312
+            Y: 0.200195313
             Z: 23.1502113
           }
           Rotation {
@@ -2712,7 +2712,7 @@ Assets {
         Transform {
           Location {
             X: -1.05383301
-            Y: 0.200195312
+            Y: 0.200195313
             Z: 23.1502113
           }
           Rotation {
@@ -2965,7 +2965,7 @@ Assets {
         Transform {
           Location {
             X: -1.05383301
-            Y: 0.200195312
+            Y: 0.200195313
             Z: 23.1502113
           }
           Rotation {
@@ -3480,7 +3480,7 @@ Assets {
         Transform {
           Location {
             X: -102.107422
-            Y: 21.8813476
+            Y: 21.8813477
             Z: 86.7467041
           }
           Rotation {
@@ -4133,7 +4133,7 @@ Assets {
         Transform {
           Location {
             X: -102.107422
-            Y: 21.8813476
+            Y: 21.8813477
             Z: 86.7467041
           }
           Rotation {
@@ -7531,7 +7531,7 @@ Assets {
         Transform {
           Location {
             X: -56.7531738
-            Y: 133.132812
+            Y: 133.132813
             Z: 0.321746826
           }
           Rotation {
@@ -9076,7 +9076,7 @@ Assets {
         Transform {
           Location {
             X: -34.1766968
-            Y: -31.1914062
+            Y: -31.1914063
             Z: 78.7134094
           }
           Rotation {
@@ -9533,7 +9533,7 @@ Assets {
         Transform {
           Location {
             X: -61.9825058
-            Y: 0.879882812
+            Y: 0.879882813
             Z: 43.7995453
           }
           Rotation {
@@ -9680,7 +9680,7 @@ Assets {
         Transform {
           Location {
             X: -7.91101074
-            Y: -74.3657226
+            Y: -74.3657227
             Z: 43.4105072
           }
           Rotation {
@@ -9716,7 +9716,7 @@ Assets {
         Transform {
           Location {
             X: -7.91101074
-            Y: -74.3657226
+            Y: -74.3657227
             Z: 73.742775
           }
           Rotation {
@@ -19305,7 +19305,7 @@ Assets {
         Transform {
           Location {
             X: -57.2305908
-            Y: -9.83007812
+            Y: -9.83007813
             Z: 140.04892
           }
           Rotation {
