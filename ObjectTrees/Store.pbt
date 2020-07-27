@@ -17,7 +17,6 @@ Objects {
   ParentId: 339461681261664675
   ChildIds: 16351123745989230762
   ChildIds: 16367066032427367764
-  ChildIds: 1939246607942477250
   ChildIds: 4376537010812275333
   ChildIds: 14734248117319637416
   ChildIds: 7464397154849250728
@@ -5541,32 +5540,6 @@ Objects {
     SubobjectId: 7246792395646815578
     InstanceId: 5606463850253560797
     TemplateId: 9075718167686036070
-  }
-}
-Objects {
-  Id: 1939246607942477250
-  Name: "TempGroup"
-  Transform {
-    Location {
-      Z: -99999
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4585217093520083334
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Folder {
-    IsGroup: true
   }
 }
 Objects {

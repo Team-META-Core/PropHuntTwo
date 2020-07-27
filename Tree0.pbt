@@ -19,6 +19,7 @@ Objects {
   ChildIds: 8647594342684677069
   ChildIds: 7179769915645255894
   ChildIds: 10412283807992892945
+  ChildIds: 17587986024326657423
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -28,6 +29,1471 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17587986024326657423
+  Name: "Temp"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 1404689894191868153
+  ChildIds: 6686516561666582470
+  ChildIds: 12020217898693591924
+  ChildIds: 18267039910754324804
+  ChildIds: 12277544586070564451
+  ChildIds: 12166835884029125107
+  ChildIds: 2677595563784206153
+  ChildIds: 2848085720804306232
+  ChildIds: 14903263145124532765
+  ChildIds: 7245059412388003552
+  ChildIds: 12190549409641496978
+  ChildIds: 11537627732389136082
+  ChildIds: 1685441369424409660
+  ChildIds: 15770577276803747247
+  ChildIds: 16630619768217313869
+  ChildIds: 12302352821359078609
+  ChildIds: 9731111719028510000
+  ChildIds: 7161157364389704075
+  ChildIds: 18419510491281276018
+  ChildIds: 10851709887038477724
+  ChildIds: 8064888752237846253
+  ChildIds: 11063834511375779024
+  ChildIds: 12719487901257688126
+  ChildIds: 13332466043223238723
+  ChildIds: 3146855369141122831
+  ChildIds: 4174919026338907731
+  ChildIds: 8786900186558647152
+  ChildIds: 8615214337570041681
+  ChildIds: 15694946716590735065
+  ChildIds: 14619648027404061459
+  ChildIds: 11072787313254133643
+  ChildIds: 2304773682963865921
+  ChildIds: 6844520919559823265
+  ChildIds: 511385247092057302
+  ChildIds: 12593640149802118134
+  ChildIds: 12719372447021007913
+  ChildIds: 4237917202048285237
+  ChildIds: 12155966862931877651
+  ChildIds: 12185895248670698664
+  ChildIds: 14767035093216783668
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14767035093216783668
+  Name: "Wizard hat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1286952499479413659
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Wizard hat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17197264268537682259
+    }
+  }
+}
+Objects {
+  Id: 12185895248670698664
+  Name: "WinterHat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12335215066512627386
+      value {
+        Overrides {
+          Name: "Name"
+          String: "WinterHat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8341818154099842175
+    }
+  }
+}
+Objects {
+  Id: 12155966862931877651
+  Name: "TheVersace_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3407749608415295840
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TheVersace_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13098303628253810867
+    }
+  }
+}
+Objects {
+  Id: 4237917202048285237
+  Name: "The_Sandy_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6370559783786596587
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The_Sandy_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8341789717207267678
+    }
+  }
+}
+Objects {
+  Id: 12719372447021007913
+  Name: "The_BlueSully _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4535503375951515265
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The_BlueSully _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9423935365713084708
+    }
+  }
+}
+Objects {
+  Id: 12593640149802118134
+  Name: "The Woke Frog _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11734511127682317071
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Woke Frog _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15702171234751083698
+    }
+  }
+}
+Objects {
+  Id: 511385247092057302
+  Name: "The Sully _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11488239168089662946
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Sully _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16081904520783275333
+    }
+  }
+}
+Objects {
+  Id: 6844520919559823265
+  Name: "The Prototype _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15835853044952343273
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Prototype _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2708788933824783327
+    }
+  }
+}
+Objects {
+  Id: 2304773682963865921
+  Name: "The HOHOHO _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8413094199410010690
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The HOHOHO _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3388106278018473172
+    }
+  }
+}
+Objects {
+  Id: 11072787313254133643
+  Name: "The High Roller (White) _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6358977727068220524
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The High Roller (White) _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1038484301847038633
+    }
+  }
+}
+Objects {
+  Id: 14619648027404061459
+  Name: "The High Roller (red) _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5257750325823734162
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The High Roller (red) _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16604903908438496868
+    }
+  }
+}
+Objects {
+  Id: 15694946716590735065
+  Name: "The High Roller (Black) _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14685288060651269324
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The High Roller (Black) _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18094742549752014729
+    }
+  }
+}
+Objects {
+  Id: 8615214337570041681
+  Name: "The Frog _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9814540948067038548
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Frog _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11856816070966402793
+    }
+  }
+}
+Objects {
+  Id: 8786900186558647152
+  Name: "The Craft-Miner _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8897545276190549929
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Craft-Miner _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10959646316467244713
+    }
+  }
+}
+Objects {
+  Id: 4174919026338907731
+  Name: "The Catfish _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12442464115765765499
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Catfish _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6101373859721181158
+    }
+  }
+}
+Objects {
+  Id: 3146855369141122831
+  Name: "The Canuck _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13470993980919115267
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Canuck _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6515462560855074344
+    }
+  }
+}
+Objects {
+  Id: 13332466043223238723
+  Name: "The Aggripina _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10734395312304543109
+      value {
+        Overrides {
+          Name: "Name"
+          String: "The Aggripina _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16971346528210605037
+    }
+  }
+}
+Objects {
+  Id: 12719487901257688126
+  Name: "TacoFace_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11637817557661715449
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TacoFace_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5069146464012458692
+    }
+  }
+}
+Objects {
+  Id: 11063834511375779024
+  Name: "SuperFroggyHat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11659333264137114060
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SuperFroggyHat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9638203225835725025
+    }
+  }
+}
+Objects {
+  Id: 8064888752237846253
+  Name: "Spin hat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12111915078891895094
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Spin hat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14483107857838763516
+    }
+  }
+}
+Objects {
+  Id: 10851709887038477724
+  Name: "SpaceHelmet_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16876203953158921323
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SpaceHelmet_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4864802994803755849
+    }
+  }
+}
+Objects {
+  Id: 18419510491281276018
+  Name: "Sombrero_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14118968346001036106
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sombrero_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7703109271912895991
+    }
+  }
+}
+Objects {
+  Id: 7161157364389704075
+  Name: "Skele head _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11713196415261478230
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Skele head _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3905460737181911630
+    }
+  }
+}
+Objects {
+  Id: 9731111719028510000
+  Name: "SadTacoFace_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3421166106511863214
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SadTacoFace_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4503659449376393186
+    }
+  }
+}
+Objects {
+  Id: 12302352821359078609
+  Name: "OocooHat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2525265876912424420
+      value {
+        Overrides {
+          Name: "Name"
+          String: "OocooHat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17243502788483665059
+    }
+  }
+}
+Objects {
+  Id: 16630619768217313869
+  Name: "OG Top Hat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13043803853968151911
+      value {
+        Overrides {
+          Name: "Name"
+          String: "OG Top Hat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13872838153232566461
+    }
+  }
+}
+Objects {
+  Id: 15770577276803747247
+  Name: "Norse Helm _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11351816705942283941
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Norse Helm _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13737427568448968894
+    }
+  }
+}
+Objects {
+  Id: 1685441369424409660
+  Name: "MushroomHat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6237561301454833597
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MushroomHat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1489263888043216823
+    }
+  }
+}
+Objects {
+  Id: 11537627732389136082
+  Name: "mad HATter _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5469797181295975242
+      value {
+        Overrides {
+          Name: "Name"
+          String: "mad HATter _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9433122451498238955
+    }
+  }
+}
+Objects {
+  Id: 12190549409641496978
+  Name: "Gabsu Head _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2467678559142366593
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Gabsu Head _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7905934654221284623
+    }
+  }
+}
+Objects {
+  Id: 7245059412388003552
+  Name: "FruitHat _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1496928526006188637
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FruitHat _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4684719402202944386
+    }
+  }
+}
+Objects {
+  Id: 14903263145124532765
+  Name: "FrogCostume VR _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6629958357555131269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FrogCostume VR _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17070143637050482649
+    }
+  }
+}
+Objects {
+  Id: 2848085720804306232
+  Name: "Daft Punk Helmet _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6116160902371094738
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Daft Punk Helmet _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11837164847011292616
+    }
+  }
+}
+Objects {
+  Id: 2677595563784206153
+  Name: "Cowboy Hat _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7067114234264872559
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cowboy Hat _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11668581140144250721
+    }
+  }
+}
+Objects {
+  Id: 12166835884029125107
+  Name: "ColorVision Hat _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12019933595787227902
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ColorVision Hat _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11663461244383500958
+    }
+  }
+}
+Objects {
+  Id: 12277544586070564451
+  Name: "CloudSoundRapper (Tangy) _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2876899187560965993
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CloudSoundRapper (Tangy) _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13846765509611849490
+    }
+  }
+}
+Objects {
+  Id: 18267039910754324804
+  Name: "CloudSoundRapper (Groovy) _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17314403184509914727
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CloudSoundRapper (Groovy) _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11583269832935671303
+    }
+  }
+}
+Objects {
+  Id: 12020217898693591924
+  Name: "CloudSoundRapper _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16267241269444994830
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CloudSoundRapper _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10978028051416446263
+    }
+  }
+}
+Objects {
+  Id: 6686516561666582470
+  Name: "ChefHat_Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2348481280412905763
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ChefHat_Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9330016224007506563
+    }
+  }
+}
+Objects {
+  Id: 1404689894191868153
+  Name: "BirthdayCake Hat _Hat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17587986024326657423
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11362079400245800110
+      value {
+        Overrides {
+          Name: "Name"
+          String: "BirthdayCake Hat _Hat"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1370094283410390043
+    }
   }
 }
 Objects {
