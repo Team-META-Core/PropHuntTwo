@@ -1,12 +1,12 @@
 Assets {
-  Id: 4839242200613208729
+  Id: 14270703188845464462
   Name: "BarrelBlue"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11646374309752734625
+      RootId: 1553242723909545758
       Objects {
-        Id: 11646374309752734625
+        Id: 1553242723909545758
         Name: "BarrelBlue"
         Transform {
           Scale {
@@ -15,26 +15,26 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8809092259950130561
-        ChildIds: 1005275448834663127
-        ChildIds: 16468400966496647115
+        ParentId: 16820994471871876578
+        ChildIds: 7486212542399430816
+        ChildIds: 2053352753070415933
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        NetworkContext {
-          Type: RuntimeStatic
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
-        Id: 1005275448834663127
+        Id: 7486212542399430816
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: 2.75927734
-            Y: 5.41699219
+            X: 1.37939453
+            Y: 2.70800781
             Z: 71.9058838
           }
           Rotation {
@@ -46,7 +46,7 @@ Assets {
             Z: 1.41607666
           }
         }
-        ParentId: 11646374309752734625
+        ParentId: 1553242723909545758
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -81,10 +81,12 @@ Assets {
         }
       }
       Objects {
-        Id: 16468400966496647115
+        Id: 2053352753070415933
         Name: "ClientContext"
         Transform {
           Location {
+            X: -1.37988281
+            Y: -2.70898438
           }
           Rotation {
           }
@@ -94,24 +96,24 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11646374309752734625
-        ChildIds: 4844213027744821918
-        ChildIds: 4730905886671397893
-        ChildIds: 6036268498145092926
-        ChildIds: 7057462209219095417
-        ChildIds: 5327740551133787636
-        ChildIds: 2583648432165041419
-        ChildIds: 15388519689229760832
-        ChildIds: 8933376654547667109
-        ChildIds: 17339157017435631861
-        ChildIds: 12421774001755320731
-        ChildIds: 14654693388139821852
-        ChildIds: 7971233136972039124
-        ChildIds: 14578578818605735394
-        ChildIds: 12673875034000380506
-        ChildIds: 5096498314298553263
-        ChildIds: 16076980241510842481
-        ChildIds: 14656833095746114290
+        ParentId: 1553242723909545758
+        ChildIds: 12903106633686683618
+        ChildIds: 1817759154833896796
+        ChildIds: 2777204143941950208
+        ChildIds: 3634918829618331395
+        ChildIds: 5219136183616848775
+        ChildIds: 9178529670448897244
+        ChildIds: 8572181320559579151
+        ChildIds: 3781761107439052792
+        ChildIds: 5997833179856864947
+        ChildIds: 10967071655110992815
+        ChildIds: 9734808540637689603
+        ChildIds: 4806043896309042184
+        ChildIds: 6089587231007612444
+        ChildIds: 17231281760391673066
+        ChildIds: 10475207870523271878
+        ChildIds: 2284989942362499566
+        ChildIds: 6636433982456644592
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -122,7 +124,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4844213027744821918
+        Id: 12903106633686683618
         Name: "Cylinder - Polished"
         Transform {
           Location {
@@ -139,7 +141,7 @@ Assets {
             Z: 0.0317733213
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -174,7 +176,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4730905886671397893
+        Id: 1817759154833896796
         Name: "Cylinder - Polished"
         Transform {
           Location {
@@ -191,7 +193,7 @@ Assets {
             Z: 0.0317733213
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -226,7 +228,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6036268498145092926
+        Id: 2777204143941950208
         Name: "Cylinder - Polished"
         Transform {
           Location {
@@ -243,7 +245,7 @@ Assets {
             Z: 0.0317733213
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -278,7 +280,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7057462209219095417
+        Id: 3634918829618331395
         Name: "Cylinder - Polished"
         Transform {
           Location {
@@ -294,7 +296,7 @@ Assets {
             Z: 0.0317733213
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -329,7 +331,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5327740551133787636
+        Id: 5219136183616848775
         Name: "Decal Hazard Symbols 01"
         Transform {
           Location {
@@ -348,7 +350,7 @@ Assets {
             Z: 0.442453831
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -372,7 +374,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2583648432165041419
+        Id: 9178529670448897244
         Name: "Decal Stains Top 01"
         Transform {
           Location {
@@ -390,7 +392,7 @@ Assets {
             Z: 0.12734738
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -418,7 +420,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15388519689229760832
+        Id: 8572181320559579151
         Name: "Decal Stains Top 01"
         Transform {
           Location {
@@ -437,7 +439,7 @@ Assets {
             Z: 0.12734738
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -465,7 +467,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8933376654547667109
+        Id: 3781761107439052792
         Name: "Decal Stains Top 01"
         Transform {
           Location {
@@ -484,7 +486,7 @@ Assets {
             Z: 0.12734738
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -516,7 +518,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17339157017435631861
+        Id: 5997833179856864947
         Name: "Decal Stains Top 01"
         Transform {
           Location {
@@ -535,7 +537,7 @@ Assets {
             Z: 0.12734738
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -567,7 +569,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12421774001755320731
+        Id: 10967071655110992815
         Name: "Decal Stains Top 01"
         Transform {
           Location {
@@ -586,7 +588,7 @@ Assets {
             Z: 0.12734738
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -618,7 +620,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14654693388139821852
+        Id: 9734808540637689603
         Name: "Decal Stains Round 01"
         Transform {
           Location {
@@ -636,7 +638,7 @@ Assets {
             Z: 0.245968565
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -664,7 +666,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7971233136972039124
+        Id: 4806043896309042184
         Name: "Decal Stains Top 01"
         Transform {
           Location {
@@ -683,7 +685,7 @@ Assets {
             Z: 0.12734738
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -711,7 +713,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14578578818605735394
+        Id: 6089587231007612444
         Name: "Decal Sand Patch"
         Transform {
           Location {
@@ -730,7 +732,7 @@ Assets {
             Z: 0.202388927
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -758,7 +760,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12673875034000380506
+        Id: 17231281760391673066
         Name: "Decal Dirt Patch"
         Transform {
           Location {
@@ -775,7 +777,7 @@ Assets {
             Z: 0.191745684
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -803,7 +805,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5096498314298553263
+        Id: 10475207870523271878
         Name: "Decal Dirt Patch"
         Transform {
           Location {
@@ -820,7 +822,7 @@ Assets {
             Z: 0.160055369
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -848,7 +850,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16076980241510842481
+        Id: 2284989942362499566
         Name: "Decal Dirt Patch"
         Transform {
           Location {
@@ -867,7 +869,7 @@ Assets {
             Z: 0.160055369
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -895,7 +897,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14656833095746114290
+        Id: 6636433982456644592
         Name: "Decal Dirt Patch"
         Transform {
           Location {
@@ -914,7 +916,7 @@ Assets {
             Z: 0.160055369
           }
         }
-        ParentId: 16468400966496647115
+        ParentId: 2053352753070415933
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"

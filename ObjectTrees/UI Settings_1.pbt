@@ -1167,6 +1167,19 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1915851662265403362
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: -8.92126465
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 8.91833496
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 2218516631043404383
       value {
         Overrides {

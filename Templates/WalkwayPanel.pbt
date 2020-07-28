@@ -1,12 +1,12 @@
 Assets {
-  Id: 13644837450550067365
-  Name: "WalkwayFIX"
+  Id: 15941136265648095822
+  Name: "WalkwayPanel"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 3779533204342907650
+      RootId: 12448171559969262088
       Objects {
-        Id: 3779533204342907650
+        Id: 12448171559969262088
         Name: "WalkwayPanel"
         Transform {
           Scale {
@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 8809092259950130561
-        ChildIds: 11400325818978402371
-        ChildIds: 14312032607321629948
+        ChildIds: 13818392364237725442
+        ChildIds: 5322781905851436984
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -29,16 +29,16 @@ Assets {
         }
       }
       Objects {
-        Id: 11400325818978402371
+        Id: 13818392364237725442
         Name: "Panel"
         Transform {
           Location {
-            X: -2.42753467e-05
-            Y: -91.8182068
-            Z: 0.880027771
+            Y: -91.8182373
+            Z: 0.879882812
           }
           Rotation {
-            Roll: 89.9999619
+            Yaw: 6.83029702e-06
+            Roll: 89.999939
           }
           Scale {
             X: 1.69999993
@@ -46,7 +46,7 @@ Assets {
             Z: 2.5
           }
         }
-        ParentId: 3779533204342907650
+        ParentId: 12448171559969262088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -81,7 +81,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14312032607321629948
+        Id: 5322781905851436984
         Name: "ClientContext"
         Transform {
           Location {
@@ -96,17 +96,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3779533204342907650
-        ChildIds: 17282550399363037391
-        ChildIds: 10348715878961041440
-        ChildIds: 4749803417574858376
-        ChildIds: 10405272754734483066
-        ChildIds: 3438814819249538204
-        ChildIds: 1406540774130248340
-        ChildIds: 3852237227308112979
-        ChildIds: 9093748131194960807
-        ChildIds: 4259772153963745388
-        ChildIds: 8631136221933717110
+        ParentId: 12448171559969262088
+        ChildIds: 5181213272471553003
+        ChildIds: 2539431517980895994
+        ChildIds: 4342686774830467526
+        ChildIds: 11942020080343200130
+        ChildIds: 16277381326827888291
+        ChildIds: 1243623656835895139
+        ChildIds: 9687108165074031712
+        ChildIds: 1159446790405972201
+        ChildIds: 6562497275108385419
+        ChildIds: 13687532893942847125
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -117,13 +117,12 @@ Assets {
         }
       }
       Objects {
-        Id: 17282550399363037391
+        Id: 5181213272471553003
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: -0.000122070312
+            X: -0.000244140625
             Y: -106
-            Z: 0.000122070312
           }
           Rotation {
             Yaw: 89.9999542
@@ -134,7 +133,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -165,16 +164,15 @@ Assets {
         }
       }
       Objects {
-        Id: 10348715878961041440
+        Id: 2539431517980895994
         Name: "SciFi Trim 01 bend 90"
         Transform {
           Location {
-            X: -90.000061
-            Y: -105.999512
-            Z: 0.000122070312
+            X: -90
+            Y: -106.000031
           }
           Rotation {
-            Yaw: 1.62844373e-11
+            Yaw: 3.25688747e-11
           }
           Scale {
             X: 0.100000009
@@ -182,7 +180,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -213,16 +211,15 @@ Assets {
         }
       }
       Objects {
-        Id: 4749803417574858376
+        Id: 4342686774830467526
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: -90.0001221
-            Y: -95.9997559
-            Z: 0.000122070312
+            X: -90
+            Y: -96.0000305
           }
           Rotation {
-            Yaw: -6.10351199e-05
+            Yaw: -5.46414922e-05
           }
           Scale {
             X: 0.100000009
@@ -230,7 +227,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -261,16 +258,15 @@ Assets {
         }
       }
       Objects {
-        Id: 10405272754734483066
+        Id: 11942020080343200130
         Name: "SciFi Trim 01 bend 90"
         Transform {
           Location {
-            X: -90.000061
-            Y: 154.000244
-            Z: 0.000122070312
+            X: -90
+            Y: 153.999939
           }
           Rotation {
-            Yaw: -1.62844373e-11
+            Yaw: -1.70752094e-06
             Roll: -179.999969
           }
           Scale {
@@ -279,7 +275,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -310,13 +306,12 @@ Assets {
         }
       }
       Objects {
-        Id: 3438814819249538204
+        Id: 16277381326827888291
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: -6.10351562e-05
-            Y: 154.000244
-            Z: 0.000122070312
+            X: -0.000244140625
+            Y: 154
           }
           Rotation {
             Yaw: -89.9999771
@@ -328,7 +323,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -359,17 +354,15 @@ Assets {
         }
       }
       Objects {
-        Id: 1406540774130248340
+        Id: 1243623656835895139
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: 6.10351562e-05
             Y: -106
-            Z: 0.000122070312
           }
           Rotation {
             Pitch: -9.56226431e-05
-            Yaw: 89.9999466
+            Yaw: 89.9999542
             Roll: -179.999954
           }
           Scale {
@@ -378,7 +371,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -409,12 +402,13 @@ Assets {
         }
       }
       Objects {
-        Id: 3852237227308112979
+        Id: 9687108165074031712
         Name: "SciFi Trim 01 bend 90"
         Transform {
           Location {
-            X: 89.999939
-            Y: -105.999756
+            X: 90
+            Y: -106.000031
+            Z: -0.000122070312
           }
           Rotation {
             Pitch: -3.4150944e-05
@@ -427,7 +421,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -458,12 +452,13 @@ Assets {
         }
       }
       Objects {
-        Id: 9093748131194960807
+        Id: 1159446790405972201
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: 89.999939
-            Y: -95.9997559
+            X: 90
+            Y: -96.0000305
+            Z: -0.000122070312
           }
           Rotation {
             Pitch: -3.4150944e-05
@@ -476,7 +471,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -507,13 +502,12 @@ Assets {
         }
       }
       Objects {
-        Id: 4259772153963745388
+        Id: 6562497275108385419
         Name: "SciFi Trim 01 bend 90"
         Transform {
           Location {
-            X: 89.999939
-            Y: 154.000244
-            Z: 0.000122070312
+            X: 90
+            Y: 154
           }
           Rotation {
             Yaw: -179.999954
@@ -525,7 +519,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -556,18 +550,17 @@ Assets {
         }
       }
       Objects {
-        Id: 8631136221933717110
+        Id: 13687532893942847125
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: -6.10351562e-05
-            Y: 154.000244
-            Z: 0.000122070312
+            X: -0.000244140625
+            Y: 154
           }
           Rotation {
             Pitch: -3.4150944e-05
-            Yaw: -89.9999161
-            Roll: 9.23065309e-05
+            Yaw: -89.999939
+            Roll: 9.23065381e-05
           }
           Scale {
             X: 0.100000009
@@ -575,7 +568,7 @@ Assets {
             Z: 0.100000009
           }
         }
-        ParentId: 14312032607321629948
+        ParentId: 5322781905851436984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
