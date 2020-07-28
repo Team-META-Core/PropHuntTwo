@@ -486,7 +486,7 @@ function OnChangeProp(ability)
 		Task.Wait()	
 		
 		-- remove Changes resource
-		--ability.owner:RemoveResource("Changes", 1)
+		ability.owner:RemoveResource("Changes", 1)
 		
 		-- Reset Decoy and Flash abilities
 		ability.owner:SetResource("Flashes", 1)
