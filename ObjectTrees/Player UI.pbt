@@ -2131,7 +2131,7 @@ Objects {
     Overrides {
       Name: "cs:APIBasicGameState"
       AssetReference {
-        Id: 17644774081127724442
+        Id: 11974742996071064388
       }
     }
   }
