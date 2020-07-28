@@ -446,7 +446,7 @@ Objects {
     Overrides {
       Name: "cs:PropsList"
       ObjectReference {
-        SelfId: 482818678012104503
+        SelfId: 15651153389458545102
       }
     }
     Overrides {

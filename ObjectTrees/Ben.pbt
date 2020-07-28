@@ -27,6 +27,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 424.480164
+            Z: -412.60553
           }
         }
         Overrides {
@@ -87,6 +88,7 @@ Objects {
   Name: "mannequin_guy"
   Transform {
     Location {
+      Z: -527.487793
     }
     Rotation {
     }
