@@ -218,7 +218,7 @@ Assets {
         Name: "Wood 2x4 4m"
         Transform {
           Location {
-            X: -31.1445312
+            X: -31.1445313
             Y: 431.09375
             Z: 377.043701
           }
@@ -345,7 +345,7 @@ Assets {
         Transform {
           Location {
             X: -36.7907715
-            Y: 627.497558
+            Y: 627.497559
             Z: 431.303101
           }
           Rotation {
@@ -805,7 +805,7 @@ Assets {
         Name: "Wood 2x4 4m"
         Transform {
           Location {
-            X: -5.09570312
+            X: -5.09570313
             Y: -475.027344
             Z: 126.714767
           }

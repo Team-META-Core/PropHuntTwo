@@ -10659,7 +10659,7 @@ Assets {
         Name: "Craftsman Roof 01 Beam"
         Transform {
           Location {
-            X: 30.9907226
+            X: 30.9907227
             Y: -313.684
             Z: 1.77025795e-05
           }
