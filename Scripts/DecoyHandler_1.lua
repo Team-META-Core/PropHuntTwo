@@ -1,3 +1,7 @@
+if script:GetCustomProperty("Trigger") == nil or script:GetCustomProperty("Geo") == nil then
+	error(script.parent.name.." is missing a Trigger or Geo reference")
+end
+
 local trigger = script:GetCustomProperty("Trigger"):WaitForObject()
 local Geo = script:GetCustomProperty("Geo"):WaitForObject()
 local ABGS = require(script:GetCustomProperty("API"))
@@ -45,28 +49,40 @@ function OnBeginOverlap(decoyTrigger, other)
 end
 
 function OnEndOverlap(_Trigger, other)
-	if FirstTime==false then -- skip first event
+	--[[if FirstTime==false then -- skip first event
 		FirstTime = true
 		Geo.collision = Collision.FORCE_OFF
 		return
-	end	
+	end	]]
 
 	if other:IsA("Player") and not CollisionIsOn then
-		--Task.Spawn(function ()
-			local objects = trigger:GetOverlappingObjects()
-			local NumPlayers = 0
-			for _, object in pairs(objects) do
-				if object:IsA("Player") then 
-					NumPlayers = NumPlayers+1
+		print("~~ Player leaving Decoy trigger")
+		
+		local objects = trigger:GetOverlappingObjects()
+		local NumPlayers = 0
+		for _, object in pairs(objects) do
+			if object:IsA("Player") then 
+				NumPlayers = NumPlayers+1
+			end
+		end
+		
+		-- If there are no players in the trigger, turn on collision
+		if NumPlayers==0 then
+			print("~~ Turning collision off for children")
+			--local rootTemplate = script:FindTemplateRoot()
+			if #Geo:GetChildren() > 0 then 
+				for _, child in ipairs(Geo:GetChildren()) do
+					print("Turning collision on for "..child.name)
+					child.collision = Collision.FORCE_ON
 				end
-			end
-			-- If there are no players in the trigger, turn on collision
-			if NumPlayers==0 then
-				--local rootTemplate = script:FindTemplateRoot()
+			else
+				print("Turning collision on for "..Geo.name)
 				Geo.collision = Collision.FORCE_ON
-				CollisionIsOn = true
 			end
-		--end, 0.1)
+			
+			CollisionIsOn = true
+		end
+		
 	end
 end
 
@@ -107,6 +123,6 @@ end
 
 Events.Connect("GameStateChanged", OnStateChanged)
 --Task.Spawn(function ()
-	--trigger.endOverlapEvent:Connect( OnEndOverlap )
+	trigger.endOverlapEvent:Connect( OnEndOverlap )
 	trigger.beginOverlapEvent:Connect(OnBeginOverlap)
 --end, 0.5)

@@ -1119,7 +1119,7 @@ Objects {
   ChildIds: 715889956697345235
   ChildIds: 7176332220581906268
   ChildIds: 17105660226899808347
-  ChildIds: 15455280157032857099
+  ChildIds: 5253537662569752699
   ChildIds: 17629334328532375579
   ChildIds: 9690445626715086838
   ChildIds: 9043472702458937566
@@ -77372,9 +77372,16 @@ Objects {
   }
 }
 Objects {
-  Id: 15455280157032857099
+  Id: 5253537662569752699
   Name: "FireHydrant Prop"
   Transform {
+    Location {
+      X: 342.596863
+      Y: 4301.06934
+      Z: 71.7019348
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -77382,40 +77389,64 @@ Objects {
     }
   }
   ParentId: 8809092259950130561
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11024370574442301201
-      value {
-        Overrides {
-          Name: "Name"
-          String: "FireHydrant Prop"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 342.596863
-            Y: 4301.06934
-            Z: 71.7019348
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  ChildIds: 15146645008370617858
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SelfReference"
+      AssetReference {
+        Id: 4356385585308573029
       }
     }
-    TemplateAsset {
-      Id: 4356385585308573029
+    Overrides {
+      Name: "cs:PlayerScale"
+      Float: 0.6
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15146645008370617858
+  Name: "Fire Hydrant"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5253537662569752699
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17095720806948419400
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }
