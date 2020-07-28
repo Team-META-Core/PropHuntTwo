@@ -1,6 +1,6 @@
 Assets {
-  Id: 4018787931270667154
-  Name: "BarrelBlue Prop Player"
+  Id: 5207390642304908645
+  Name: "BarrelBlue Player Prop"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -27,7 +27,7 @@ Assets {
           Overrides {
             Name: "cs:DecoyReference"
             AssetReference {
-              Id: 5631491163654989559
+              Id: 2171331375081000293
             }
           }
         }

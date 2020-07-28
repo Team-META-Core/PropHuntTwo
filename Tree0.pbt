@@ -19,7 +19,6 @@ Objects {
   ChildIds: 8647594342684677069
   ChildIds: 7179769915645255894
   ChildIds: 10412283807992892945
-  ChildIds: 17915516149893173300
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -29,41 +28,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 17915516149893173300
-  Name: "BarrelBlue Decoy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13824480936726185429
-      value {
-        Overrides {
-          Name: "Name"
-          String: "BarrelBlue Decoy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -850
-            Y: -7700
-            Z: 100
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5631491163654989559
-    }
   }
 }
 Objects {
