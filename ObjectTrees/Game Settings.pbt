@@ -282,6 +282,18 @@ Objects {
         Id: 1520893096277648371
       }
     }
+    Overrides {
+      Name: "cs:6"
+      AssetReference {
+        Id: 259452794181121999
+      }
+    }
+    Overrides {
+      Name: "cs:7"
+      AssetReference {
+        Id: 13583994401163248495
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
