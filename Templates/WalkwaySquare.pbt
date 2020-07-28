@@ -1,23 +1,23 @@
 Assets {
-  Id: 13644837450550067365
-  Name: "WalkwayFIX"
+  Id: 6899193221640019962
+  Name: "WalkwaySquare"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 3779533204342907650
+      RootId: 16755593342589749430
       Objects {
-        Id: 3779533204342907650
-        Name: "WalkwayPanel"
+        Id: 16755593342589749430
+        Name: "WalkwaySquare"
         Transform {
           Scale {
-            X: -1.91785729
-            Y: 1.91785729
-            Z: 1.91785729
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 8809092259950130561
-        ChildIds: 11400325818978402371
-        ChildIds: 14312032607321629948
+        ParentId: 4781671109827199097
+        ChildIds: 6713376436124442872
+        ChildIds: 15944073528563823992
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -29,24 +29,551 @@ Assets {
         }
       }
       Objects {
-        Id: 11400325818978402371
+        Id: 6713376436124442872
+        Name: "ClientContext"
+        Transform {
+          Location {
+            X: -69.1486816
+            Y: 76.9072266
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16755593342589749430
+        ChildIds: 18299131822186864430
+        ChildIds: 15836698243024426159
+        ChildIds: 10774317163423604095
+        ChildIds: 1232998042219839716
+        ChildIds: 9309532783161790419
+        ChildIds: 1365030496702096097
+        ChildIds: 7712420671493559190
+        ChildIds: 3146303498390443540
+        ChildIds: 13601603536297289097
+        ChildIds: 1794619560674703987
+        ChildIds: 16380180174392328723
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 18299131822186864430
+        Name: "SciFi Trim 01"
+        Transform {
+          Location {
+            X: 185.683472
+            Y: 0.00048828125
+            Z: 0.000122070312
+          }
+          Rotation {
+            Yaw: 0.000204905649
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.383571476
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6775289462274361152
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15836698243024426159
+        Name: "SciFi Trim 01 bend 90"
+        Transform {
+          Location {
+            X: 185.682983
+            Y: 172.60791
+            Z: 0.000122070312
+          }
+          Rotation {
+            Yaw: 90.0001602
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.191785738
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4563967851793804383
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10774317163423604095
+        Name: "SciFi Trim 01"
+        Transform {
+          Location {
+            X: 166.504394
+            Y: 172.607422
+            Z: 0.000122070312
+          }
+          Rotation {
+            Yaw: 90.0002136
+          }
+          Scale {
+            X: -0.191785738
+            Y: 1.1507144
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6775289462274361152
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1232998042219839716
+        Name: "SciFi Trim 01 bend 90"
+        Transform {
+          Location {
+            X: -312.959839
+            Y: 172.606445
+            Z: 0.000122070312
+          }
+          Rotation {
+            Yaw: 90.0001602
+            Roll: -179.999985
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.191785738
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4563967851793804383
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9309532783161790419
+        Name: "SciFi Trim 01"
+        Transform {
+          Location {
+            X: -312.959351
+            Y: -0.0009765625
+            Z: 0.000122070312
+          }
+          Rotation {
+            Yaw: -179.999847
+            Roll: -179.999954
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.383571476
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6775289462274361152
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1365030496702096097
+        Name: "SciFi Trim 01"
+        Transform {
+          Location {
+            X: 185.683472
+            Y: 0.00048828125
+            Z: 0.000122070312
+          }
+          Rotation {
+            Pitch: 9.56226431e-05
+            Yaw: 0.000206613273
+            Roll: -179.999954
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.383571476
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6775289462274361152
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7712420671493559190
+        Name: "SciFi Trim 01 bend 90"
+        Transform {
+          Location {
+            X: 185.68396
+            Y: -172.606445
+          }
+          Rotation {
+            Pitch: 3.4150944e-05
+            Yaw: -89.9998703
+            Roll: -179.999939
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.191785738
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4563967851793804383
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3146303498390443540
+        Name: "SciFi Trim 01"
+        Transform {
+          Location {
+            X: 166.505371
+            Y: -172.606934
+          }
+          Rotation {
+            Pitch: 3.4150944e-05
+            Yaw: -89.9998703
+            Roll: -179.999893
+          }
+          Scale {
+            X: -0.191785738
+            Y: 1.1507144
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6775289462274361152
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13601603536297289097
+        Name: "SciFi Trim 01 bend 90"
+        Transform {
+          Location {
+            X: -312.958862
+            Y: -172.60791
+            Z: 0.000122070312
+          }
+          Rotation {
+            Yaw: -89.9998703
+            Roll: 4.94189226e-05
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.191785738
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4563967851793804383
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1794619560674703987
+        Name: "SciFi Trim 01"
+        Transform {
+          Location {
+            X: -312.959351
+            Y: -0.0009765625
+            Z: 0.000122070312
+          }
+          Rotation {
+            Pitch: 3.4150944e-05
+            Yaw: -179.999893
+            Roll: 9.23065309e-05
+          }
+          Scale {
+            X: -0.191785738
+            Y: 0.383571476
+            Z: 0.191785738
+          }
+        }
+        ParentId: 6713376436124442872
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9318948506757474339
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6775289462274361152
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16380180174392328723
         Name: "Panel"
         Transform {
           Location {
-            X: -2.42753467e-05
-            Y: -91.8182068
-            Z: 0.880027771
+            X: 176.094238
+            Y: 0.00048828125
+            Z: 1.68774414
           }
           Rotation {
-            Roll: 89.9999619
+            Yaw: 90.0001602
+            Roll: 89.9999542
           }
           Scale {
-            X: 1.69999993
-            Y: 0.00673317257
-            Z: 2.5
+            X: -3.26035714
+            Y: 0.0129132643
+            Z: 4.7946434
           }
         }
-        ParentId: 3779533204342907650
+        ParentId: 6713376436124442872
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -81,77 +608,46 @@ Assets {
         }
       }
       Objects {
-        Id: 14312032607321629948
-        Name: "ClientContext"
+        Id: 15944073528563823992
+        Name: "collision"
         Transform {
           Location {
-            X: 1.38716257e-06
-            Y: 9.18179321
+            X: 69.1486816
+            Y: -76.9077148
+            Z: 1.68017578
           }
           Rotation {
+            Yaw: 90.000206
+            Roll: 89.999939
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: -9.71210575
+            Y: 0.0129132904
+            Z: 8.05737686
           }
         }
-        ParentId: 3779533204342907650
-        ChildIds: 17282550399363037391
-        ChildIds: 10348715878961041440
-        ChildIds: 4749803417574858376
-        ChildIds: 10405272754734483066
-        ChildIds: 3438814819249538204
-        ChildIds: 1406540774130248340
-        ChildIds: 3852237227308112979
-        ChildIds: 9093748131194960807
-        ChildIds: 4259772153963745388
-        ChildIds: 8631136221933717110
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 17282550399363037391
-        Name: "SciFi Trim 01"
-        Transform {
-          Location {
-            X: -0.000122070312
-            Y: -106
-            Z: 0.000122070312
-          }
-          Rotation {
-            Yaw: 89.9999542
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.200000018
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
+        ParentId: 16755593342589749430
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9318948506757474339
+              Id: 8514863787497265056
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 6775289462274361152
+            Id: 8252317007385480181
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -163,456 +659,6 @@ Assets {
             }
           }
         }
-      }
-      Objects {
-        Id: 10348715878961041440
-        Name: "SciFi Trim 01 bend 90"
-        Transform {
-          Location {
-            X: -90.000061
-            Y: -105.999512
-            Z: 0.000122070312
-          }
-          Rotation {
-            Yaw: 1.62844373e-11
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.100000009
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4563967851793804383
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4749803417574858376
-        Name: "SciFi Trim 01"
-        Transform {
-          Location {
-            X: -90.0001221
-            Y: -95.9997559
-            Z: 0.000122070312
-          }
-          Rotation {
-            Yaw: -6.10351199e-05
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.6
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6775289462274361152
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10405272754734483066
-        Name: "SciFi Trim 01 bend 90"
-        Transform {
-          Location {
-            X: -90.000061
-            Y: 154.000244
-            Z: 0.000122070312
-          }
-          Rotation {
-            Yaw: -1.62844373e-11
-            Roll: -179.999969
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.100000009
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4563967851793804383
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3438814819249538204
-        Name: "SciFi Trim 01"
-        Transform {
-          Location {
-            X: -6.10351562e-05
-            Y: 154.000244
-            Z: 0.000122070312
-          }
-          Rotation {
-            Yaw: -89.9999771
-            Roll: -179.999954
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.200000018
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6775289462274361152
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1406540774130248340
-        Name: "SciFi Trim 01"
-        Transform {
-          Location {
-            X: 6.10351562e-05
-            Y: -106
-            Z: 0.000122070312
-          }
-          Rotation {
-            Pitch: -9.56226431e-05
-            Yaw: 89.9999466
-            Roll: -179.999954
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.200000018
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6775289462274361152
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3852237227308112979
-        Name: "SciFi Trim 01 bend 90"
-        Transform {
-          Location {
-            X: 89.999939
-            Y: -105.999756
-          }
-          Rotation {
-            Pitch: -3.4150944e-05
-            Yaw: -179.999954
-            Roll: -179.999939
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.100000009
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4563967851793804383
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9093748131194960807
-        Name: "SciFi Trim 01"
-        Transform {
-          Location {
-            X: 89.999939
-            Y: -95.9997559
-          }
-          Rotation {
-            Pitch: -3.4150944e-05
-            Yaw: -179.999954
-            Roll: -179.999893
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.6
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6775289462274361152
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4259772153963745388
-        Name: "SciFi Trim 01 bend 90"
-        Transform {
-          Location {
-            X: 89.999939
-            Y: 154.000244
-            Z: 0.000122070312
-          }
-          Rotation {
-            Yaw: -179.999954
-            Roll: 4.94189262e-05
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.100000009
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4563967851793804383
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8631136221933717110
-        Name: "SciFi Trim 01"
-        Transform {
-          Location {
-            X: -6.10351562e-05
-            Y: 154.000244
-            Z: 0.000122070312
-          }
-          Rotation {
-            Pitch: -3.4150944e-05
-            Yaw: -89.9999161
-            Roll: 9.23065309e-05
-          }
-          Scale {
-            X: 0.100000009
-            Y: 0.200000018
-            Z: 0.100000009
-          }
-        }
-        ParentId: 14312032607321629948
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9318948506757474339
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6775289462274361152
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 8252317007385480181
-      Name: "Cube - Bottom-Aligned"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_001"
       }
     }
     Assets {
@@ -631,6 +677,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_scifi_trim_001_bend90"
+      }
+    }
+    Assets {
+      Id: 8252317007385480181
+      Name: "Cube - Bottom-Aligned"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_001"
       }
     }
     PrimaryAssetId {
