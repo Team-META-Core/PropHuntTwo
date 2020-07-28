@@ -46,15 +46,13 @@ Objects {
   Name: "mannequin_guy"
   Transform {
     Location {
-      Y: 95
-      Z: -3424.73193
     }
     Rotation {
     }
     Scale {
-      X: 0.65
-      Y: 0.65
-      Z: 0.65
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
     }
   }
   ParentId: 8647594342684677069
