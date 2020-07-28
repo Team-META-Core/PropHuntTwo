@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 18203626575468396740
         UnregisteredParameters {
           Overrides {
@@ -79,24 +79,23 @@ Assets {
         Name: "The_CloudSoundRapper3_Hat"
         Transform {
           Location {
-            X: 13.644742
-            Y: -2.9914856
-            Z: -77.8998871
+            X: 5.38960314
+            Y: -2.99145818
+            Z: -13.8339767
           }
           Rotation {
+            Pitch: 6.83018879e-06
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.330259889
+            Y: 0.330259889
+            Z: 0.330259889
           }
         }
         ParentId: 2876899187560965993
         ChildIds: 14710264087812153723
         ChildIds: 2062965486601415017
-        ChildIds: 10134155200417206598
-        ChildIds: 7092151219355006889
-        ChildIds: 12544148164766751157
+        ChildIds: 3127368934023334533
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -232,16 +231,51 @@ Assets {
         }
       }
       Objects {
+        Id: 3127368934023334533
+        Name: "Group"
+        Transform {
+          Location {
+            X: 41.6171455
+            Y: 8.32118416
+            Z: 14.2631216
+          }
+          Rotation {
+            Pitch: 52.6055145
+            Yaw: 2.69354496e-05
+            Roll: 7.3876894e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18203626575468396740
+        ChildIds: 10134155200417206598
+        ChildIds: 7092151219355006889
+        ChildIds: 12544148164766751157
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 10134155200417206598
         Name: "Cylinder - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 25.5305176
-            Y: 2.55303955
+            X: 6.34578037
+            Y: -0.0221838765
+            Z: 3.15046891e-05
           }
           Rotation {
             Pitch: 90
-            Roll: 6.83019061e-06
+            Roll: 6.83018743e-06
           }
           Scale {
             X: 0.308914363
@@ -249,7 +283,7 @@ Assets {
             Z: 0.0373823978
           }
         }
-        ParentId: 18203626575468396740
+        ParentId: 3127368934023334533
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -284,14 +318,14 @@ Assets {
         Name: "Ring - Thin"
         Transform {
           Location {
-            X: 5.04754639
-            Y: 2.61950684
-            Z: 41.7652283
+            X: -14.1374626
+            Y: 0.0443615206
+            Z: 41.7652321
           }
           Rotation {
             Pitch: -61.0033798
-            Yaw: -3.05175781e-05
-            Roll: 1.70905532e-05
+            Yaw: -3.05175763e-05
+            Roll: 1.70905478e-05
           }
           Scale {
             X: 0.755399823
@@ -299,7 +333,7 @@ Assets {
             Z: 1.00000024
           }
         }
-        ParentId: 18203626575468396740
+        ParentId: 3127368934023334533
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -334,12 +368,13 @@ Assets {
         Name: "Cylinder - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 26.9769287
-            Y: 2.55303955
+            X: 7.79191208
+            Y: -0.022185415
+            Z: 0.000416206225
           }
           Rotation {
             Pitch: 90
-            Roll: 6.83019061e-06
+            Roll: 6.83018743e-06
           }
           Scale {
             X: 0.192225948
@@ -347,7 +382,7 @@ Assets {
             Z: 0.0232616793
           }
         }
-        ParentId: 18203626575468396740
+        ParentId: 3127368934023334533
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

@@ -15,11 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 11840242447353186111
-        ChildIds: 9844629686926009622
-        ChildIds: 6276466883039650989
-        ChildIds: 2771522947396048933
+        ParentId: 17587986024326657423
+        ChildIds: 17014471056524012729
         UnregisteredParameters {
           Overrides {
             Name: "cs:VerticalOffset"
@@ -78,6 +75,38 @@ Assets {
         }
       }
       Objects {
+        Id: 17014471056524012729
+        Name: "Group"
+        Transform {
+          Location {
+            X: 2.42451453
+            Y: -2.65445078e-06
+            Z: 0.424671769
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.543637514
+            Y: 0.543637514
+            Z: 0.543637514
+          }
+        }
+        ParentId: 15835853044952343273
+        ChildIds: 11840242447353186111
+        ChildIds: 9844629686926009622
+        ChildIds: 6276466883039650989
+        ChildIds: 2771522947396048933
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 11840242447353186111
         Name: "Sphere"
         Transform {
@@ -91,7 +120,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15835853044952343273
+        ParentId: 17014471056524012729
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -125,9 +154,12 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            Z: 4.4457655
+            X: 4.8068352e-05
+            Y: -8.27244889e-07
+            Z: 4.44582796
           }
           Rotation {
+            Yaw: 6.51376045e-12
             Roll: -179.999939
           }
           Scale {
@@ -136,7 +168,7 @@ Assets {
             Z: 1.06039488
           }
         }
-        ParentId: 15835853044952343273
+        ParentId: 17014471056524012729
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -178,9 +210,12 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            Z: 1.27314
+            X: -6.83295075e-05
+            Y: -2.36825827e-07
+            Z: 1.27323186
           }
           Rotation {
+            Yaw: 6.51376045e-12
             Roll: -179.999939
           }
           Scale {
@@ -189,7 +224,7 @@ Assets {
             Z: 0.0449893624
           }
         }
-        ParentId: 15835853044952343273
+        ParentId: 17014471056524012729
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -240,7 +275,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15835853044952343273
+        ParentId: 17014471056524012729
         ChildIds: 7690083995752681401
         ChildIds: 17377097492316180397
         UnregisteredParameters {

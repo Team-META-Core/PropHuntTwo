@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 9640109544091913917
         UnregisteredParameters {
           Overrides {
@@ -80,19 +80,19 @@ Assets {
         Name: "TheHOHOHO"
         Transform {
           Location {
-            X: -21.2467384
-            Y: 12.9249182
-            Z: -0.83297807
+            X: -5.5806694
+            Y: 7.63025331
+            Z: 8.44034386
           }
           Rotation {
-            Pitch: 32.0805969
+            Pitch: 32.0805779
             Yaw: 4.86200952e-06
             Roll: 1.29992168e-05
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.506183743
+            Y: 0.506183743
+            Z: 0.506183743
           }
         }
         ParentId: 8413094199410010690

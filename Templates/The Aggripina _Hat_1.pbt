@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 3891711202626739518
         UnregisteredParameters {
           Overrides {
@@ -79,14 +79,19 @@ Assets {
         Name: "TheAggripina"
         Transform {
           Location {
-            Z: -40
+            X: 3.26862907
+            Y: 1.29382074
+            Z: -5.56616068
           }
           Rotation {
+            Pitch: 10.7732639
+            Yaw: 6.58485089e-09
+            Roll: 1.14794784e-05
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.474591196
+            Y: 0.474591196
+            Z: 0.474591196
           }
         }
         ParentId: 10734395312304543109

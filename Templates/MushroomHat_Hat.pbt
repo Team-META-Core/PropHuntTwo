@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 7002572832351430275
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,19 @@ Assets {
         Name: "The_Mushroom_Hat"
         Transform {
           Location {
-            X: -15.6045675
-            Y: 1.69890536e-05
-            Z: -2.22042346
+            X: -5.1583128
+            Y: 3.09598181e-06
+            Z: 12.8099413
           }
           Rotation {
-            Pitch: 16.7333813
-            Yaw: 4.48159682e-07
-            Roll: 1.80343086e-05
+            Pitch: 12.0702486
+            Yaw: 3.84874781e-08
+            Roll: 1.29012051e-05
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.379365712
+            Y: 0.379365712
+            Z: 0.379365712
           }
         }
         ParentId: 6237561301454833597

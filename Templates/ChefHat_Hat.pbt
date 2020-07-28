@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 12561470711989532602
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,19 @@ Assets {
         Name: "The_Chef_Hat"
         Transform {
           Location {
-            X: -24.2429543
-            Y: 2.31353224e-05
-            Z: 14.0637493
+            X: -9.13880062
+            Y: 6.59874e-06
+            Z: 16.7092457
           }
           Rotation {
             Pitch: 18.960577
-            Yaw: 8.08358436e-07
-            Roll: 2.05558972e-05
+            Yaw: 8.08359118e-07
+            Roll: 2.05559e-05
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.455417067
+            Y: 0.455417067
+            Z: 0.455417067
           }
         }
         ParentId: 2348481280412905763

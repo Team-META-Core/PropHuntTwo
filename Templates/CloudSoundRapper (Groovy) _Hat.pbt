@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 5583160969587689650
         UnregisteredParameters {
           Overrides {
@@ -79,17 +79,19 @@ Assets {
         Name: "The_CloudSoundRapper2_Hat"
         Transform {
           Location {
-            X: 13.2745619
-            Y: -2.45312452
-            Z: -78.4939651
+            X: 10.2028322
+            Y: -7.24523943e-06
+            Z: -19.3092861
           }
           Rotation {
-            Pitch: 6.83018879e-06
+            Pitch: 1.36603776e-05
+            Yaw: -6.51377563e-12
+            Roll: -8.14222713e-13
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.373696923
+            Y: 0.373696923
+            Z: 0.373696923
           }
         }
         ParentId: 17314403184509914727
@@ -235,12 +237,14 @@ Assets {
         Name: "Cylinder - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 25.5305176
-            Y: 2.55303955
+            X: 27.9287262
+            Y: 2.55311036
+            Z: 13.944726
           }
           Rotation {
-            Pitch: 90
-            Roll: 6.83019061e-06
+            Pitch: 56.2193069
+            Yaw: 179.999939
+            Roll: 179.999939
           }
           Scale {
             X: 0.308914363
@@ -283,14 +287,14 @@ Assets {
         Name: "Ring - Thin"
         Transform {
           Location {
-            X: 5.04754639
-            Y: 2.61950684
-            Z: 41.7652283
+            X: -12.3178835
+            Y: 2.61946
+            Z: 37.2711296
           }
           Rotation {
-            Pitch: -61.0033798
+            Pitch: -27.2233582
             Yaw: -3.05175781e-05
-            Roll: 1.70905532e-05
+            Roll: 4.23453312e-05
           }
           Scale {
             X: 0.755399823
@@ -333,12 +337,14 @@ Assets {
         Name: "Cylinder - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 26.9769287
-            Y: 2.55303955
+            X: 29.1308537
+            Y: 2.55310893
+            Z: 14.7495661
           }
           Rotation {
-            Pitch: 90
-            Roll: 6.83019061e-06
+            Pitch: 56.2193069
+            Yaw: 179.999939
+            Roll: 179.999939
           }
           Scale {
             X: 0.192225948
