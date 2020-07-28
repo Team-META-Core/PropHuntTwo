@@ -2045,7 +2045,7 @@ Assets {
           }
           Rotation {
             Pitch: -90
-            Yaw: -6.10351562e-05
+            Yaw: -6.10351563e-05
             Roll: -179.999771
           }
           Scale {
@@ -2084,7 +2084,7 @@ Assets {
             Z: 245
           }
           Rotation {
-            Pitch: -6.10351562e-05
+            Pitch: -6.10351563e-05
             Yaw: -179.999954
             Roll: 179.999939
           }
@@ -2367,7 +2367,7 @@ Assets {
             Z: 235
           }
           Rotation {
-            Pitch: -6.10351562e-05
+            Pitch: -6.10351563e-05
             Yaw: -179.999954
             Roll: 179.999939
           }

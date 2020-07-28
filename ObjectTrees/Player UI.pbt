@@ -580,7 +580,7 @@ Objects {
   Name: "UI Panel"
   Transform {
     Location {
-      X: 3316.3706
+      X: 3316.37061
       Y: -1530.22424
       Z: -6785.94678
     }

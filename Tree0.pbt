@@ -255,6 +255,8 @@ Objects {
   ChildIds: 3068683245614293626
   ChildIds: 13150692798702141693
   ChildIds: 1165588978479911085
+  ChildIds: 15006532120493316563
+  ChildIds: 14197311403102372548
   ChildIds: 5590282549284415305
   ChildIds: 5393061399491506247
   ChildIds: 4484316400186735535
@@ -387,7 +389,7 @@ Objects {
   Transform {
     Location {
       X: 0.755981445
-      Y: -119.132812
+      Y: -119.132813
     }
     Rotation {
       Yaw: 1.3660374e-05
@@ -1535,11 +1537,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -2216,11 +2218,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -2897,11 +2899,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -3578,11 +3580,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -3871,7 +3873,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8.47851562
+            X: -8.47851563
             Y: 272.995117
             Z: 272.446533
           }
@@ -3892,7 +3894,7 @@ Objects {
           Vector {
             X: 102.498863
             Y: -87.1044693
-            Z: 108.879394
+            Z: 108.879395
           }
         }
         Overrides {
@@ -3954,7 +3956,7 @@ Objects {
     Location {
       X: 102.498947
       Y: -87.1045914
-      Z: 108.879394
+      Z: 108.879395
     }
     Rotation {
       Pitch: -0.397491455
@@ -4606,11 +4608,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -6089,11 +6091,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -6770,11 +6772,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -7451,11 +7453,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -8132,11 +8134,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -9710,11 +9712,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -10391,11 +10393,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -11072,11 +11074,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -11753,11 +11755,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -12580,7 +12582,7 @@ Objects {
   Name: "Sky Walk Support"
   Transform {
     Location {
-      X: -3285.21728
+      X: -3285.21729
       Y: -5374.36133
       Z: 324.495941
     }
@@ -18075,7 +18077,7 @@ Objects {
     Location {
       X: -89.9986725
       Y: -3.99682426
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -3.4150944e-06
@@ -18130,7 +18132,7 @@ Objects {
     Location {
       X: 90.001091
       Y: -3.99713898
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999893
@@ -18515,7 +18517,7 @@ Objects {
     Location {
       X: 90.0007477
       Y: 31.3896198
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999924
@@ -18570,7 +18572,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -18626,7 +18628,7 @@ Objects {
     Location {
       X: -89.9990311
       Y: 31.3899345
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Roll: -179.999954
@@ -18680,7 +18682,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -89.9999924
@@ -18735,7 +18737,7 @@ Objects {
     Location {
       X: -90.000061
       Y: 57.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -5.12264232e-05
@@ -18789,10 +18791,10 @@ Objects {
     Location {
       X: -89.9996643
       Y: -217.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000024
@@ -18843,7 +18845,7 @@ Objects {
     Location {
       X: -89.9998474
       Y: -227.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
     }
@@ -18896,7 +18898,7 @@ Objects {
     Location {
       X: 0.000213623047
       Y: -227.500046
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: 89.9999695
@@ -18950,7 +18952,7 @@ Objects {
     Location {
       X: 0.000385284424
       Y: -227.500198
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -9.56226431e-05
@@ -20255,7 +20257,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8.47851562
+            X: -8.47851563
             Y: 272.995117
             Z: 272.446533
           }
@@ -20318,7 +20320,7 @@ Objects {
     Location {
       X: 102.498947
       Y: -87.1045914
-      Z: 108.879394
+      Z: 108.879395
     }
     Rotation {
       Pitch: -0.397491455
@@ -20970,11 +20972,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -22453,11 +22455,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -23134,11 +23136,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -23815,11 +23817,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -24496,11 +24498,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -26074,11 +26076,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -26755,11 +26757,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -27436,11 +27438,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -28117,11 +28119,11 @@ Objects {
     Location {
       X: -90.0000229
       Y: -1.8182373
-      Z: 6.10351562e-05
+      Z: 6.10351563e-05
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000121
@@ -32424,7 +32426,7 @@ Objects {
     Location {
       X: -89.9986725
       Y: -3.99682426
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -3.4150944e-06
@@ -32479,7 +32481,7 @@ Objects {
     Location {
       X: 90.001091
       Y: -3.99713898
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999893
@@ -32864,7 +32866,7 @@ Objects {
     Location {
       X: 90.0007477
       Y: 31.3896198
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999924
@@ -32974,7 +32976,7 @@ Objects {
     Location {
       X: -89.9990311
       Y: 31.3899345
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Roll: -179.999954
@@ -33085,7 +33087,7 @@ Objects {
       Z: 0.00012817829
     }
     Rotation {
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000441
@@ -33136,10 +33138,10 @@ Objects {
     Location {
       X: -89.9996643
       Y: -217.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000024
@@ -33190,7 +33192,7 @@ Objects {
     Location {
       X: -89.9998474
       Y: -227.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
     }
@@ -33243,7 +33245,7 @@ Objects {
     Location {
       X: 0.000213623047
       Y: -227.500046
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: 89.9999695
@@ -33297,7 +33299,7 @@ Objects {
     Location {
       X: 0.000385284424
       Y: -227.500198
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -9.56226431e-05
@@ -38481,7 +38483,7 @@ Objects {
     Location {
       X: -89.9986725
       Y: -3.99682426
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -3.4150944e-06
@@ -38536,7 +38538,7 @@ Objects {
     Location {
       X: 90.001091
       Y: -3.99713898
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999893
@@ -38921,7 +38923,7 @@ Objects {
     Location {
       X: 90.0007477
       Y: 31.3896198
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999924
@@ -38976,7 +38978,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -39032,7 +39034,7 @@ Objects {
     Location {
       X: -89.9990311
       Y: 31.3899345
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Roll: -179.999954
@@ -39086,7 +39088,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -89.9999924
@@ -39141,7 +39143,7 @@ Objects {
     Location {
       X: -90.000061
       Y: 57.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -5.12264232e-05
@@ -39195,10 +39197,10 @@ Objects {
     Location {
       X: -89.9996643
       Y: -217.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000024
@@ -39249,7 +39251,7 @@ Objects {
     Location {
       X: -89.9998474
       Y: -227.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
     }
@@ -39302,7 +39304,7 @@ Objects {
     Location {
       X: 0.000213623047
       Y: -227.500046
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: 89.9999695
@@ -39356,7 +39358,7 @@ Objects {
     Location {
       X: 0.000385284424
       Y: -227.500198
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -9.56226431e-05
@@ -42331,7 +42333,7 @@ Objects {
     Location {
       X: 90.0007477
       Y: 31.3896198
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999924
@@ -42386,7 +42388,7 @@ Objects {
     Location {
       X: -89.9990311
       Y: 31.3899345
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Roll: -179.999954
@@ -42440,10 +42442,10 @@ Objects {
     Location {
       X: -89.9996643
       Y: -217.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000024
@@ -42494,7 +42496,7 @@ Objects {
     Location {
       X: -89.9998474
       Y: -227.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
     }
@@ -42547,7 +42549,7 @@ Objects {
     Location {
       X: 0.000213623047
       Y: -227.500046
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: 89.9999695
@@ -42601,7 +42603,7 @@ Objects {
     Location {
       X: 0.000385284424
       Y: -227.500198
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -9.56226431e-05
@@ -45593,7 +45595,7 @@ Objects {
   Transform {
     Location {
       X: -4162.94531
-      Y: -5461.01562
+      Y: -5461.01563
       Z: 1230
     }
     Rotation {
@@ -49019,7 +49021,7 @@ Objects {
     Location {
       X: -89.9986725
       Y: -3.99682426
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -3.4150944e-06
@@ -49074,7 +49076,7 @@ Objects {
     Location {
       X: 90.001091
       Y: -3.99713898
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999893
@@ -49349,7 +49351,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -49405,7 +49407,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -89.9999924
@@ -49460,7 +49462,7 @@ Objects {
     Location {
       X: -90.000061
       Y: 57.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -5.12264232e-05
@@ -58113,6 +58115,1036 @@ Objects {
   }
 }
 Objects {
+  Id: 14197311403102372548
+  Name: "Metal Corrugated"
+  Transform {
+    Location {
+      X: 2071.43066
+      Y: -10389.6543
+      Z: 516.789246
+    }
+    Rotation {
+      Pitch: -89.8880844
+      Yaw: -120.888222
+      Roll: 179.843704
+    }
+    Scale {
+      X: 0.77318
+      Y: 0.77318
+      Z: 0.77318
+    }
+  }
+  ParentId: 4021523576524369319
+  ChildIds: 8853347023415776394
+  ChildIds: 846446188516305569
+  ChildIds: 15940004395321597093
+  ChildIds: 3866525255159210735
+  ChildIds: 16800100424614868747
+  ChildIds: 8315337232449156169
+  ChildIds: 12814475894562037524
+  ChildIds: 13616584052906270974
+  ChildIds: 12192135182847431230
+  ChildIds: 6121241961998178743
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+}
+Objects {
+  Id: 6121241961998178743
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 108.982391
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.8466661
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12192135182847431230
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 84.5945
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13616584052906270974
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 60.2156219
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12814475894562037524
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 35.8367462
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8315337232449156169
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 11.4579773
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16800100424614868747
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -12.9208984
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3866525255159210735
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -37.299675
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15940004395321597093
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -61.678566
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 846446188516305569
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -86.0574417
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8853347023415776394
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -110.436211
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 14197311403102372548
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14053576744141067567
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15006532120493316563
+  Name: "Metal Corrugated"
+  Transform {
+    Location {
+      X: 2285.8833
+      Y: -10033.5225
+      Z: 218.197021
+    }
+    Rotation {
+      Yaw: 58.9372635
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4021523576524369319
+  ChildIds: 11257749657621053052
+  ChildIds: 13780404943536208568
+  ChildIds: 8209786009780118370
+  ChildIds: 16579679026872072538
+  ChildIds: 16404907524303984364
+  ChildIds: 1254898219853143386
+  ChildIds: 6599262969059238577
+  ChildIds: 16277582866825281349
+  ChildIds: 14499238130692478714
+  ChildIds: 12364958234711936538
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+}
+Objects {
+  Id: 12364958234711936538
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 108.982391
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.8466661
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14499238130692478714
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 84.5945
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16277582866825281349
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 60.2156219
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6599262969059238577
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 35.8367462
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1254898219853143386
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: 11.4579773
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16404907524303984364
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -12.9208984
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16579679026872072538
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -37.299675
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8209786009780118370
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -61.678566
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13780404943536208568
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -86.0574417
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11257749657621053052
+  Name: "Pipe - Half"
+  Transform {
+    Location {
+      X: -110.436211
+      Y: -0.330451965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.270876
+      Y: 0.270876
+      Z: 3.84666634
+    }
+  }
+  ParentId: 15006532120493316563
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 318501029841871767
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9365264688249935885
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 1165588978479911085
   Name: "Metal Corrugated"
   Transform {
@@ -60581,7 +61613,7 @@ Objects {
   Name: "Cone - Truncated Wide"
   Transform {
     Location {
-      X: 2950.14892
+      X: 2950.14893
       Y: -6666.80566
       Z: 144.818481
     }
@@ -61099,7 +62131,7 @@ Objects {
   Transform {
     Location {
       X: -4085.46387
-      Y: -5204.76562
+      Y: -5204.76563
       Z: 379.774902
     }
     Rotation {
@@ -65528,7 +66560,7 @@ Objects {
     Location {
       X: -89.9986725
       Y: -3.99682426
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -3.4150944e-06
@@ -65577,7 +66609,7 @@ Objects {
     Location {
       X: 90.001091
       Y: -3.99713898
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999893
@@ -65920,7 +66952,7 @@ Objects {
     Location {
       X: 90.0007477
       Y: 31.3896198
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999924
@@ -65969,7 +67001,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -66019,7 +67051,7 @@ Objects {
     Location {
       X: -89.9990311
       Y: 31.3899345
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Roll: -179.999954
@@ -66067,7 +67099,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -89.9999924
@@ -66116,7 +67148,7 @@ Objects {
     Location {
       X: -90.000061
       Y: 57.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -5.12264232e-05
@@ -66164,10 +67196,10 @@ Objects {
     Location {
       X: -89.9996643
       Y: -217.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000024
@@ -66212,7 +67244,7 @@ Objects {
     Location {
       X: -89.9998474
       Y: -227.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
     }
@@ -66259,7 +67291,7 @@ Objects {
     Location {
       X: 0.000213623047
       Y: -227.500046
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: 89.9999695
@@ -66307,7 +67339,7 @@ Objects {
     Location {
       X: 0.000385284424
       Y: -227.500198
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -9.56226431e-05
@@ -66583,7 +67615,7 @@ Objects {
   Transform {
     Location {
       X: 2525.95264
-      Y: -10001.4892
+      Y: -10001.4893
       Z: 847.90979
     }
     Rotation {
@@ -67099,7 +68131,7 @@ Objects {
   Transform {
     Location {
       X: 5335.5708
-      Y: -4372.97558
+      Y: -4372.97559
       Z: 1018.88831
     }
     Rotation {
@@ -67329,7 +68361,7 @@ Objects {
   Name: "Perimeter Wall Section 01"
   Transform {
     Location {
-      X: -4782.64062
+      X: -4782.64063
       Y: -5191.93896
       Z: 1016.11627
     }
@@ -67705,7 +68737,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1604.63476
+            X: -1604.63477
             Y: 3247.57861
             Z: 135.58728
           }
@@ -67808,7 +68840,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -1582.98
-            Y: 2325.66894
+            Y: 2325.66895
             Z: 106.096252
           }
         }
@@ -68336,22 +69368,6 @@ Objects {
             Value: "mc:evisibilitysetting:forceoff"
           }
         }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 163.97139
-            Y: -422.957733
-            Z: -98.756958
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -2.34207153
-            Yaw: 0.794722676
-            Roll: 0.916268528
-          }
-        }
       }
     }
     ParameterOverrideMap {
@@ -68536,7 +69552,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4178.63476
+            X: -4178.63477
             Y: -1262.86816
             Z: 707.861511
           }
@@ -68709,7 +69725,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4183.91894
+            X: -4183.91895
             Y: 161.561035
             Z: 668.041748
           }
@@ -69092,22 +70108,6 @@ Objects {
           Name: "Visible"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -112.379822
-            Y: -377.55777
-            Z: -268.289215
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 0.370845109
-            Yaw: -177.753
-            Roll: -89.4638367
           }
         }
       }
@@ -69874,7 +70874,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1412.04394
+            X: -1412.04395
             Y: 2546.81641
             Z: 264.298645
           }
@@ -70392,22 +71392,6 @@ Objects {
             Value: "mc:evisibilitysetting:forceoff"
           }
         }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -119.445709
-            Y: -373.536896
-            Z: -265.377502
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 0.370845109
-            Yaw: -177.753
-            Roll: -89.4638367
-          }
-        }
       }
     }
     ParameterOverrideMap {
@@ -70442,7 +71426,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -9842.57422
-            Y: -1974.46142
+            Y: -1974.46143
             Z: 663.165039
           }
         }
@@ -70800,7 +71784,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -2752.15625
-            Y: -5660.20312
+            Y: -5660.20313
             Z: 839.792419
           }
         }
@@ -71280,7 +72264,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1604.63476
+            X: -1604.63477
             Y: 3247.57861
             Z: 135.58728
           }
@@ -71383,7 +72367,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -1582.98
-            Y: 2325.66894
+            Y: 2325.66895
             Z: 106.096252
           }
         }
@@ -74469,7 +75453,7 @@ Objects {
     Location {
       X: -89.9986725
       Y: -3.99682426
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -3.4150944e-06
@@ -74524,7 +75508,7 @@ Objects {
     Location {
       X: 90.001091
       Y: -3.99713898
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999893
@@ -74909,7 +75893,7 @@ Objects {
     Location {
       X: 90.0007477
       Y: 31.3896198
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Yaw: -179.999924
@@ -74964,7 +75948,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -75020,7 +76004,7 @@ Objects {
     Location {
       X: -89.9990311
       Y: 31.3899345
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Roll: -179.999954
@@ -75074,7 +76058,7 @@ Objects {
     Location {
       X: 0.000282287598
       Y: 307.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -89.9999924
@@ -75129,7 +76113,7 @@ Objects {
     Location {
       X: -90.000061
       Y: 57.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: -5.12264232e-05
@@ -75183,10 +76167,10 @@ Objects {
     Location {
       X: -89.9996643
       Y: -217.499939
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
-      Yaw: -6.10351562e-05
+      Yaw: -6.10351563e-05
     }
     Scale {
       X: 0.100000024
@@ -75237,7 +76221,7 @@ Objects {
     Location {
       X: -89.9998474
       Y: -227.500061
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
     }
@@ -75290,7 +76274,7 @@ Objects {
     Location {
       X: 0.000213623047
       Y: -227.500046
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: 89.9999695
@@ -75344,7 +76328,7 @@ Objects {
     Location {
       X: 0.000385284424
       Y: -227.500198
-      Z: 0.000122070312
+      Z: 0.000122070313
     }
     Rotation {
       Pitch: -9.56226431e-05
@@ -89228,7 +90212,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -5292.9
-            Y: -6108.6831
+            Y: -6108.68311
             Z: 890.160889
           }
         }

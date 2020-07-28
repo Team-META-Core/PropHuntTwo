@@ -4,9 +4,9 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 8795246208088697984
+      RootId: 4540037890612952187
       Objects {
-        Id: 8795246208088697984
+        Id: 4540037890612952187
         Name: "Wood Walkway"
         Transform {
           Scale {
@@ -15,11 +15,94 @@ Assets {
             Z: 1.16764009
           }
         }
-        ParentId: 16820994471871876578
-        ChildIds: 15377296216592440290
-        ChildIds: 2166816702679662823
+        ParentId: 2690625773929306911
+        ChildIds: 338906482510965701
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 338906482510965701
+        Name: "Wood Bridge"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Roll: 4.9989233
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4540037890612952187
+        ChildIds: 15714018282709286869
         ChildIds: 8437297364954164656
         ChildIds: 2756561014485586870
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 15714018282709286869
+        Name: "wood walkway"
+        Transform {
+          Location {
+            X: -71.3460388
+            Y: 717.650391
+            Z: 84.0455933
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 338906482510965701
+        ChildIds: 8795246208088697984
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 8795246208088697984
+        Name: "Wood Walkway"
+        Transform {
+          Location {
+            X: -10.6747437
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15714018282709286869
+        ChildIds: 15377296216592440290
+        ChildIds: 2166816702679662823
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -35,12 +118,11 @@ Assets {
         Name: "ClientContext"
         Transform {
           Location {
-            X: -36.8673668
-            Y: -29.8527107
-            Z: -35.6398506
+            X: -36.8671875
+            Y: -29.8527431
+            Z: -7.50631952
           }
           Rotation {
-            Pitch: -6.83018879e-06
           }
           Scale {
             X: 1
@@ -586,7 +668,7 @@ Assets {
         Transform {
           Location {
             X: 0.000209088932
-            Y: -1335.10058
+            Y: -1335.10059
             Z: 7.5063448
           }
           Rotation {
@@ -1364,14 +1446,14 @@ Assets {
         Name: "Collision"
         Transform {
           Location {
-            X: -36.8604202
-            Y: 253.361496
-            Z: -31.4195099
+            X: -36.8672028
+            Y: 252.924911
+            Z: -1.06448472
           }
           Rotation {
-            Pitch: -0.353974521
-            Yaw: 0.284456223
-            Roll: -0.00921671651
+            Pitch: -0.353973389
+            Yaw: 0.284446418
+            Roll: -0.00921630859
           }
           Scale {
             X: 1.00000012
@@ -1381,7 +1463,7 @@ Assets {
         }
         ParentId: 8795246208088697984
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceoff"
@@ -1406,14 +1488,14 @@ Assets {
         Name: "Fantasy Sword Grip 01"
         Transform {
           Location {
-            X: -9.51459217
-            Y: 272.777802
-            Z: -54.8239403
+            X: -91.5354767
+            Y: 990.428162
+            Z: 57.3550148
           }
           Rotation {
             Pitch: 6.83018879e-06
-            Yaw: 1.30030985e-05
-            Roll: -14.679285
+            Yaw: 1.67041289e-05
+            Roll: -14.6792297
           }
           Scale {
             X: 6.30584717
@@ -1421,7 +1503,7 @@ Assets {
             Z: 6.30584717
           }
         }
-        ParentId: 8795246208088697984
+        ParentId: 338906482510965701
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1456,14 +1538,14 @@ Assets {
         Name: "Fantasy Sword Grip 01"
         Transform {
           Location {
-            X: 243.905457
-            Y: 259.323639
-            Z: -56.0011368
+            X: 161.884598
+            Y: 976.974121
+            Z: 56.177845
           }
           Rotation {
             Pitch: 6.83018879e-06
-            Yaw: 1.65062011e-05
-            Roll: -13.9956913
+            Yaw: 2.33796018e-05
+            Roll: -13.995636
           }
           Scale {
             X: 6.30584717
@@ -1471,7 +1553,7 @@ Assets {
             Z: 6.30584717
           }
         }
-        ParentId: 8795246208088697984
+        ParentId: 338906482510965701
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
