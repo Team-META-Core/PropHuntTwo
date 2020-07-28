@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 9075867852363888939
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,18 @@ Assets {
         Name: "GeometryClientcontext"
         Transform {
           Location {
-            X: 7.38170099
-            Y: 0.965081
-            Z: -4.77161646
+            X: 13.8032141
+            Y: -9.62541071e-06
+            Z: -27.0719585
           }
           Rotation {
             Pitch: 15.3513756
-            Yaw: 6.52536618e-13
-            Roll: 1.14570506e-10
+            Roll: 1.15366723e-10
           }
           Scale {
-            X: 0.960314035
-            Y: 0.960314035
-            Z: 0.960314035
+            X: 2.205
+            Y: 2.205
+            Z: 2.205
           }
         }
         ParentId: 16876203953158921323

@@ -1,5 +1,5 @@
 Assets {
-  Id: 16971346528210605037
+  Id: 4143360855510557171
   Name: "The Aggripina _Hat"
   PlatformAssetType: 5
   TemplateAsset {

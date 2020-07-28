@@ -1,5 +1,5 @@
 Assets {
-  Id: 4684719402202944386
+  Id: 7672968760649476313
   Name: "FruitHat _Hat"
   PlatformAssetType: 5
   TemplateAsset {
@@ -2117,7 +2117,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5920223932982244516
+            Id: 4174204201551471315
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2179,7 +2179,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5920223932982244516
+            Id: 4174204201551471315
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2248,7 +2248,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5920223932982244516
+            Id: 4174204201551471315
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2408,7 +2408,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5920223932982244516
+            Id: 4174204201551471315
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2531,7 +2531,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5920223932982244516
+      Id: 4174204201551471315
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {

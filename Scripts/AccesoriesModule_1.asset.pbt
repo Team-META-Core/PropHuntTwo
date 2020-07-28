@@ -1,4 +1,4 @@
-Id: 7027165664463327742
+Id: 5814078196899674798
 Name: "AccesoriesModule"
 PlatformAssetType: 3
 TextAsset {
@@ -18,7 +18,7 @@ TextAsset {
     Overrides {
       Name: "cs:SkeleHead"
       AssetReference {
-        Id: 3905460737181911630
+        Id: 10703458837049900037
       }
     }
     Overrides {
@@ -48,13 +48,13 @@ TextAsset {
     Overrides {
       Name: "cs:ColorVisionHat"
       AssetReference {
-        Id: 412503459525157651
+        Id: 11663461244383500958
       }
     }
     Overrides {
       Name: "cs:MadHatterHat"
       AssetReference {
-        Id: 9433122451498238955
+        Id: 17379244325811232104
       }
     }
     Overrides {
@@ -84,7 +84,7 @@ TextAsset {
     Overrides {
       Name: "cs:DaftPunkHat"
       AssetReference {
-        Id: 11837164847011292616
+        Id: 17932627152729300395
       }
     }
     Overrides {
@@ -108,7 +108,7 @@ TextAsset {
     Overrides {
       Name: "cs:AggripinaHat"
       AssetReference {
-        Id: 4143360855510557171
+        Id: 16971346528210605037
       }
     }
     Overrides {
@@ -120,19 +120,19 @@ TextAsset {
     Overrides {
       Name: "cs:CatfishHat"
       AssetReference {
-        Id: 6101373859721181158
+        Id: 16492396817946274219
       }
     }
     Overrides {
       Name: "cs:FrogHat"
       AssetReference {
-        Id: 11856816070966402793
+        Id: 157087968636227456
       }
     }
     Overrides {
       Name: "cs:ProtoHat"
       AssetReference {
-        Id: 10115027066992966691
+        Id: 2708788933824783327
       }
     }
     Overrides {
@@ -150,19 +150,19 @@ TextAsset {
     Overrides {
       Name: "cs:DiceWhiteHat"
       AssetReference {
-        Id: 1038484301847038633
+        Id: 16720569692086937789
       }
     }
     Overrides {
       Name: "cs:DiceBlackHat"
       AssetReference {
-        Id: 1273432643907179068
+        Id: 18094742549752014729
       }
     }
     Overrides {
       Name: "cs:WokeFrog"
       AssetReference {
-        Id: 15702171234751083698
+        Id: 14802304614737479587
       }
     }
     Overrides {
@@ -180,7 +180,7 @@ TextAsset {
     Overrides {
       Name: "cs:WinterHat"
       AssetReference {
-        Id: 8341818154099842175
+        Id: 9078623308043938040
       }
     }
     Overrides {
@@ -198,13 +198,13 @@ TextAsset {
     Overrides {
       Name: "cs:TacoHat"
       AssetReference {
-        Id: 5069146464012458692
+        Id: 13199365765830352216
       }
     }
     Overrides {
       Name: "cs:SadTacoHat"
       AssetReference {
-        Id: 4503659449376393186
+        Id: 9993823229598582878
       }
     }
     Overrides {
@@ -234,7 +234,7 @@ TextAsset {
     Overrides {
       Name: "cs:FruitHat"
       AssetReference {
-        Id: 4684719402202944386
+        Id: 7672968760649476313
       }
     }
     Overrides {

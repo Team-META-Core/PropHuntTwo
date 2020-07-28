@@ -1,5 +1,5 @@
 Assets {
-  Id: 9433122451498238955
+  Id: 17379244325811232104
   Name: "mad HATter _Hat"
   PlatformAssetType: 5
   TemplateAsset {

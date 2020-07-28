@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 18384555162594973850
         UnregisteredParameters {
           Overrides {
@@ -79,17 +79,16 @@ Assets {
         Name: "The_Winter_Hat"
         Transform {
           Location {
-            X: 3.1233294
-            Y: -1.27490413
-            Z: -8.07687855
+            X: -1.95652485
+            Y: -1.27492046
+            Z: -55.7800636
           }
           Rotation {
-            Pitch: 6.83018879e-06
           }
           Scale {
-            X: 0.389429212
-            Y: 0.389429212
-            Z: 0.389429212
+            X: 1.1
+            Y: 1.1
+            Z: 1.1
           }
         }
         ParentId: 12335215066512627386

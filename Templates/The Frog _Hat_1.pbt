@@ -1,5 +1,5 @@
 Assets {
-  Id: 11856816070966402793
+  Id: 157087968636227456
   Name: "The Frog _Hat"
   PlatformAssetType: 5
   TemplateAsset {

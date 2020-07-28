@@ -1,5 +1,5 @@
 Assets {
-  Id: 18094742549752014729
+  Id: 1273432643907179068
   Name: "The High Roller (Black) _Hat"
   PlatformAssetType: 5
   TemplateAsset {
