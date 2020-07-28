@@ -1,5 +1,5 @@
-Id: 13912845295836233168
-Name: "SpectatingHandler"
+Id: 585859091384941120
+Name: "TEST SCRIPT"
 PlatformAssetType: 3
 TextAsset {
 }

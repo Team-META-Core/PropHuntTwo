@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8647594342684677069
         ChildIds: 17927893224568191737
         ChildIds: 5003481728586594570
         ChildIds: 8830113595977850041
@@ -31,7 +31,7 @@ Assets {
         Name: "GasCan"
         Transform {
           Location {
-            X: 394.97525
+            X: 515
           }
           Rotation {
           }
@@ -1340,7 +1340,7 @@ Assets {
         Name: "PropaneTank"
         Transform {
           Location {
-            X: 240
+            X: 128.895981
           }
           Rotation {
           }

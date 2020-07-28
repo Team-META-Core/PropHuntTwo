@@ -1203,6 +1203,95 @@ Objects {
   }
 }
 Objects {
+  Id: 307547527112614389
+  Name: "Game State Display"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8121188908416440242
+  ChildIds: 14236269442933777912
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ShowStateName"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowDuringLobby"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowDuringRound"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowDuringRoundEnd"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowStateName:tooltip"
+      String: "Whether to show which state the game is in"
+    }
+    Overrides {
+      Name: "cs:ShowDuringLobby:tooltip"
+      String: "Whether to show during the lobby state"
+    }
+    Overrides {
+      Name: "cs:ShowDuringRound:tooltip"
+      String: "Whether to show during the round state"
+    }
+    Overrides {
+      Name: "cs:ShowDuringRoundEnd:tooltip"
+      String: "Whether to show during the round end state"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14236269442933777912
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 307547527112614389
+  ChildIds: 11916426823136515679
+  ChildIds: 1662197678253125737
+  ChildIds: 17891741608141275815
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
   Id: 17891741608141275815
   Name: "Message Banner"
   Transform {
@@ -1219,7 +1308,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8121188908416440242
+  ParentId: 14236269442933777912
   ChildIds: 15011900003141235499
   UnregisteredParameters {
     Overrides {
@@ -1483,94 +1572,6 @@ Objects {
   }
 }
 Objects {
-  Id: 307547527112614389
-  Name: "Game State Display"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8121188908416440242
-  ChildIds: 14236269442933777912
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ShowStateName"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ShowDuringLobby"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ShowDuringRound"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ShowDuringRoundEnd"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ShowStateName:tooltip"
-      String: "Whether to show which state the game is in"
-    }
-    Overrides {
-      Name: "cs:ShowDuringLobby:tooltip"
-      String: "Whether to show during the lobby state"
-    }
-    Overrides {
-      Name: "cs:ShowDuringRound:tooltip"
-      String: "Whether to show during the round state"
-    }
-    Overrides {
-      Name: "cs:ShowDuringRoundEnd:tooltip"
-      String: "Whether to show during the round end state"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 14236269442933777912
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 307547527112614389
-  ChildIds: 11916426823136515679
-  ChildIds: 1662197678253125737
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
   Id: 1662197678253125737
   Name: "Container"
   Transform {
@@ -1585,7 +1586,7 @@ Objects {
     }
   }
   ParentId: 14236269442933777912
-  ChildIds: 17589244633467307382
+  ChildIds: 17742879307591396020
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1605,7 +1606,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17589244633467307382
+  Id: 17742879307591396020
   Name: "UI Panel"
   Transform {
     Location {
@@ -1619,8 +1620,8 @@ Objects {
     }
   }
   ParentId: 1662197678253125737
-  ChildIds: 3495206818698024826
-  ChildIds: 6094874661322598221
+  ChildIds: 1054947454840321292
+  ChildIds: 12897883332622881928
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1632,7 +1633,7 @@ Objects {
   Control {
     Width: 200
     Height: 50
-    UIX: -20
+    UIX: -10
     UIY: 10
     RenderTransformPivot {
       Anchor {
@@ -1656,7 +1657,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6094874661322598221
+  Id: 12897883332622881928
   Name: "StateTime"
   Transform {
     Location {
@@ -1669,7 +1670,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17589244633467307382
+  ParentId: 17742879307591396020
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1717,7 +1718,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3495206818698024826
+  Id: 1054947454840321292
   Name: "StateName"
   Transform {
     Location {
@@ -1730,7 +1731,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17589244633467307382
+  ParentId: 17742879307591396020
   UnregisteredParameters {
   }
   Collidable_v2 {

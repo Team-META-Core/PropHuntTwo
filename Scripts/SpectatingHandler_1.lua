@@ -1,3 +1,5 @@
+--print("SPECTATING HANDLER")
+
 local PropTeamTracker = script:GetCustomProperty("PropTeamTracker"):WaitForObject()
 local SpectatingCamera = script:GetCustomProperty("SpectatingCamera"):WaitForObject()
 local PlayerNameUI = script:GetCustomProperty("PlayerNameUI"):WaitForObject()
@@ -10,7 +12,9 @@ function OnPlayerJoin(player)
 	if player ~= Game.GetLocalPlayer() then return end
 	Events.Connect("PlayerDied_Internal", OnPlayerDied)
 	Events.Connect("PlayerRespawned", OnPlayerRespawnClient)
-		
+	
+	--print("?? Spectating system: "..player.name.." has joined")
+	
 	if ABGS.GetGameState() ~= ABGS.GAME_STATE_LOBBY and Game.GetLocalPlayer() == player then
 		UpdateSpectatorCam()
 		player:SetOverrideCamera(SpectatingCamera)
@@ -76,3 +80,4 @@ function Tick(dTime)
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoin)
+--print("SPECTATING HANDLER COMPILED")
