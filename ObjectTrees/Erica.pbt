@@ -34026,6 +34026,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 12922522750977385039
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 10216090459282001121
     }
@@ -116501,6 +116512,17 @@ Objects {
             Pitch: 6.15031195
             Yaw: 8.05046341e-08
             Roll: 4.31544638
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12922522750977385039
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
