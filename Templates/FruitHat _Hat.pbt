@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 5492358876517082414
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,16 @@ Assets {
         Name: "The_Fruit_Hat"
         Transform {
           Location {
-            X: -3.63407421
-            Y: 1.64803919e-06
-            Z: 11.8899336
+            X: -14.5852938
+            Y: 1.36378503e-05
+            Z: 9.97174644
           }
           Rotation {
-            Pitch: 3.45605493
-            Yaw: 3.92160956e-07
-            Roll: 3.63054801e-06
           }
           Scale {
-            X: 0.447821945
-            Y: 0.447821945
-            Z: 0.447821945
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 1496928526006188637

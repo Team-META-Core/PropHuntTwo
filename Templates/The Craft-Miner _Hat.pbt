@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 14073987892676551794
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,19 @@ Assets {
         Name: "tete"
         Transform {
           Location {
-            X: 33.2214622
-            Y: 0.506591141
-            Z: -186.121582
+            X: 66.8008652
+            Y: 0.506560624
+            Z: -377.831268
           }
           Rotation {
-            Pitch: 9.93498135
+            Pitch: 9.93498802
             Yaw: -0.000122070313
             Roll: -3.05175781e-05
           }
           Scale {
-            X: 1.04422688
-            Y: 1.04422688
-            Z: 1.04422688
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
         ParentId: 8897545276190549929

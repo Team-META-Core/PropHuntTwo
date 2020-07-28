@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 11572913247144406826
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,19 @@ Assets {
         Name: "Cake for Alisa"
         Transform {
           Location {
-            X: 19.7180462
-            Y: 8.18112755
-            Z: 19.4507313
+            X: 53.1111717
+            Y: 28.8652039
+            Z: 19.6160259
           }
           Rotation {
-            Pitch: 21.9118271
-            Yaw: 1.09990594e-06
-            Roll: 6.90732577e-06
+            Pitch: 21.9118328
+            Yaw: 1.09990731e-06
+            Roll: 6.90733e-06
           }
           Scale {
-            X: 0.246268392
-            Y: 0.246268392
-            Z: 0.246268392
+            X: 0.815372467
+            Y: 0.815372467
+            Z: 0.815372467
           }
         }
         ParentId: 11362079400245800110

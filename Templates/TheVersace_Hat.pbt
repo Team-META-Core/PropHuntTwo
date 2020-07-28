@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 3286472088951871382
         UnregisteredParameters {
           Overrides {
@@ -79,16 +79,13 @@ Assets {
         Name: "TheVersace"
         Transform {
           Location {
-            X: -4.23694801
-            Y: 1.85656233e-06
-            Z: 14.2111073
           }
           Rotation {
           }
           Scale {
-            X: 0.880426
-            Y: 0.880426
-            Z: 0.880426
+            X: 2.20486403
+            Y: 2.20486403
+            Z: 2.20486403
           }
         }
         ParentId: 3407749608415295840
