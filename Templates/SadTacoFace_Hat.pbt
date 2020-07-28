@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 14422682084505859158
         UnregisteredParameters {
           Overrides {
@@ -79,17 +79,19 @@ Assets {
         Name: "Art"
         Transform {
           Location {
-            X: 5.07757068e-06
-            Y: -4.17242654e-06
-            Z: 22.4250603
+            X: 0.371094316
+            Y: -1.74870206e-06
+            Z: 9.45581055
           }
           Rotation {
-            Yaw: -179.999969
+            Pitch: -7.73415756
+            Yaw: -179.999954
+            Roll: 1.77021757e-05
           }
           Scale {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
+            X: 0.892299771
+            Y: 0.892299771
+            Z: 0.892299771
           }
         }
         ParentId: 3421166106511863214
@@ -756,7 +758,7 @@ Assets {
           }
           Rotation {
             Pitch: 6.14717e-05
-            Yaw: -6.10351562e-05
+            Yaw: -6.10351563e-05
             Roll: 89.9999771
           }
           Scale {
@@ -818,7 +820,7 @@ Assets {
           }
           Rotation {
             Pitch: 3.4150944e-05
-            Yaw: -6.10351562e-05
+            Yaw: -6.10351563e-05
             Roll: 54.5038948
           }
           Scale {
@@ -1308,7 +1310,7 @@ Assets {
             Z: 201.560471
           }
           Rotation {
-            Pitch: -0.000122070312
+            Pitch: -0.000122070313
             Yaw: -179.999954
             Roll: -26.0180969
           }
@@ -1371,7 +1373,7 @@ Assets {
           }
           Rotation {
             Pitch: 7.51320767e-05
-            Yaw: -6.10351562e-05
+            Yaw: -6.10351563e-05
             Roll: 89.9999542
           }
           Scale {
@@ -1433,7 +1435,7 @@ Assets {
           }
           Rotation {
             Pitch: 3.4150944e-05
-            Yaw: -6.10351562e-05
+            Yaw: -6.10351563e-05
             Roll: 54.5038795
           }
           Scale {
@@ -7055,7 +7057,7 @@ Assets {
           Location {
             X: -1.20904541
             Y: 94.4092865
-            Z: 80.8476562
+            Z: 80.8476563
           }
           Rotation {
             Roll: 30.0201206

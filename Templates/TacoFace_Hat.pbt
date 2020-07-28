@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 17770631889920830428
         UnregisteredParameters {
           Overrides {
@@ -79,17 +79,19 @@ Assets {
         Name: "Art"
         Transform {
           Location {
-            X: 6.06954956
-            Y: -9.69195662e-06
-            Z: 17.4383411
+            X: 0.371092409
+            Y: -2.15354908e-06
+            Z: 9.45582294
           }
           Rotation {
-            Yaw: -179.999969
+            Pitch: -7.73416138
+            Yaw: -179.999954
+            Roll: 1.77021811e-05
           }
           Scale {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
+            X: 0.892299771
+            Y: 0.892299771
+            Z: 0.892299771
           }
         }
         ParentId: 11637817557661715449
@@ -5801,7 +5803,7 @@ Assets {
           Location {
             X: -1.20904541
             Y: 94.4092865
-            Z: 80.8476562
+            Z: 80.8476563
           }
           Rotation {
             Roll: 30.0201206

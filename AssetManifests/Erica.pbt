@@ -152,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17095720806948419400
+  Name: "Fire Hydrant"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fire_hydrant_001"
+  }
+}
+Assets {
   Id: 16965777294932964901
   Name: "Cube - Polished"
   PlatformAssetType: 1

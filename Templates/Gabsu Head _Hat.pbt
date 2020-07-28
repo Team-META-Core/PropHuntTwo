@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 10262457968427620942
         UnregisteredParameters {
           Overrides {
@@ -79,17 +79,18 @@ Assets {
         Name: "correction"
         Transform {
           Location {
-            X: 7.58355331
-            Y: -0.933976233
-            Z: -119.70681
+            X: 1.24649191
+            Z: -62.4125214
           }
           Rotation {
+            Pitch: 6.83018879e-06
             Yaw: -179.999954
+            Roll: 1.05304434e-05
           }
           Scale {
-            X: 0.712325573
-            Y: 0.712325573
-            Z: 0.712325573
+            X: 0.45281598
+            Y: 0.45281598
+            Z: 0.45281598
           }
         }
         ParentId: 2467678559142366593
@@ -1596,7 +1597,7 @@ Assets {
         Transform {
           Location {
             X: -51.277832
-            Y: 6.10351562e-05
+            Y: 6.10351563e-05
             Z: 54.2339783
           }
           Rotation {
@@ -1645,7 +1646,7 @@ Assets {
         Transform {
           Location {
             X: -51.277832
-            Y: 6.10351562e-05
+            Y: 6.10351563e-05
             Z: 54.2339783
           }
           Rotation {
@@ -2772,7 +2773,7 @@ Assets {
         Transform {
           Location {
             X: 51.090332
-            Y: -0.000122070312
+            Y: -0.000122070313
             Z: 21.2407684
           }
           Rotation {
@@ -2821,7 +2822,7 @@ Assets {
         Transform {
           Location {
             X: 51.090332
-            Y: -0.000122070312
+            Y: -0.000122070313
             Z: 21.2407684
           }
           Rotation {
@@ -2870,7 +2871,7 @@ Assets {
         Transform {
           Location {
             X: 71.2437744
-            Y: -0.000122070312
+            Y: -0.000122070313
             Z: 36.1226044
           }
           Rotation {
@@ -3887,7 +3888,7 @@ Assets {
         Transform {
           Location {
             X: 46.1248779
-            Y: 6.10351562e-05
+            Y: 6.10351563e-05
             Z: 1.11853027
           }
           Rotation {
@@ -4405,7 +4406,7 @@ Assets {
         Name: "Thorn"
         Transform {
           Location {
-            X: -23.2382812
+            X: -23.2382813
             Y: 152.566467
             Z: 36.4719
           }

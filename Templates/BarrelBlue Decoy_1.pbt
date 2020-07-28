@@ -18,6 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 3875173917836074946
         ChildIds: 9110552490866165761
+        ChildIds: 13276572461464281109
         ChildIds: 18367584732272223350
         WantsNetworking: true
         Collidable_v2 {
@@ -74,7 +75,7 @@ Assets {
           Overrides {
             Name: "cs:Geo"
             ObjectReference {
-              SubObjectId: 18367584732272223350
+              SubObjectId: 13276572461464281109
             }
           }
         }
@@ -125,6 +126,95 @@ Assets {
         }
       }
       Objects {
+        Id: 13276572461464281109
+        Name: "Collision"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13824480936726185429
+        ChildIds: 2054416942678065864
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 2054416942678065864
+        Name: "Cylinder - Polished"
+        Transform {
+          Location {
+            X: 0.248046875
+            Y: 0.0087890625
+            Z: 73.1691895
+          }
+          Rotation {
+            Yaw: -119.892677
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1.41607666
+          }
+        }
+        ParentId: 13276572461464281109
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 15848334031954671110
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.23999995
+              G: 1
+              B: 0.984901309
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12905923173550510229
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 18367584732272223350
         Name: "ClientContext"
         Transform {
@@ -142,7 +232,6 @@ Assets {
           }
         }
         ParentId: 13824480936726185429
-        ChildIds: 2054416942678065864
         ChildIds: 9770214220777401589
         ChildIds: 3459059525332671364
         ChildIds: 3927680591601210614
@@ -165,67 +254,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 2054416942678065864
-        Name: "Cylinder - Polished"
-        Transform {
-          Location {
-            X: 1.15781009
-            Y: 18.7034111
-            Z: 71.9058762
-          }
-          Rotation {
-            Yaw: -119.892677
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1.41607666
-          }
-        }
-        ParentId: 18367584732272223350
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 15848334031954671110
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.23999995
-              G: 1
-              B: 0.984901309
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12905923173550510229
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {

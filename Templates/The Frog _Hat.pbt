@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 10914559422262620762
         UnregisteredParameters {
           Overrides {
@@ -79,10 +79,13 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 20
-            Z: -10
+            X: 41.046875
+            Z: -6.31347656
           }
           Rotation {
+            Pitch: 0.469322771
+            Yaw: 8.41306303e-07
+            Roll: 1.34899547e-05
           }
           Scale {
             X: 2

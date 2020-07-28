@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 6605110205694703233
         UnregisteredParameters {
           Overrides {
@@ -79,16 +79,16 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 28.3930321
-            Y: -2.45314169
-            Z: -73.3219223
+            X: 12.5759373
+            Z: -14.6041975
           }
           Rotation {
+            Pitch: 6.83018879e-06
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.329583585
+            Y: 0.329583585
+            Z: 0.329583585
           }
         }
         ParentId: 16267241269444994830
@@ -112,14 +112,12 @@ Assets {
         Name: "Sphere - Half Thin"
         Transform {
           Location {
-            X: -32.2205238
-            Y: 2.06117749
-            Z: 74.262764
+            X: -44.4386749
+            Y: 2.06118298
+            Z: 77.7223
           }
           Rotation {
-            Pitch: 43.6563339
-            Yaw: -7.52081904e-12
-            Roll: -1.25818735e-12
+            Pitch: 43.656311
           }
           Scale {
             X: 0.7111848
@@ -170,14 +168,14 @@ Assets {
         Name: "Crescent - 02"
         Transform {
           Location {
-            X: -18.3574829
-            Y: -7.23370075
-            Z: 89.7685242
+            X: -30.5757523
+            Y: -7.23382616
+            Z: 93.2283325
           }
           Rotation {
             Pitch: -38.068512
             Yaw: 129.880249
-            Roll: 33.7251
+            Roll: 33.7251511
           }
           Scale {
             X: 0.722430289
@@ -228,14 +226,14 @@ Assets {
         Name: "Cylinder - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 15.5305185
-            Y: 2.55305338
-            Z: 3.94508243e-06
+            X: 26.4636955
+            Y: 2.55298185
+            Z: 8.24957752
           }
           Rotation {
-            Pitch: 90
-            Yaw: 6.83018879e-06
-            Roll: 1.36603812e-05
+            Pitch: 54.7641
+            Yaw: 179.999893
+            Roll: 179.999893
           }
           Scale {
             X: 0.308914363
@@ -278,18 +276,17 @@ Assets {
         Name: "Ring - Thin"
         Transform {
           Location {
-            X: -4.95245457
-            Y: 2.61950421
-            Z: 41.7652321
+            X: -14.3621883
+            Y: 2.61968899
+            Z: 30.5451984
           }
           Rotation {
-            Pitch: -61.0033607
-            Yaw: -3.0517569e-05
-            Roll: 1.70905441e-05
+            Pitch: -25.7678833
+            Roll: 5.0175182e-05
           }
           Scale {
             X: 0.755399823
-            Y: 0.549365342
+            Y: 0.549365401
             Z: 1.00000024
           }
         }
@@ -328,14 +325,14 @@ Assets {
         Name: "Cylinder - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 16.976923
-            Y: 2.55305195
-            Z: -4.52250242e-06
+            X: 27.6440754
+            Y: 2.55298042
+            Z: 9.0842762
           }
           Rotation {
-            Pitch: 90
-            Yaw: 6.83018879e-06
-            Roll: 1.36603812e-05
+            Pitch: 54.7641
+            Yaw: 179.999893
+            Roll: 179.999893
           }
           Scale {
             X: 0.192225948

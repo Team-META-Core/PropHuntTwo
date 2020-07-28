@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 8130133228003196274
         UnregisteredParameters {
           Overrides {
@@ -79,16 +79,17 @@ Assets {
         Name: "The_SuperFroggy_Hat"
         Transform {
           Location {
-            X: -11.2707767
-            Y: 1.01176656e-05
-            Z: 9.9682312
+            X: 3.03102875
+            Y: -5.8073033e-06
+            Z: 13.907279
           }
           Rotation {
+            Pitch: 6.83018879e-06
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.462148726
+            Y: 0.462148726
+            Z: 0.462148726
           }
         }
         ParentId: 11659333264137114060
@@ -229,7 +230,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 8922181765049886
+            Id: 5133116907795621363
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -401,12 +402,12 @@ Assets {
       }
     }
     Assets {
-      Id: 8922181765049886
-      Name: "Text 01: F"
+      Id: 5133116907795621363
+      Name: "Text 01: P"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "F1_Text_005"
+        AssetId: "F1_Text_015"
       }
     }
     Assets {

@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 16841385868699865544
         UnregisteredParameters {
           Overrides {
@@ -79,16 +79,19 @@ Assets {
         Name: "Casino Dice"
         Transform {
           Location {
-            X: 6.53012848
-            Y: -33.5303383
-            Z: -16.0448055
+            X: 2.39199615
+            Y: -11.9865751
+            Z: 0.686661959
           }
           Rotation {
+            Pitch: 8.11278248
+            Yaw: 3.13544746e-08
+            Roll: 9.01439762e-06
           }
           Scale {
-            X: 14
-            Y: 14
-            Z: 14
+            X: 5.51704311
+            Y: 5.51704311
+            Z: 5.51704311
           }
         }
         ParentId: 5257750325823734162
@@ -610,8 +613,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351562e-05
-            Roll: -0.000122070312
+            Yaw: -6.10351563e-05
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008
@@ -901,8 +904,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351562e-05
-            Roll: -0.000122070312
+            Yaw: -6.10351563e-05
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008
@@ -960,7 +963,7 @@ Assets {
           Rotation {
             Pitch: 90
             Yaw: -9.15527344e-05
-            Roll: -0.000122070312
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008
@@ -1018,7 +1021,7 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 0.008
@@ -1077,7 +1080,7 @@ Assets {
           Rotation {
             Pitch: 90
             Yaw: -9.15527344e-05
-            Roll: -0.000122070312
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008

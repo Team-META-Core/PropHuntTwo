@@ -18,6 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 137163843944884037
         ChildIds: 16663820637058996828
+        ChildIds: 1358406188378813247
         ChildIds: 12630555470617677516
         WantsNetworking: true
         Collidable_v2 {
@@ -74,7 +75,7 @@ Assets {
           Overrides {
             Name: "cs:Geo"
             ObjectReference {
-              SubObjectId: 12630555470617677516
+              SubObjectId: 1358406188378813247
             }
           }
         }
@@ -125,40 +126,6 @@ Assets {
         }
       }
       Objects {
-        Id: 12630555470617677516
-        Name: "Refrigerator"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17631206416640956265
-        ChildIds: 1358406188378813247
-        ChildIds: 15222527215433170718
-        ChildIds: 14132043738822462101
-        ChildIds: 15587648519869323696
-        ChildIds: 2625648977107620035
-        ChildIds: 3608337192549919365
-        ChildIds: 4256450045010200578
-        ChildIds: 1287604241156010004
-        ChildIds: 15896404194307750154
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
         Id: 1358406188378813247
         Name: "Cube - Rounded Bottom-Aligned"
         Transform {
@@ -172,7 +139,7 @@ Assets {
             Z: 3.27810979
           }
         }
-        ParentId: 12630555470617677516
+        ParentId: 17631206416640956265
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -193,8 +160,9 @@ Assets {
             Float: 0.267971128
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -211,6 +179,39 @@ Assets {
             Physics {
             }
           }
+        }
+      }
+      Objects {
+        Id: 12630555470617677516
+        Name: "Refrigerator"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17631206416640956265
+        ChildIds: 15222527215433170718
+        ChildIds: 14132043738822462101
+        ChildIds: 15587648519869323696
+        ChildIds: 2625648977107620035
+        ChildIds: 3608337192549919365
+        ChildIds: 4256450045010200578
+        ChildIds: 1287604241156010004
+        ChildIds: 15896404194307750154
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
         }
       }
       Objects {
@@ -318,7 +319,7 @@ Assets {
         Transform {
           Location {
             X: 9.88336182
-            Y: 0.758789062
+            Y: 0.758789063
             Z: 202.319305
           }
           Rotation {

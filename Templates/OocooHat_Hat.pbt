@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 17210332515630383228
         UnregisteredParameters {
           Overrides {
@@ -79,16 +79,19 @@ Assets {
         Name: "The_Oocoo_Hat"
         Transform {
           Location {
-            X: 40.7311211
-            Y: -3.8869086e-05
-            Z: -23.6345882
+            X: 14.859149
+            Y: -1.69310097e-05
+            Z: 6.16415405
           }
           Rotation {
+            Pitch: 8.77717495
+            Yaw: 1.25359048e-08
+            Roll: 9.34020954e-06
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.317363352
+            Y: 0.317363352
+            Z: 0.317363352
           }
         }
         ParentId: 2525265876912424420
@@ -412,7 +415,7 @@ Assets {
         Name: "Horn"
         Transform {
           Location {
-            X: 12.1938476
+            X: 12.1938477
             Y: -19.2206116
             Z: 34.9232941
           }
@@ -461,7 +464,7 @@ Assets {
         Name: "Horn"
         Transform {
           Location {
-            X: 12.1938476
+            X: 12.1938477
             Y: 16.1900024
             Z: 34.9232941
           }
