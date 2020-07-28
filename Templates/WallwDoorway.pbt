@@ -1151,7 +1151,7 @@ Assets {
         Name: "MetalLarge"
         Transform {
           Location {
-            X: 435.098144
+            X: 435.098145
             Y: 0.107910156
             Z: 336.251587
           }
@@ -7216,7 +7216,7 @@ Assets {
         Name: "MetalLarge"
         Transform {
           Location {
-            X: -128.754394
+            X: -128.754395
             Y: -0.221191406
             Z: 306.217102
           }

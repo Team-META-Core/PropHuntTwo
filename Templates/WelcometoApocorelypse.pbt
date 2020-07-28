@@ -2323,7 +2323,7 @@ Assets {
           }
           Rotation {
             Pitch: -79.1997681
-            Yaw: -0.000122070312
+            Yaw: -0.000122070313
             Roll: 0.000100289741
           }
           Scale {
@@ -2768,7 +2768,7 @@ Assets {
         Transform {
           Location {
             X: 150.330444
-            Y: -9.40820312
+            Y: -9.40820313
             Z: 63.8272705
           }
           Rotation {
@@ -2923,7 +2923,7 @@ Assets {
         Transform {
           Location {
             X: 25.6959229
-            Y: 9.05664062
+            Y: 9.05664063
             Z: 254.020752
           }
           Rotation {
@@ -3425,7 +3425,7 @@ Assets {
         Name: "Text 01: E"
         Transform {
           Location {
-            X: 206.504394
+            X: 206.504395
             Y: -2.3359375
           }
           Rotation {
@@ -3604,7 +3604,7 @@ Assets {
         Transform {
           Location {
             X: 22.288208
-            Y: 1.01757812
+            Y: 1.01757813
           }
           Rotation {
           }
