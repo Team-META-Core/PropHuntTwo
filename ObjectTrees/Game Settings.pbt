@@ -195,6 +195,47 @@ Objects {
   }
 }
 Objects {
+  Id: 482818678012104503
+  Name: "TEST List"
+  Transform {
+    Location {
+      X: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17529553273266790737
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:1"
+      AssetReference {
+        Id: 13583994401163248495
+      }
+    }
+    Overrides {
+      Name: "cs:2"
+      AssetReference {
+        Id: 259452794181121999
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Props List"
+  }
+}
+Objects {
   Id: 15651153389458545102
   Name: "Props List"
   Transform {
@@ -250,7 +291,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Props List"
+    FilePartitionName: "Props List_1"
   }
 }
 Objects {

@@ -1,6 +1,47 @@
 Name: "Ben"
 RootId: 8647594342684677069
 Objects {
+  Id: 15228904848152820202
+  Name: "WearableProps(Optimized)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8647594342684677069
+  Collidable_v2 {
+  }
+  Visible_v2 {
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 173346688389301831
+      value {
+        Overrides {
+          Name: "Name"
+          String: "WearableProps(Optimized)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 424.480164
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 717395080542816507
+    }
+  }
+}
+Objects {
   Id: 2503121639083604284
   Name: "Prop Equipment"
   Transform {
@@ -46,15 +87,13 @@ Objects {
   Name: "mannequin_guy"
   Transform {
     Location {
-      Y: 95
-      Z: -3424.73193
     }
     Rotation {
     }
     Scale {
-      X: 0.65
-      Y: 0.65
-      Z: 0.65
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
     }
   }
   ParentId: 8647594342684677069

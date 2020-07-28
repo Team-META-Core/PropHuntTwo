@@ -4,9 +4,14 @@ local ABGS = require(script:GetCustomProperty("API"))
 local DeadPlayersArea = script:GetCustomProperty("DeadPlayersArea"):WaitForObject()
 local PlayerPointsSettings = script:GetCustomProperty("PlayerPointsSettings"):WaitForObject()
 
-
 local FlashVFX = script:GetCustomProperty("FlashVFX")
 local deathVFX = script:GetCustomProperty("PropDeathVFX")
+
+print("Death reference: "..deathVFX)
+
+local captures = string.match(deathVFX, ":([%w%s_]+)$")
+print("Captures: "..tostring(captures).." | "..type(captures))
+
 
 local WeaponTemplate = script:GetCustomProperty("WeaponTemplate")
 local GrenadeTemplate = script:GetCustomProperty("GrenadeTemplate")
@@ -18,14 +23,19 @@ local FirstPersonPlayerSettings = script:GetCustomProperty("FirstPersonPlayerSet
 local propTeam = {} -- for tracking the props objects attached to the prop team and for tracking the teams key inputs
 local seekerTeam = {} -- for tracking the weapon equipment of the seeker team
 
-local propsListReference = script:GetCustomProperty("PropsList") -- get reference to PropsList
-local propsListObject = propsListReference:GetObject() -- get actualy PropsList object
-local propsList = propsListObject:GetChildren() -- get list of Props (core objects)
+--local propsListReference = script:GetCustomProperty("PropsList") -- get reference to PropsList
+local propsListObject = script:GetCustomProperty("PropsList"):WaitForObject() -- get actualy PropsList object
+local propsList = {} -- list of prop template references
 local startingProps = {} -- this is used so that each player on the prop team gets a different starting prop
-local masterList = {}
+
+-- populate propsList
+for name, value in pairs(propsListObject:GetCustomProperties()) do
+	table.insert(propsList, value)
+end
 
 function ResetStartingProps()
 	-- copy propsList to startingProps
+	startingProps = {}
 	for i=0, #propsList do
 		startingProps[i] = propsList[i]
 	end
@@ -38,15 +48,22 @@ function OnPlayerJoin(player)
 	
 	-- disable mounting for all players
 	player.canMount = false
-	
-	-- NEED TO ADD LOGIC FOR WHEN A PLAYER JOIN IN THE MIDDLE OF GAME
-	
-	--GivePlayerEquipment(player) -- for seeker team members
-	--GivePlayerProp(player) -- for prop team members
-	
+		
 	-- Setup up player event connections
 	player.diedEvent:Connect(OnPlayerDied)
 	player.respawnedEvent:Connect(OnPlayerRespawn)
+	
+	
+	--local otherTeam = 3-player.team
+	local playerTeamPlayers = Game.GetPlayers({ignoreTeams=(3-player.team)})
+	local otherTeamPlayers = Game.GetPlayers({ignoreTeams=player.team})
+	print("PlayerTeam: "..tostring(#playerTeamPlayers).." | OtherTeam: "..tostring(#otherTeamPlayers))
+	
+	if #playerTeamPlayers - #otherTeamPlayers >= 2 then
+		player.team = 3-player.team
+		print(player.name.." was switched to team "..tostring(player.team))
+	end
+
 	
 	local CurrentGameState = ABGS.GetGameState()
 	-- Respawn is happening in the Round, Scoreboard and Lobby states
@@ -57,21 +74,32 @@ function OnPlayerJoin(player)
 		player:Die()
 		Task.Wait()
 	end
+	print("\n")
 end
 
 function OnPlayerRespawn(player)
 	print("Ready to do player respawn stuff for "..player.name)
-	print("--- "..player.name.." has "..tostring(player:GetResource("Points")).." points")
+	--print("--- "..player.name.." has "..tostring(player:GetResource("Points")).." points")
 	local CurrentGameState = ABGS.GetGameState()
 	player.movementControlMode = MovementControlMode.NONE -- disable player input so they can't move
+	--print("PropTeam SERVER: "..tostring(PropTeamTracker:GetCustomProperty("PropTeam")))
+	
 	-- Broadcast respawn event to client, since OnPlayerRespawn is server only
-	local result = Events.BroadcastToPlayer(player, "PlayerRespawned", CurrentGameState)
+	local result = Events.BroadcastToPlayer(player, "PlayerRespawned", CurrentGameState, PropTeamTracker:GetCustomProperty("PropTeam"))
 	Task.Wait()
 	-- Remove any props or equipped weapons
 	RemovePlayerEquipment(player)
 	RemovePlayerProp(player)
-		
+	
+	local showPlayer = true
+	local showAttachments = true
+	
+	player:SetVisibility(showPlayer, showAttachments) -- Hide player visuals
+	player.isCrouchEnabled = true
+	
+	
 	if CurrentGameState ~= ABGS.GAME_STATE_LOBBY then
+		print("CURRENT STATE: "..tostring(CurrentGameState))
 		-- Give either a prop or weapon
 		GivePlayerProp(player)
 		GivePlayerEquipment(player)
@@ -90,15 +118,16 @@ function OnPlayerDied(player)
 	Task.Wait()
 	-- Let the client know the player died
 	Events.BroadcastToPlayer(player, "PlayerDied_Internal")
+	Task.Wait(0.1)
 	-- move dead player off the map so other players don't collide with them
 	local newPosition = DeadPlayersArea:GetWorldPosition()
 	player:SetWorldPosition(newPosition)
 end
 
 function OnPlayerLeft(player)
+	print(player.name .. " has left")
 	RemovePlayerEquipment(player)
 	RemovePlayerProp(player)	
-	print(player.name .. " has left")
 end
 
 -- Gives the referenced equipment to the player
@@ -175,7 +204,7 @@ function RemovePlayerEquipment(player)
 			equipment:Destroy()
 		end
 	end
-	
+	player.animationStance = "unarmed_stance"
 end
 
 function GivePlayerProp(player)
@@ -195,13 +224,18 @@ function GivePlayerProp(player)
 	
 	-- GET A RANDOM PROP
 	local randomValue = math.random(1,#startingProps) -- get a random number from 1 to the size of the table
-	local propObject = startingProps[randomValue] -- get random Prop from list
+	local propObject = World.SpawnAsset(startingProps[randomValue], {position=player:GetWorldPosition()})  -- get random Prop from list
 	table.remove(startingProps, randomValue) -- remove prop from list; this way each player will get a different prop to start with
+	
+	if #startingProps == 0 then
+		--Task.Spawn(function () ResetStartingProps() end, 0)
+		ResetStartingProps()
+	end
 	
 	-- SET PLAYER SCALE to match prop; have to do this before attaching prop otherwise the prop will also get scaled
 	local playerScale = propObject:GetCustomProperty("PlayerScale") 
-	if(playerScale == nil) then
-		error("Prop object's PlayerScale property missing for "..propObject.name)
+	if(playerScale == nil or playerScale == 0) then
+		error("Prop object's PlayerScale property missing or 0 for "..propObject.name)
 	end
 	
 	player:SetWorldScale(Vector3.New(playerScale)) -- Set world scale
@@ -217,16 +251,17 @@ function GivePlayerProp(player)
 	end
 	
 	-- ATTACH RANDOM PROP
-	local propAssetReference = propObject:GetCustomProperty("SelfReference") -- Each prop object has an Assest Reference to it self
+	--print("TemplateID: "..propObject.sourceTemplateId)
+	--local propAssetReference = propObject.sourceTemplateId --:GetCustomProperty("SelfReference") -- Each prop object has an Assest Reference to it self
 	
-	if(propAssetReference == nil) then
-		error("Prop object's SelfReference property missing for "..propObject.name)
-	end
+	--if(propAssetReference == nil) then
+		--error("Prop object's SelfReference property missing for "..propObject.name)
+	--end
 	
-	local propAttachment = World.SpawnAsset(propAssetReference) -- Spawn the prop
+	--local propAttachment = World.SpawnAsset(propAssetReference) -- Spawn the prop
 	
-	propAttachment:AttachToPlayer(player, "root") -- Attach prop to player
-	propTeam[player]={["prop"]=propAttachment} -- Add to table for tracking purposes; this way we can Destroy it later
+	propObject:Equip(player) --AttachToPlayer(player, "root") -- Attach prop to player
+	propTeam[player]={["prop"]=propObject} -- Add to table for tracking purposes; this way we can Destroy it later
 	--print("Attached "..propObject.name)
 	
 	
@@ -249,20 +284,23 @@ function RemovePlayerProp(player)
 		Task.Wait()
 		
 		-- Detach prop
-		propTeam[player]["prop"]:Detach()
+		propTeam[player]["prop"]:Unequip() --:Detach()
 		
 		-- Spawn death vfx
-		local playerScale = player:GetWorldScale()
-		local playerPosition = player:GetWorldPosition()
+		local VFX_Scale = Vector3.ONE
+		if player:IsValid() then
+			VFX_Scale = player:GetWorldScale()
+		end
+		--local playerPosition = player:GetWorldPosition()
 		-- Need the vfx to spawn at the players feet
-		local vfxPosition = Vector3.New(playerPosition.x, playerPosition.y, playerPosition.z-(100*playerScale.x))
-		World.SpawnAsset(deathVFX, {position = vfxPosition, scale = playerScale})
+		--local vfxPosition = Vector3.New(playerPosition.x, playerPosition.y, playerPosition.z-(100*playerScale.x))
+		--World.SpawnAsset(deathVFX, {position = vfxPosition, scale = playerScale})
+		World.SpawnAsset(deathVFX, {position = propTeam[player]["prop"]:GetWorldPosition(), scale = VFX_Scale})
 		
 		-- Destroy prop
-		if propTeam[player]["prop"]:IsValid() then
+		if Object.IsValid(propTeam[player]["prop"]) then
 			propTeam[player]["prop"]:Destroy()
 		end
-		
 				
 		-- Remove entries from table
 		propTeam[player] = nil
@@ -275,26 +313,27 @@ end
 function OnStateChanged (oldState, newState)
 	-- If state is Round or Scoreboard respawn all players	
 	if (newState == ABGS.GAME_STATE_SCOREBOARD and oldState ~= ABGS.GAME_STATE_SCOREBOARD) or (newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND) then
-		
+				
 		if(newState == ABGS.GAME_STATE_SCOREBOARD) then
 			-- Change the prop team 
-			Events.Broadcast("PropTeamChanged")
+			--Events.Broadcast("PropTeamChanged")
+			ChangePropTeam()
 		end
-		Task.Wait()
+		Task.Wait(1)
 		ResetStartingProps()
 		
 		-- Respawn all players
 		local numPlayers = #Game.GetPlayers()
 		print("%% Respawning "..numPlayers.." players")
-		local perPlayerDelay = 1 --2 / numPlayers
+		local perPlayerDelay = 0.1 --2 / numPlayers
 		for _, player in pairs(Game.GetPlayers()) do
 			player:Respawn() -- OnRespawn event will handle equipment and attachments
 			player.movementControlMode = MovementControlMode.NONE -- disable player input so they can't move
 			player:ResetVelocity() -- not sure if this is already added in the Respawn code
+			Task.Wait()
 			-- Disable abilities
-			local abilities = player:GetAbilities()
-		
-			for _, ability in pairs(abilities) do
+			for _, ability in ipairs(player:GetAbilities()) do
+				print(">>>> disabling "..ability.name)
 				ability.isEnabled = false
 			end
 			Task.Wait(perPlayerDelay)
@@ -304,8 +343,10 @@ function OnStateChanged (oldState, newState)
 	-- This way when the prop team spawns (or joins) they will each get a different starting prop
 	elseif (newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_ROUND_END) then
 		ResetStartingProps()
-		Events.Broadcast("PropTeamChanged")
+		--Events.Broadcast("PropTeamChanged")
 		Task.Wait()
+		ChangePropTeam()
+		
 	elseif newState == ABGS.GAME_STATE_HIDE and oldState ~= ABGS.GAME_STATE_HIDE then
 		-- Enable prop team movement and abilities
 		local CurrentPropTeam = PropTeamTracker:GetCustomProperty("PropTeam")
@@ -320,6 +361,31 @@ function OnStateChanged (oldState, newState)
 		-- Disable both teams' movement and abilities
 		ChangePlayersMovementMode("all", "disable") -- pass true so their weapons are removed; this way they can't keep shooting props
 		ChangePlayerAbilities("all", false)
+		
+		print("-------------Checking for team balancing")
+		Task.Wait(0.05)
+		local Team1 = Game.GetPlayers({includeTeams=1})
+		local Team2 = Game.GetPlayers({includeTeams=2})
+		
+		print("Team1: "..#Team1.." | Team2: "..#Team2)
+		
+		while #Team1-#Team2 >= 2 do -- Team1 is bigger
+			local randomIndex = math.random(1, #Team1)
+			local randomPlayer = Team1[randomIndex]
+			randomPlayer.team = 2 -- change team to 2
+			Team1 = Game.GetPlayers({includeTeams=1})
+			Team2 = Game.GetPlayers({includeTeams=2})
+			print(randomPlayer.name.." was switched to Team 2")
+		end
+		
+		while #Team2-#Team1 >= 2 do -- Team2 is bigger
+			local randomIndex = math.random(1, #Team2)
+			local randomPlayer = Team2[randomIndex]
+			randomPlayer.team = 1 -- change team to 1
+			Team1 = Game.GetPlayers({includeTeams=1})
+			Team2 = Game.GetPlayers({includeTeams=2})
+			print(randomPlayer.name.." was switched to Team 1")
+		end
 	end 
 end
 
@@ -377,7 +443,7 @@ function OnChangeProp(ability)
 		local previousProp = propTeam[ability.owner]["prop"].name
 		
 		-- Detach prop
-		propTeam[ability.owner]["prop"]:Detach()
+		propTeam[ability.owner]["prop"]:Unequip()
 		
 		-- Destroy prop
 		if propTeam[ability.owner]["prop"]:IsValid() then
@@ -386,18 +452,18 @@ function OnChangeProp(ability)
 		
 		propTeam[ability.owner]["prop"]=nil
 				
+		-- get a random prop that is not the same as the previous one the player had
 		local randomValue = math.random(1,#propsList)
-		
-		for i=0, 100 do
-			if propsList[randomValue].name ~= previousProp then
-				i=100
-			else
-				randomValue = math.random(1,#propsList)
-			end
+		local objectName = string.match(propsList[randomValue], ":([%w%s_]+)$")
+		while objectName == previousProp do
+			randomValue = math.random(1,#propsList)
+			objectName = string.match(propsList[randomValue], ":([%w%s_]+)$")
 		end
 		
+		local propAttachment = World.SpawnAsset(propsList[randomValue], {position=ability.owner:GetWorldPosition()}) -- Spawn the prop
+		
 		-- SET PLAYER SCALE to match prop; have to do this before attaching prop otherwise the prop will also get scaled
-		local playerScale = propsList[randomValue]:GetCustomProperty("PlayerScale") 
+		local playerScale = propAttachment:GetCustomProperty("PlayerScale") 
 		if(playerScale == nil) then
 			error("Prop object's PlayerScale property missing for "..propsList[randomValue].name)
 		end
@@ -412,46 +478,23 @@ function OnChangeProp(ability)
 			ability.owner:SetResource("PropSize", PlayerPointsSettings:GetCustomProperty("LargePropBonus"))
 		end
 			
-		ability.owner:SetWorldScale(Vector3.New(playerScale)) -- Set world scale
+		ability.owner:SetWorldScale(Vector3.New(playerScale)) -- Set world scale		
 		
-		local propAssetReference = propsList[randomValue]:GetCustomProperty("SelfReference") --PROPOBJECT:GetCustomProperty("SelfReference") -- Each prop object has an Assest Reference to it self
-		
-		if(propAssetReference == nil) then
-			error("Prop object's SelfReference property missing for "..propsList[randomValue].name)
-		end
-		
-		local propAttachment = World.SpawnAsset(propAssetReference) -- Spawn the prop
-	
-		propAttachment:AttachToPlayer(ability.owner, "root") -- Attach prop to player
-		
-		--propTeam[ability.owner]["changingProp"] = false
-		--Task.Wait()
-		
+		propAttachment:Equip(ability.owner) -- Attach prop to player
+				
 		propTeam[ability.owner]={["prop"]=propAttachment} -- Add to table for tracking purposes; this way we can Destroy it later
 		Task.Wait()	
 		
+		-- remove Changes resource
 		ability.owner:RemoveResource("Changes", 1)
-		--ability:SetNetworkedCustomProperty("ChangesLeft", ChangesLeft-1)
 		
 		-- Reset Decoy and Flash abilities
 		ability.owner:SetResource("Flashes", 1)
 		ability.owner:SetResource("Decoys", 3)
-		
-		--[[
-		local playerAbilities = ability.owner:GetAbilities()
-		for _, _ability in pairs(playerAbilities) do
-			if _ability.name=="Copy" then
-				_ability:SetNetworkedCustomProperty("DecoysLeft", 3)
-			elseif _ability.name=="Flash" then
-				_ability:SetNetworkedCustomProperty("FlashLeft", 1)
-			end
-		end --]]
-		
+				
 		propTeam[ability.owner]["changingProp"] = false
 		propTeam[ability.owner]["Q"] = 0
 		propTeam[ability.owner]["E"] = 0
-		--print("|| ChangingProp = "..tostring( propTeam[ability.owner]["changingProp"]).." | Player: "..ability.owner.name)	
-		--print("Q: "..propTeam[ability.owner]["Q"].."  E: "..propTeam[ability.owner]["E"])
 	end
 end
 
@@ -572,6 +615,18 @@ function ChangePlayerAbilities(team, mode)
 		--print("\n")
 	end
 	--print("==============================")
+end
+
+function ChangePropTeam()
+	print("**Changing prop team**")
+	local CurrentPropTeam = PropTeamTracker:GetCustomProperty("PropTeam")
+	if CurrentPropTeam == 1 then
+		PropTeamTracker:SetNetworkedCustomProperty("PropTeam", 2)
+	elseif CurrentPropTeam == 2 then
+		PropTeamTracker:SetNetworkedCustomProperty("PropTeam", 1)
+	else
+		error("Something went wrong with PropTeamTracker")
+	end
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoin)

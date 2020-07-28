@@ -5665,7 +5665,7 @@ Objects {
     Overrides {
       Name: "cs:APIBasicGameState"
       AssetReference {
-        Id: 17644774081127724442
+        Id: 11974742996071064388
       }
     }
     Overrides {
@@ -5773,7 +5773,7 @@ Objects {
     Overrides {
       Name: "cs:TeamTracker"
       ObjectReference {
-        SelfId: 18097577238547578950
+        SelfId: 2503064050131329070
       }
     }
     Overrides {
@@ -5836,13 +5836,13 @@ Objects {
     Overrides {
       Name: "cs:APIBasicGameState"
       AssetReference {
-        Id: 17644774081127724442
+        Id: 11974742996071064388
       }
     }
     Overrides {
       Name: "cs:TeamTracker"
       ObjectReference {
-        SelfId: 18097577238547578950
+        SelfId: 2503064050131329070
       }
     }
     Overrides {

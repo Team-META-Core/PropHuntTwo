@@ -1,5 +1,5 @@
-Id: 17644774081127724442
-Name: "APIBasicGameState"
+Id: 585859091384941120
+Name: "TEST SCRIPT"
 PlatformAssetType: 3
 TextAsset {
 }

@@ -28,6 +28,8 @@ local FADE_DURATION = 5.0
 local VERTICAL_SPACING = 0
 local currentLines = {}
 local function AddLine(killer, killed,source)
+    if not Object.IsValid(killer) then return end
+    
     curDur = LINE_DURATION
     --spawn new line at maximum
     local e = World.SpawnAsset(KILL_LINE,{parent = SPAWN_PANEL})
