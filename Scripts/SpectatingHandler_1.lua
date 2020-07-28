@@ -7,6 +7,7 @@ local isSpectating = false
 local PropPlayer
 
 function OnPlayerJoin(player)
+	if player ~= Game.GetLocalPlayer() then return end
 	Events.Connect("PlayerDied_Internal", OnPlayerDied)
 	Events.Connect("PlayerRespawned", OnPlayerRespawnClient)
 		
