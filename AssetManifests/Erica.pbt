@@ -683,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13608754677155394582
+  Name: "Terrain - Desert"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-sand_001_wa"
+  }
+}
+Assets {
   Id: 13560635218549589426
   Name: "Sand 01"
   PlatformAssetType: 2
@@ -698,6 +707,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x3m_angledR_001"
+  }
+}
+Assets {
+  Id: 13408400831664161508
+  Name: "Cylinder - Chamfered"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_chamfer"
   }
 }
 Assets {
@@ -1547,6 +1565,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8063868133702323256
+  Name: "Sphere - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_002"
+  }
+}
+Assets {
   Id: 7983192630700777426
   Name: "Text 01: E"
   PlatformAssetType: 1
@@ -1652,6 +1679,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_004"
+  }
+}
+Assets {
+  Id: 7472471145113470571
+  Name: "Weapon - Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_pipe_001"
   }
 }
 Assets {
