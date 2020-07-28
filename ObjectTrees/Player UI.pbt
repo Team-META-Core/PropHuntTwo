@@ -139,7 +139,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     RenderTransformPivot {
@@ -545,7 +545,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     RenderTransformPivot {
@@ -2061,5 +2061,89 @@ Objects {
     SubobjectId: 9955575906335302852
     InstanceId: 11748528984864353641
     TemplateId: 637190180383401097
+  }
+}
+Objects {
+  Id: 11656717092123692559
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15572289029792770222
+  ChildIds: 16467999762984544866
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 16467999762984544866
+  Name: "UIHiderScriptClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11656717092123692559
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:HealthBarCanvas"
+      ObjectReference {
+        SelfId: 6567411859225461450
+      }
+    }
+    Overrides {
+      Name: "cs:AmmoPanel"
+      ObjectReference {
+        SelfId: 11375720996956953702
+      }
+    }
+    Overrides {
+      Name: "cs:SeekerAbilitiesCanvas"
+      ObjectReference {
+        SelfId: 12359100323031972841
+      }
+    }
+    Overrides {
+      Name: "cs:PropTeamTracker"
+      ObjectReference {
+        SelfId: 2503064050131329070
+      }
+    }
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 17644774081127724442
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6320336288379642038
+    }
   }
 }
