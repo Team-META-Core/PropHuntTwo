@@ -809,7 +809,7 @@ Assets {
         Name: "Wedge - Convex Polished"
         Transform {
           Location {
-            X: 0.227539063
+            X: 0.227539062
             Y: 233.927734
             Z: 106.730942
           }
@@ -857,7 +857,7 @@ Assets {
         Name: "Wedge - Convex Polished"
         Transform {
           Location {
-            X: 0.227539063
+            X: 0.227539062
             Y: 236.065796
             Z: 114.136871
           }
@@ -1276,7 +1276,7 @@ Assets {
         Transform {
           Location {
             X: 101.162537
-            Y: -250.935059
+            Y: -250.935058
             Z: -57.0545197
           }
           Rotation {
@@ -3621,7 +3621,7 @@ Assets {
         Name: "Text 04: M"
         Transform {
           Location {
-            X: -69.9594727
+            X: -69.9594726
             Y: -0.653695
             Z: -39.5482521
           }

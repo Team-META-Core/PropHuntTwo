@@ -1845,7 +1845,7 @@ Assets {
         Name: "bigScope"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 1.45410156
             Z: 2.81152344
           }
@@ -2168,10 +2168,10 @@ Assets {
         Name: "Pipe"
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -89.999939
             Roll: 89.9999466
           }
@@ -2312,7 +2312,7 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: -598.545898
             Z: 2.81152344
           }
@@ -2888,7 +2888,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: -548.545898
             Z: -22.1884766
           }
@@ -4378,7 +4378,7 @@ Assets {
           Location {
             X: -100
             Y: -75
-            Z: 90.6313477
+            Z: 90.6313476
           }
           Rotation {
             Yaw: 179.999893
@@ -4426,7 +4426,7 @@ Assets {
           Location {
             X: -99.9996796
             Y: 93.9498444
-            Z: 90.6313477
+            Z: 90.6313476
           }
           Rotation {
             Yaw: 179.999893
@@ -4474,7 +4474,7 @@ Assets {
           Location {
             X: 100.00032
             Y: 93.9498444
-            Z: 90.6313477
+            Z: 90.6313476
           }
           Rotation {
             Yaw: 179.999893
@@ -4522,7 +4522,7 @@ Assets {
           Location {
             X: 100
             Y: -75
-            Z: 90.6313477
+            Z: 90.6313476
           }
           Rotation {
             Yaw: 179.999893
@@ -6580,7 +6580,7 @@ Assets {
           Location {
             X: -731.44458
             Y: -625.938965
-            Z: 734.219727
+            Z: 734.219726
           }
           Rotation {
             Yaw: -135.000122

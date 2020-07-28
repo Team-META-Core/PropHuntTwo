@@ -845,7 +845,7 @@ Assets {
         Transform {
           Location {
             X: -8124.60254
-            Y: -6547.37061
+            Y: -6547.3706
             Z: -1193.79065
           }
           Rotation {
@@ -1044,7 +1044,7 @@ Assets {
         Name: "Plane 4m - One Sided"
         Transform {
           Location {
-            X: -6343.85059
+            X: -6343.85058
             Y: -9548.50781
             Z: -1257.27686
           }
@@ -1165,7 +1165,7 @@ Assets {
         Transform {
           Location {
             X: -4499.20508
-            Y: -10734.6895
+            Y: -10734.6894
             Z: -1409.61707
           }
           Rotation {
@@ -1245,7 +1245,7 @@ Assets {
         Transform {
           Location {
             X: -2112.27344
-            Y: -10739.1143
+            Y: -10739.1142
             Z: -1414.89343
           }
           Rotation {
@@ -1966,7 +1966,7 @@ Assets {
           Location {
             X: 561.456543
             Y: 883.464844
-            Z: -1540.87061
+            Z: -1540.8706
           }
           Rotation {
             Yaw: -172.297165
@@ -2206,7 +2206,7 @@ Assets {
           Location {
             X: -1400.0686
             Y: 4235.74219
-            Z: -1622.72559
+            Z: -1622.72558
           }
           Rotation {
             Yaw: -85.7585373
@@ -2325,7 +2325,7 @@ Assets {
         Transform {
           Location {
             X: -3405.00659
-            Y: 3891.57813
+            Y: 3891.57812
             Z: -1561.05444
           }
           Rotation {
@@ -3057,7 +3057,7 @@ Assets {
         Transform {
           Location {
             X: -5107.63037
-            Y: -1276.77393
+            Y: -1276.77392
             Z: -1837.06982
           }
           Rotation {
@@ -3097,7 +3097,7 @@ Assets {
         Name: "Plane 4m - One Sided"
         Transform {
           Location {
-            X: -4795.84229
+            X: -4795.84228
             Y: -1898.82312
             Z: -2126.15332
           }
@@ -3391,7 +3391,7 @@ Assets {
           Location {
             X: -3934.21387
             Y: -1062.31372
-            Z: -2205.77393
+            Z: -2205.77392
           }
           Rotation {
             Pitch: -0.743835449
@@ -3989,7 +3989,7 @@ Assets {
         Name: "Plane 4m - One Sided"
         Transform {
           Location {
-            X: -2201.32813
+            X: -2201.32812
             Y: -2553.17676
             Z: -742.173584
           }
@@ -4029,7 +4029,7 @@ Assets {
         Name: "Plane 4m - One Sided"
         Transform {
           Location {
-            X: -2201.32813
+            X: -2201.32812
             Y: -2553.17676
             Z: -742.173584
           }
@@ -4274,7 +4274,7 @@ Assets {
         Transform {
           Location {
             X: -1793.00708
-            Y: 1833.14893
+            Y: 1833.14892
             Z: -1919.27295
           }
           Rotation {
@@ -4313,7 +4313,7 @@ Assets {
         Transform {
           Location {
             X: -1793.00708
-            Y: 1833.14893
+            Y: 1833.14892
             Z: -1919.27295
           }
           Rotation {
@@ -4352,7 +4352,7 @@ Assets {
         Transform {
           Location {
             X: -1793.00708
-            Y: 1833.14893
+            Y: 1833.14892
             Z: -1300.70776
           }
           Rotation {
@@ -4706,7 +4706,7 @@ Assets {
         Transform {
           Location {
             X: -6580.2
-            Y: -5467.43311
+            Y: -5467.4331
             Z: -1993.79456
           }
           Rotation {
@@ -5338,7 +5338,7 @@ Assets {
         Transform {
           Location {
             X: -1535.22021
-            Y: -5506.99561
+            Y: -5506.9956
             Z: -1227.59363
           }
           Rotation {
@@ -5457,7 +5457,7 @@ Assets {
         Transform {
           Location {
             X: -1888.20093
-            Y: -3636.10059
+            Y: -3636.10058
             Z: -982.621704
           }
           Rotation {
@@ -6323,7 +6323,7 @@ Assets {
         Transform {
           Location {
             X: -7569.83057
-            Y: -6989.05811
+            Y: -6989.0581
             Z: -1866.67383
           }
           Rotation {

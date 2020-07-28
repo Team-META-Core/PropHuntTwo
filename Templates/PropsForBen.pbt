@@ -4100,7 +4100,7 @@ Assets {
         Transform {
           Location {
             X: 124.549011
-            Y: 105.223145
+            Y: 105.223144
           }
           Rotation {
           }
@@ -8526,7 +8526,7 @@ Assets {
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: -2.29882813
+            X: -2.29882812
             Y: 17.4803
             Z: 166.176605
           }

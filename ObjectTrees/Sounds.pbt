@@ -1,7 +1,7 @@
 Name: "Sounds"
-RootId: 16045707350537986217
+RootId: 2907856011737148002
 Objects {
-  Id: 5760562628142920040
+  Id: 3106252224856042330
   Name: "Object Wood Creak 01 SFX"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16045707350537986217
+  ParentId: 2907856011737148002
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -44,7 +44,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3369492622418844370
+  Id: 14829541248957773709
   Name: "Object Wood Creak 02 SFX"
   Transform {
     Location {
@@ -57,7 +57,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16045707350537986217
+  ParentId: 2907856011737148002
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -86,7 +86,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8443822821334659481
+  Id: 14545135581094807899
   Name: "Object Wood Creak 01 SFX"
   Transform {
     Location {
@@ -99,7 +99,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16045707350537986217
+  ParentId: 2907856011737148002
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -129,7 +129,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11288992286974650997
+  Id: 3286702324333226753
   Name: "Sail Flag Parachute Cloth Open 01 SFX"
   Transform {
     Location {
@@ -142,7 +142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16045707350537986217
+  ParentId: 2907856011737148002
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -171,7 +171,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2707322273434098779
+  Id: 10448316415812522497
   Name: "Mechanical Wood Metal Gears Squeaky 01 SFX"
   Transform {
     Location {
@@ -184,7 +184,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16045707350537986217
+  ParentId: 2907856011737148002
   UnregisteredParameters {
   }
   Collidable_v2 {

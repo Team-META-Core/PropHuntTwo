@@ -94,7 +94,7 @@ Assets {
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 34.8164063
+            X: 34.8164062
             Y: 3.22192383
             Z: -0.453605652
           }
@@ -151,7 +151,7 @@ Assets {
         Transform {
           Location {
             X: -0.735595703
-            Y: -22.8007813
+            Y: -22.8007812
             Z: -0.453575134
           }
           Rotation {
@@ -207,7 +207,7 @@ Assets {
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -34.7382813
+            X: -34.7382812
             Y: 3.22192383
             Z: -0.453605652
           }
@@ -693,8 +693,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -752,8 +752,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -811,8 +811,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -870,8 +870,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -1353,8 +1353,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -1412,8 +1412,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -1471,8 +1471,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -1530,8 +1530,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
-            Roll: -6.10351563e-05
+            Yaw: -6.10351562e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.0193514209
@@ -1583,7 +1583,7 @@ Assets {
         Name: "Decor"
         Transform {
           Location {
-            X: 0.0200195313
+            X: 0.0200195312
             Y: 3.22216797
             Z: -38.0283737
           }
