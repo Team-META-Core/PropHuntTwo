@@ -110,7 +110,7 @@ Assets {
         Transform {
           Location {
             X: 0.384521484
-            Y: -0.958007812
+            Y: -0.958007813
           }
           Rotation {
           }
@@ -148,7 +148,7 @@ Assets {
         Transform {
           Location {
             X: 0.384521484
-            Y: -0.958007812
+            Y: -0.958007813
             Z: 315.618256
           }
           Rotation {
@@ -188,7 +188,7 @@ Assets {
         Transform {
           Location {
             X: 0.384521484
-            Y: -0.958007812
+            Y: -0.958007813
             Z: 315.618256
           }
           Rotation {
@@ -352,7 +352,7 @@ Assets {
         Transform {
           Location {
             X: 1.44604492
-            Y: -338.778808
+            Y: -338.778809
           }
           Rotation {
           }
@@ -382,7 +382,7 @@ Assets {
         Transform {
           Location {
             X: 0.384521484
-            Y: -0.958007812
+            Y: -0.958007813
           }
           Rotation {
           }
@@ -420,7 +420,7 @@ Assets {
         Transform {
           Location {
             X: 0.384521484
-            Y: -0.958007812
+            Y: -0.958007813
             Z: 315.618256
           }
           Rotation {
@@ -460,7 +460,7 @@ Assets {
         Transform {
           Location {
             X: 0.384521484
-            Y: -0.958007812
+            Y: -0.958007813
             Z: 315.618256
           }
           Rotation {
@@ -661,7 +661,7 @@ Assets {
           Location {
             X: 9.75585938
             Y: -83.7641602
-            Z: -0.000122070312
+            Z: -0.000122070313
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -715,7 +715,7 @@ Assets {
           Location {
             X: 9.75634766
             Y: 101.890137
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -822,7 +822,7 @@ Assets {
           Location {
             X: -5.00073242
             Y: -114.655273
-            Z: 6.10351562e-05
+            Z: 6.10351563e-05
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -876,7 +876,7 @@ Assets {
           Location {
             X: -5.00048828
             Y: 79.8676758
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -1361,7 +1361,7 @@ Assets {
         Transform {
           Location {
             X: 9.75732422
-            Y: 433.976562
+            Y: 433.976563
             Z: 0.000244140625
           }
           Rotation {
@@ -1469,7 +1469,7 @@ Assets {
         Transform {
           Location {
             X: -5.00048828
-            Y: 411.969726
+            Y: 411.969727
             Z: -0.000305175781
           }
           Rotation {
@@ -1632,7 +1632,7 @@ Assets {
           Location {
             X: -5.00048828
             Y: -373.555176
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -1686,7 +1686,7 @@ Assets {
           Location {
             X: -5.00048828
             Y: -419.375
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -1739,8 +1739,8 @@ Assets {
         Transform {
           Location {
             X: -5.00048828
-            Y: -404.535644
-            Z: 0.000122070312
+            Y: -404.535645
+            Z: 0.000122070313
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -1794,7 +1794,7 @@ Assets {
           Location {
             X: -5.00048828
             Y: -389.11084
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Pitch: 3.4150944e-05
@@ -1846,7 +1846,7 @@ Assets {
         Name: "pump"
         Transform {
           Location {
-            X: -2.75976562
+            X: -2.75976563
             Y: -56.105957
             Z: 19.5129089
           }

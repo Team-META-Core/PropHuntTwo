@@ -344,8 +344,9 @@ function OnStateChanged (oldState, newState)
 	elseif (newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_ROUND_END) then
 		ResetStartingProps()
 		--Events.Broadcast("PropTeamChanged")
-		ChangePropTeam()
 		Task.Wait()
+		ChangePropTeam()
+		
 	elseif newState == ABGS.GAME_STATE_HIDE and oldState ~= ABGS.GAME_STATE_HIDE then
 		-- Enable prop team movement and abilities
 		local CurrentPropTeam = PropTeamTracker:GetCustomProperty("PropTeam")

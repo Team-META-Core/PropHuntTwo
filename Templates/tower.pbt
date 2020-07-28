@@ -58,7 +58,7 @@ Assets {
         Name: "I-Beam 4m"
         Transform {
           Location {
-            X: 359.997558
+            X: 359.997559
             Y: -383.402588
             Z: 1300
           }
@@ -102,7 +102,7 @@ Assets {
         Name: "Large Girder 8m x 6m"
         Transform {
           Location {
-            X: 359.997558
+            X: 359.997559
             Y: -383.402588
             Z: 660
           }
@@ -142,7 +142,7 @@ Assets {
         Name: "I-Beam 4m"
         Transform {
           Location {
-            X: 359.997558
+            X: 359.997559
             Y: -1183.40234
             Z: 1300
           }
@@ -184,7 +184,7 @@ Assets {
         Name: "Large Girder 8m x 6m"
         Transform {
           Location {
-            X: 359.997558
+            X: 359.997559
             Y: -1183.40234
             Z: 660
           }
@@ -306,7 +306,7 @@ Assets {
         Name: "I-Beam 4m"
         Transform {
           Location {
-            X: 359.997558
+            X: 359.997559
             Y: -1183.40259
             Z: 1300
           }
@@ -348,7 +348,7 @@ Assets {
         Name: "Large Girder 8m x 6m"
         Transform {
           Location {
-            X: 359.997558
+            X: 359.997559
             Y: -1183.40259
             Z: 660
           }
@@ -959,7 +959,7 @@ Assets {
         Name: "I-Beam 4m"
         Transform {
           Location {
-            X: -429.997558
+            X: -429.997559
             Y: -1173.40247
             Z: 417.941
           }
@@ -3879,7 +3879,7 @@ Assets {
         Name: "Craftsman Part - Doorway"
         Transform {
           Location {
-            X: 804.914062
+            X: 804.914063
             Y: -396.305176
             Z: 150
           }
@@ -4050,7 +4050,7 @@ Assets {
         Name: "Glass Window"
         Transform {
           Location {
-            X: 804.914062
+            X: 804.914063
             Y: -406.305176
             Z: 300
           }
@@ -4321,7 +4321,7 @@ Assets {
         Name: "Craftsman Part - Doorway"
         Transform {
           Location {
-            X: 419.945312
+            X: 419.945313
             Y: -801.305176
             Z: 150
           }
@@ -4492,7 +4492,7 @@ Assets {
         Name: "Glass Window"
         Transform {
           Location {
-            X: 409.945312
+            X: 409.945313
             Y: -801.305176
             Z: 300
           }
@@ -4877,7 +4877,7 @@ Assets {
         Name: "Glass Window"
         Transform {
           Location {
-            X: 9.91601562
+            X: 9.91601563
             Y: -406.305664
             Z: 300
           }
@@ -4933,7 +4933,7 @@ Assets {
         Name: "Shipping Container Side 6m"
         Transform {
           Location {
-            X: -40.0820312
+            X: -40.0820313
             Y: -806.304688
           }
           Rotation {
@@ -5905,8 +5905,8 @@ Assets {
         Name: "Modern Weapon - Sight Forward 02"
         Transform {
           Location {
-            X: 821.257812
-            Y: -2.14257812
+            X: 821.257813
+            Y: -2.14257813
             Z: -335
           }
           Rotation {

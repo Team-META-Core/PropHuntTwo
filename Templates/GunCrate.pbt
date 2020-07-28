@@ -295,7 +295,7 @@ Assets {
         Name: "Modern Weapon - Magazine 03"
         Transform {
           Location {
-            X: -6.10351562e-05
+            X: -6.10351563e-05
             Y: -156.66684
             Z: 75
           }
