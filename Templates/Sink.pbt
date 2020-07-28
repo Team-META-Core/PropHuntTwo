@@ -334,7 +334,7 @@ Assets {
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: -2.29882812
+            X: -2.29882813
             Y: 17.4803
             Z: 166.176605
           }

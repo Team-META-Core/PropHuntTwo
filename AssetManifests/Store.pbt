@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15147776648611214648
+  Name: "Human Guy"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_basic_002_ref"
+  }
+}
+Assets {
   Id: 12529283249222536343
   Name: "Magic Sparkle Heart Whoosh 01 SFX"
   PlatformAssetType: 7
@@ -104,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_icon_Coin"
-  }
-}
-Assets {
-  Id: 1151301020559200563
-  Name: "Human Gal"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_basic_002_ref"
   }
 }
 Assets {

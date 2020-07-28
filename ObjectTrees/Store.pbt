@@ -4667,7 +4667,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 1151301020559200563
+      Id: 15147776648611214648
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -5728,7 +5728,7 @@ Objects {
     Overrides {
       Name: "cs:TeamTracker"
       ObjectReference {
-        SelfId: 18097577238547578950
+        SelfId: 2503064050131329070
       }
     }
     Overrides {
@@ -5797,7 +5797,7 @@ Objects {
     Overrides {
       Name: "cs:TeamTracker"
       ObjectReference {
-        SelfId: 18097577238547578950
+        SelfId: 2503064050131329070
       }
     }
     Overrides {

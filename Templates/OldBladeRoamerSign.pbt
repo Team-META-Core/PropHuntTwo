@@ -64,7 +64,7 @@ Assets {
         Transform {
           Location {
             X: 6.06726074
-            Y: -0.387695312
+            Y: -0.387695313
             Z: 558.895325
           }
           Rotation {
@@ -127,7 +127,7 @@ Assets {
         Transform {
           Location {
             X: 6.06726074
-            Y: 0.313476562
+            Y: 0.313476563
             Z: 665.656799
           }
           Rotation {
@@ -839,7 +839,7 @@ Assets {
         Transform {
           Location {
             X: 6.06726074
-            Y: 0.313476562
+            Y: 0.313476563
             Z: 440.212494
           }
           Rotation {
@@ -939,7 +939,7 @@ Assets {
         Transform {
           Location {
             X: 6.06726074
-            Y: 0.313476562
+            Y: 0.313476563
             Z: 547.00708
           }
           Rotation {
@@ -989,7 +989,7 @@ Assets {
         Transform {
           Location {
             X: 6.06726074
-            Y: 0.313476562
+            Y: 0.313476563
             Z: 595.331787
           }
           Rotation {
@@ -1039,7 +1039,7 @@ Assets {
         Transform {
           Location {
             X: 6.06726074
-            Y: 0.313476562
+            Y: 0.313476563
             Z: 623.458069
           }
           Rotation {
@@ -1090,7 +1090,7 @@ Assets {
         Transform {
           Location {
             X: 6.06726074
-            Y: 0.313476562
+            Y: 0.313476563
             Z: 502.263245
           }
           Rotation {
@@ -1286,7 +1286,7 @@ Assets {
         Transform {
           Location {
             X: 12.5423279
-            Y: 45.3945312
+            Y: 45.3945313
             Z: 666.576233
           }
           Rotation {
@@ -1832,7 +1832,7 @@ Assets {
         Transform {
           Location {
             X: 126.828
-            Y: -0.0200195312
+            Y: -0.0200195313
           }
           Rotation {
           }
@@ -1907,7 +1907,7 @@ Assets {
         Transform {
           Location {
             X: 9.56005859
-            Y: 18.0195312
+            Y: 18.0195313
             Z: 510.947754
           }
           Rotation {

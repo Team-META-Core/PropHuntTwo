@@ -372,7 +372,7 @@ Assets {
         Name: "Cylinder - Chamfered"
         Transform {
           Location {
-            X: 338.938476
+            X: 338.938477
             Y: -93.9174805
             Z: 359.155823
           }
@@ -434,7 +434,7 @@ Assets {
         Name: "Cylinder - Chamfered"
         Transform {
           Location {
-            X: 338.938476
+            X: 338.938477
             Y: 66.1660156
             Z: 359.155823
           }

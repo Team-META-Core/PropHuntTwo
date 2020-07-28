@@ -613,8 +613,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351562e-05
-            Roll: -0.000122070312
+            Yaw: -6.10351563e-05
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008
@@ -904,8 +904,8 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351562e-05
-            Roll: -0.000122070312
+            Yaw: -6.10351563e-05
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008
@@ -963,7 +963,7 @@ Assets {
           Rotation {
             Pitch: 90
             Yaw: -9.15527344e-05
-            Roll: -0.000122070312
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008
@@ -1021,7 +1021,7 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 0.008
@@ -1080,7 +1080,7 @@ Assets {
           Rotation {
             Pitch: 90
             Yaw: -9.15527344e-05
-            Roll: -0.000122070312
+            Roll: -0.000122070313
           }
           Scale {
             X: 0.008
