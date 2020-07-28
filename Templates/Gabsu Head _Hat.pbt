@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 10262457968427620942
         UnregisteredParameters {
           Overrides {
@@ -79,17 +79,18 @@ Assets {
         Name: "correction"
         Transform {
           Location {
-            X: 7.58355331
-            Y: -0.933976233
-            Z: -119.70681
+            X: 1.24649191
+            Z: -62.4125214
           }
           Rotation {
+            Pitch: 6.83018879e-06
             Yaw: -179.999954
+            Roll: 1.05304434e-05
           }
           Scale {
-            X: 0.712325573
-            Y: 0.712325573
-            Z: 0.712325573
+            X: 0.45281598
+            Y: 0.45281598
+            Z: 0.45281598
           }
         }
         ParentId: 2467678559142366593

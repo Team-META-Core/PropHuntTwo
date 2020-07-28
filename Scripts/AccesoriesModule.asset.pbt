@@ -1,4 +1,4 @@
-Id: 7027165664463327742
+Id: 5814078196899674798
 Name: "AccesoriesModule"
 PlatformAssetType: 3
 TextAsset {
@@ -48,7 +48,7 @@ TextAsset {
     Overrides {
       Name: "cs:ColorVisionHat"
       AssetReference {
-        Id: 412503459525157651
+        Id: 11663461244383500958
       }
     }
     Overrides {
@@ -108,7 +108,7 @@ TextAsset {
     Overrides {
       Name: "cs:AggripinaHat"
       AssetReference {
-        Id: 4143360855510557171
+        Id: 16971346528210605037
       }
     }
     Overrides {
@@ -132,7 +132,7 @@ TextAsset {
     Overrides {
       Name: "cs:ProtoHat"
       AssetReference {
-        Id: 10115027066992966691
+        Id: 2708788933824783327
       }
     }
     Overrides {
@@ -156,7 +156,7 @@ TextAsset {
     Overrides {
       Name: "cs:DiceBlackHat"
       AssetReference {
-        Id: 1273432643907179068
+        Id: 18094742549752014729
       }
     }
     Overrides {

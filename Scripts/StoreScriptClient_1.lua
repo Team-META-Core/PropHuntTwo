@@ -11,7 +11,7 @@ local ACCESSORIES_TABLE = require(script:GetCustomProperty("AccesoriesModule"))
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 local RARITY = require(script:GetCustomProperty("APIRarityColors"))
 
-local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
+--local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
 local CAMERA = script:GetCustomProperty("Camera"):WaitForObject()
 local ITEM_SPAWNPOINTS = script:GetCustomProperty("ItemSpawnpoints"):WaitForObject()
 local spawnpointsTable = ITEM_SPAWNPOINTS:GetChildren()

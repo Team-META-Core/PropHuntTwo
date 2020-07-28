@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 15390874225645479232
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,19 @@ Assets {
         Name: "Norse Helm - head "
         Transform {
           Location {
-            X: -6.68027592
-            Y: 0.693853915
-            Z: 4.40449333
+            X: 0.115941525
+            Y: 0.693845391
+            Z: 11.3575563
           }
           Rotation {
-            Pitch: 32.1642
-            Yaw: -6.56387274e-05
-            Roll: 1.50692358e-05
+            Pitch: 15.3231049
+            Yaw: -6.10351563e-05
+            Roll: 1.50940077e-05
           }
           Scale {
-            X: 0.367702067
-            Y: 0.367702067
-            Z: 0.367702067
+            X: 0.160430923
+            Y: 0.160430923
+            Z: 0.160430923
           }
         }
         ParentId: 11351816705942283941
