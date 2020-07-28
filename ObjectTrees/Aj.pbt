@@ -1,6 +1,58 @@
 Name: "Aj"
 RootId: 7179769915645255894
 Objects {
+  Id: 8017157097006715932
+  Name: "PlayerNoHead"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7179769915645255894
+  ChildIds: 13830583354031020503
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 13830583354031020503
+  Name: "NoHead"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8017157097006715932
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4896413151057808095
+    }
+  }
+}
+Objects {
   Id: 18361596862919211764
   Name: "ShopSystem v3.1"
   Transform {
