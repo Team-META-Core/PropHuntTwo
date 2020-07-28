@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 11555835119906527516
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,19 @@ Assets {
         Name: "Daft Punk Helmet 1"
         Transform {
           Location {
-            X: -2.13824916
-            Y: -0.495109975
-            Z: -26.4750843
+            X: 6.53527498
+            Y: -0.495123297
+            Z: -4.35352
           }
           Rotation {
-            Pitch: -1.36603776e-05
-            Yaw: -90.0000381
-            Roll: -9.93502235
+            Pitch: 6.83018879e-06
+            Yaw: -90.0000305
+            Roll: -9.93505859
           }
           Scale {
-            X: 0.305359572
-            Y: 0.305359572
-            Z: 0.305359572
+            X: 0.127053678
+            Y: 0.127053678
+            Z: 0.127053678
           }
         }
         ParentId: 6116160902371094738

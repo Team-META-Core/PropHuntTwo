@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 949995725656095082
+        ParentId: 17587986024326657423
         ChildIds: 16481781985079550771
         UnregisteredParameters {
           Overrides {
@@ -79,9 +79,8 @@ Assets {
         Name: "The Sully"
         Transform {
           Location {
-            X: -3.092
-            Y: 4.75055695
-            Z: -1.56871033
+            X: -3.09200096
+            Z: -1.5687083
           }
           Rotation {
             Pitch: -9.93498802

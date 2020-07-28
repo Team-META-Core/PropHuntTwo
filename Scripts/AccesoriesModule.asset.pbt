@@ -18,7 +18,7 @@ TextAsset {
     Overrides {
       Name: "cs:SkeleHead"
       AssetReference {
-        Id: 10703458837049900037
+        Id: 3905460737181911630
       }
     }
     Overrides {
@@ -54,7 +54,7 @@ TextAsset {
     Overrides {
       Name: "cs:MadHatterHat"
       AssetReference {
-        Id: 17379244325811232104
+        Id: 9433122451498238955
       }
     }
     Overrides {
@@ -84,7 +84,7 @@ TextAsset {
     Overrides {
       Name: "cs:DaftPunkHat"
       AssetReference {
-        Id: 17932627152729300395
+        Id: 11837164847011292616
       }
     }
     Overrides {
@@ -120,13 +120,13 @@ TextAsset {
     Overrides {
       Name: "cs:CatfishHat"
       AssetReference {
-        Id: 16492396817946274219
+        Id: 6101373859721181158
       }
     }
     Overrides {
       Name: "cs:FrogHat"
       AssetReference {
-        Id: 157087968636227456
+        Id: 11856816070966402793
       }
     }
     Overrides {
@@ -150,7 +150,7 @@ TextAsset {
     Overrides {
       Name: "cs:DiceWhiteHat"
       AssetReference {
-        Id: 16720569692086937789
+        Id: 1038484301847038633
       }
     }
     Overrides {
@@ -162,7 +162,7 @@ TextAsset {
     Overrides {
       Name: "cs:WokeFrog"
       AssetReference {
-        Id: 14802304614737479587
+        Id: 15702171234751083698
       }
     }
     Overrides {
@@ -180,7 +180,7 @@ TextAsset {
     Overrides {
       Name: "cs:WinterHat"
       AssetReference {
-        Id: 9078623308043938040
+        Id: 8341818154099842175
       }
     }
     Overrides {
@@ -198,13 +198,13 @@ TextAsset {
     Overrides {
       Name: "cs:TacoHat"
       AssetReference {
-        Id: 13199365765830352216
+        Id: 5069146464012458692
       }
     }
     Overrides {
       Name: "cs:SadTacoHat"
       AssetReference {
-        Id: 9993823229598582878
+        Id: 4503659449376393186
       }
     }
     Overrides {
@@ -234,7 +234,7 @@ TextAsset {
     Overrides {
       Name: "cs:FruitHat"
       AssetReference {
-        Id: 7672968760649476313
+        Id: 4684719402202944386
       }
     }
     Overrides {
