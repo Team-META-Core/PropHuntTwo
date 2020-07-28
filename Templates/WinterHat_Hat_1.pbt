@@ -1,13 +1,13 @@
 Assets {
-  Id: 9423935365713084708
-  Name: "The_BlueSully _Hat"
+  Id: 9078623308043938040
+  Name: "WinterHat_Hat"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 4535503375951515265
+      RootId: 12335215066512627386
       Objects {
-        Id: 4535503375951515265
-        Name: "The_BlueSully _Hat"
+        Id: 12335215066512627386
+        Name: "WinterHat_Hat"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 949995725656095082
-        ChildIds: 14722320568213422174
+        ChildIds: 18384555162594973850
         UnregisteredParameters {
           Overrides {
             Name: "cs:VerticalOffset"
@@ -24,7 +24,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ScaleModifier"
-            Float: 1.25
+            Float: 1.5
           }
           Overrides {
             Name: "cs:DisplayRotation"
@@ -33,11 +33,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Price"
-            Int: 500
+            Int: 300
           }
           Overrides {
             Name: "cs:PriceSale"
-            Int: 250
+            Int: 500
           }
           Overrides {
             Name: "cs:OnSale"
@@ -45,7 +45,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RarityIndex"
-            Int: 2
+            Int: 1
           }
           Overrides {
             Name: "cs:Socket"
@@ -53,7 +53,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ItemName"
-            String: "The Sully Blue"
+            String: "The Winter"
           }
           Overrides {
             Name: "cs:ItemType"
@@ -75,37 +75,32 @@ Assets {
         }
       }
       Objects {
-        Id: 14722320568213422174
-        Name: "The Sully"
+        Id: 18384555162594973850
+        Name: "The_Winter_Hat"
         Transform {
           Location {
-            X: -3.092
-            Y: 4.75055695
-            Z: -1.56871033
+            X: -1.95652485
+            Y: -1.27492046
+            Z: -55.7800636
           }
           Rotation {
-            Pitch: -9.93498802
-            Yaw: 6.17889e-05
-            Roll: -8.26617854e-13
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.1
+            Y: 1.1
+            Z: 1.1
           }
         }
-        ParentId: 4535503375951515265
-        ChildIds: 13087607064103029318
-        ChildIds: 10609743057885007533
-        ChildIds: 1923570728251533206
-        ChildIds: 8663344964265461876
-        ChildIds: 12527630173554581561
-        ChildIds: 4588333617085977949
-        ChildIds: 5973106188908767273
-        ChildIds: 603707799747843531
-        ChildIds: 8141534114146054376
-        ChildIds: 1668973934313372275
-        ChildIds: 2465667066290580403
+        ParentId: 12335215066512627386
+        ChildIds: 597761565784503680
+        ChildIds: 3924990618236650792
+        ChildIds: 2182587170061566078
+        ChildIds: 3901126376347642040
+        ChildIds: 2679620183367803811
+        ChildIds: 12728282037556802039
+        ChildIds: 12997243570988965438
+        ChildIds: 4087364139316752555
+        ChildIds: 10458831937154525525
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -117,103 +112,38 @@ Assets {
         }
       }
       Objects {
-        Id: 13087607064103029318
-        Name: "Sphere"
-        Transform {
-          Location {
-            X: 11.9878454
-            Y: 0.173811823
-            Z: 19.1097851
-          }
-          Rotation {
-            Pitch: 8.77321339
-            Yaw: 2.65309406e-11
-            Roll: 1.12194958e-11
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 14722320568213422174
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 132672053610873933
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 16808072507652565232
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10609743057885007533
+        Id: 597761565784503680
         Name: "Hemisphere"
         Transform {
           Location {
-            X: 11.9878454
-            Y: 0.173811823
-            Z: 19.1097851
+            X: -9.76568604
+            Y: 3.91644287
+            Z: 43.2479095
           }
           Rotation {
-            Pitch: 41.9469757
-            Yaw: 3.45973701e-11
-            Roll: 1.48901239e-11
+            Pitch: 46.3694
           }
           Scale {
-            X: 1.08578706
-            Y: 1.08578706
-            Z: 1.08578706
+            X: 0.753190279
+            Y: 0.753190279
+            Z: 0.753190279
           }
         }
-        ParentId: 14722320568213422174
+        ParentId: 18384555162594973850
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 132672053610873933
+              Id: 15690667457542243144
             }
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0600000024
-              G: 1
-              B: 0.962649047
-              A: 1
-            }
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -233,200 +163,156 @@ Assets {
         }
       }
       Objects {
-        Id: 1923570728251533206
-        Name: "Hemisphere"
+        Id: 3924990618236650792
+        Name: "Ellipsoid - Truncated"
         Transform {
           Location {
-            X: 11.9878454
-            Y: 0.173811823
-            Z: 19.1097851
+            X: -3.76696777
+            Y: 35.479126
+            Z: 36.9927368
           }
           Rotation {
-            Pitch: 23.2924595
-            Yaw: -179.999954
-            Roll: -179.999954
+            Pitch: 30.0518608
           }
           Scale {
-            X: 1.08578706
-            Y: 1.08578706
-            Z: 1.08578706
+            X: 0.543693662
+            Y: 0.120871589
+            Z: 0.209465131
           }
         }
-        ParentId: 14722320568213422174
+        ParentId: 18384555162594973850
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 132672053610873933
+              Id: 18247711484735143247
             }
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.44
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.44
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5074076338264476163
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2182587170061566078
+        Name: "Ellipsoid - Truncated"
+        Transform {
+          Location {
+            X: -3.76696777
+            Y: -27.7661743
+            Z: 36.9927368
+          }
+          Rotation {
+            Pitch: 30.0518608
+          }
+          Scale {
+            X: 0.543693662
+            Y: 0.120871589
+            Z: 0.209465131
+          }
+        }
+        ParentId: 18384555162594973850
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12782940202352343062
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.44
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.44
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5074076338264476163
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3901126376347642040
+        Name: "Bush 01"
+        Transform {
+          Location {
+            X: -25.9448853
+            Y: 4.60070801
+            Z: 74.0471649
+          }
+          Rotation {
+            Pitch: 13.0215025
+          }
+          Scale {
+            X: 0.136197656
+            Y: 0.136197656
+            Z: 0.136197656
+          }
+        }
+        ParentId: 18384555162594973850
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
             Color {
-              R: 0.0600000024
+              R: 1
               G: 1
-              B: 0.962649047
+              B: 1
               A: 1
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5489775416547967874
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8663344964265461876
-        Name: "Sphere"
-        Transform {
-          Location {
-            X: 59.2626419
-            Y: 0.17376025
-            Z: 26.4057178
-          }
-          Rotation {
-            Pitch: 8.77321339
-            Yaw: 2.65309406e-11
-            Roll: 1.12194958e-11
-          }
-          Scale {
-            X: 0.10469351
-            Y: 0.251229137
-            Z: 0.251229137
-          }
-        }
-        ParentId: 14722320568213422174
-        UnregisteredParameters {
           Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
+            Name: "ma:Nature_Leaves:id"
             AssetReference {
-              Id: 132672053610873933
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 16808072507652565232
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12527630173554581561
-        Name: "Cone - Truncated Hollow Thick"
-        Transform {
-          Location {
-            X: 57.3997383
-            Y: 0.173762292
-            Z: 26.1181774
-          }
-          Rotation {
-            Pitch: -81.2222
-            Roll: 4.99478903e-10
-          }
-          Scale {
-            X: 0.352279
-            Y: 0.352278978
-            Z: 0.0810314417
-          }
-        }
-        ParentId: 14722320568213422174
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 132672053610873933
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.441324592
-              B: 0.98
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 16808072507652565232
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4588333617085977949
-        Name: "Cone - Truncated Hollow Thick"
-        Transform {
-          Location {
-            X: 59.979454
-            Y: -7.74884939
-            Z: 34.8220253
-          }
-          Rotation {
-            Pitch: -36.4814758
-            Yaw: 42.888485
-            Roll: -50.5654907
-          }
-          Scale {
-            X: 0.0661813691
-            Y: 0.0661813617
-            Z: 0.0145056434
-          }
-        }
-        ParentId: 14722320568213422174
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 132672053610873933
+              Id: 766667096612755641
             }
           }
           Overrides {
@@ -440,14 +326,14 @@ Assets {
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 16808072507652565232
+            Id: 8121390472708756070
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -460,51 +346,48 @@ Assets {
         }
       }
       Objects {
-        Id: 5973106188908767273
-        Name: "Cone - Truncated Hollow Thick"
+        Id: 2679620183367803811
+        Name: "Cylinder"
         Transform {
           Location {
-            X: 3.68770218
-            Y: 2.90989518
-            Z: 69.6192245
+            X: 8.1463623
+            Y: 36.857666
+            Z: 14.9766388
           }
           Rotation {
-            Pitch: 8.82178307
-            Yaw: -3.05175781e-05
-            Roll: 8.66888076e-05
           }
           Scale {
-            X: 0.352279
-            Y: 0.352278978
-            Z: 0.0810314417
+            X: 0.0392106101
+            Y: 0.0392106101
+            Z: 0.221136466
           }
         }
-        ParentId: 14722320568213422174
+        ParentId: 18384555162594973850
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 132672053610873933
+              Id: 10665232564313502781
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.441324592
-              B: 0.98
+              G: 0.332119226
+              B: 0.590000033
               A: 1
             }
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 16808072507652565232
+            Id: 4174204201551471315
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -517,51 +400,58 @@ Assets {
         }
       }
       Objects {
-        Id: 603707799747843531
-        Name: "Cone - Truncated Hollow Thick"
+        Id: 12728282037556802039
+        Name: "Bush 01"
         Transform {
           Location {
-            X: 7.94730806
-            Y: 45.083847
-            Z: 42.699894
+            X: 11.3880005
+            Y: 36.541687
           }
           Rotation {
-            Pitch: 9.41712284
-            Yaw: -0.999847412
-            Roll: 62.2007523
+            Pitch: 13.0215025
           }
           Scale {
-            X: 0.352279
-            Y: 0.352278978
-            Z: 0.0810314417
+            X: 0.0480635799
+            Y: 0.0480635799
+            Z: 0.0480635799
           }
         }
-        ParentId: 14722320568213422174
+        ParentId: 18384555162594973850
         UnregisteredParameters {
           Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
             AssetReference {
-              Id: 132672053610873933
+              Id: 766667096612755641
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.441324592
-              B: 0.98
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 16808072507652565232
+            Id: 8121390472708756070
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -574,51 +464,48 @@ Assets {
         }
       }
       Objects {
-        Id: 8141534114146054376
-        Name: "Cone - Truncated Hollow Thick"
+        Id: 12997243570988965438
+        Name: "Cylinder"
         Transform {
           Location {
-            X: 31.0209846
-            Y: 16.2285938
-            Z: 65.7756958
+            X: 13.3181152
+            Y: -30.0941772
+            Z: 16.2329254
           }
           Rotation {
-            Pitch: -17.3186646
-            Yaw: -12.148407
-            Roll: 18.562851
           }
           Scale {
-            X: 0.2157107
-            Y: 0.215710685
-            Z: 0.0496179126
+            X: 0.0392106101
+            Y: 0.0392106101
+            Z: 0.221136466
           }
         }
-        ParentId: 14722320568213422174
+        ParentId: 18384555162594973850
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 132672053610873933
+              Id: 10665232564313502781
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.441324592
-              B: 0.98
+              G: 0.332119226
+              B: 0.590000033
               A: 1
             }
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 16808072507652565232
+            Id: 4174204201551471315
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -631,51 +518,59 @@ Assets {
         }
       }
       Objects {
-        Id: 1668973934313372275
-        Name: "Cone - Truncated Hollow Thick"
+        Id: 4087364139316752555
+        Name: "Bush 01"
         Transform {
           Location {
-            X: 31.0209522
-            Y: -15.4180145
-            Z: 65.7756958
+            X: 16.5597534
+            Y: -30.4101563
+            Z: 1.25628662
           }
           Rotation {
-            Pitch: -19.3667
-            Yaw: 5.40022898
-            Roll: -16.8610229
+            Pitch: 13.0215025
           }
           Scale {
-            X: 0.2157107
-            Y: 0.215710685
-            Z: 0.0496179126
+            X: 0.0480635799
+            Y: 0.0480635799
+            Z: 0.0480635799
           }
         }
-        ParentId: 14722320568213422174
+        ParentId: 18384555162594973850
         UnregisteredParameters {
           Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
             AssetReference {
-              Id: 132672053610873933
+              Id: 766667096612755641
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.441324592
-              B: 0.98
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 16808072507652565232
+            Id: 8121390472708756070
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -688,51 +583,50 @@ Assets {
         }
       }
       Objects {
-        Id: 2465667066290580403
-        Name: "Cone - Truncated Hollow Thick"
+        Id: 10458831937154525525
+        Name: "Arch Fancy 3m"
         Transform {
           Location {
-            X: 7.94721079
-            Y: -46.2527
-            Z: 42.6998749
+            X: -6.16729736
+            Y: -29.1248779
+            Z: 50.0396576
           }
           Rotation {
-            Pitch: 9.37033558
-            Yaw: 0.973249197
-            Roll: -59.4367371
+            Pitch: -45.9757042
           }
           Scale {
-            X: 0.352279
-            Y: 0.352278978
-            Z: 0.0810314417
+            X: 0.0970808044
+            Y: 0.107316397
+            Z: 0.0970808044
           }
         }
-        ParentId: 14722320568213422174
+        ParentId: 18384555162594973850
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 132672053610873933
+              Id: 18297409250839599089
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.441324592
-              B: 0.98
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 16808072507652565232
+            Id: 11478803472724618344
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -743,24 +637,6 @@ Assets {
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 16808072507652565232
-      Name: "Sphere"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
-      }
-    }
-    Assets {
-      Id: 132672053610873933
-      Name: "Plastic Matte"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "plastic_matte_001"
       }
     }
     Assets {
@@ -770,6 +646,69 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_hemisphere_001"
+      }
+    }
+    Assets {
+      Id: 5074076338264476163
+      Name: "Ellipsoid - Truncated"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ellipsoid_truncated_001"
+      }
+    }
+    Assets {
+      Id: 12782940202352343062
+      Name: "Wallpaper Chevron 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_gen_wallpaper_004"
+      }
+    }
+    Assets {
+      Id: 8121390472708756070
+      Name: "Bush 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bush_generic_001"
+      }
+    }
+    Assets {
+      Id: 4174204201551471315
+      Name: "Cylinder"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_002"
+      }
+    }
+    Assets {
+      Id: 10665232564313502781
+      Name: "Fabric Burlap New 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_fan_fabric_burlap_002_uv"
+      }
+    }
+    Assets {
+      Id: 11478803472724618344
+      Name: "Arch Fancy 3m"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_arch_fancy_3m_001"
+      }
+    }
+    Assets {
+      Id: 18297409250839599089
+      Name: "Basic Material"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_pbr_material_001"
       }
     }
     PrimaryAssetId {

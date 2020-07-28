@@ -17,6 +17,7 @@ Objects {
   ParentId: 339461681261664675
   ChildIds: 16351123745989230762
   ChildIds: 16367066032427367764
+  ChildIds: 1939246607942477250
   ChildIds: 4376537010812275333
   ChildIds: 14734248117319637416
   ChildIds: 7464397154849250728
@@ -4667,7 +4668,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 15147776648611214648
+      Id: 1151301020559200563
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -5543,6 +5544,32 @@ Objects {
   }
 }
 Objects {
+  Id: 1939246607942477250
+  Name: "TempGroup"
+  Transform {
+    Location {
+      Z: -99999
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4585217093520083334
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
   Id: 16367066032427367764
   Name: "Outline Object"
   Transform {
@@ -5654,6 +5681,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:ItemPanelSpawn"
+      ObjectReference {
+        SelfId: 3796740572117519832
+      }
+    }
+    Overrides {
       Name: "cs:StoreUIContainer"
       ObjectReference {
         SelfId: 14734248117319637416
@@ -5714,6 +5747,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:RarityColorServer"
+      ObjectReference {
+        SelfId: 5880333270373759119
+      }
+    }
+    Overrides {
       Name: "cs:RarityButtons"
       ObjectReference {
         SelfId: 11120877387354027140
@@ -5726,9 +5765,15 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TempGroup"
+      ObjectReference {
+        SelfId: 1939246607942477250
+      }
+    }
+    Overrides {
       Name: "cs:TeamTracker"
       ObjectReference {
-        SelfId: 2503064050131329070
+        SelfId: 18097577238547578950
       }
     }
     Overrides {
@@ -5797,7 +5842,7 @@ Objects {
     Overrides {
       Name: "cs:TeamTracker"
       ObjectReference {
-        SelfId: 2503064050131329070
+        SelfId: 18097577238547578950
       }
     }
     Overrides {

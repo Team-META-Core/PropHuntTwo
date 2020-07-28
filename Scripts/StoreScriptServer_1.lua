@@ -15,20 +15,12 @@ function OnBuyItem(player,skinIndex,price)
     API_SHOP.AddSkinToPlayerInventory(player,asset.id)
     API_SHOP.SetActiveSkin(player,skinIndex)
     player:RemoveResource("Money",price)
-    Task.Wait(0.2)
-    while Events.BroadcastToPlayer(player,"HeadOff") == BroadcastEventResultCode.EXCEEDED_RATE_LIMIT do
-        Task.Wait()
-    end
 end
 
 function OnUpdateSkin(player,skinIndex)
     local skin = ACCESORIES_MODULE[skinIndex]
     if(skin ~= nil) then
         API_SHOP.SetActiveSkin(player,skinIndex)
-    end
-    Task.Wait(0.2)
-    while Events.BroadcastToPlayer(player,"HeadOff") == BroadcastEventResultCode.EXCEEDED_RATE_LIMIT do
-        Task.Wait()
     end
 end
 

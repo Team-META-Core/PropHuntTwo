@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 16841385868699865544
         UnregisteredParameters {
           Overrides {
@@ -79,19 +79,16 @@ Assets {
         Name: "Casino Dice"
         Transform {
           Location {
-            X: 2.39199615
-            Y: -11.9865751
-            Z: 0.686661959
+            X: 6.53012848
+            Y: -33.5303383
+            Z: -16.0448055
           }
           Rotation {
-            Pitch: 8.11278248
-            Yaw: 3.13544746e-08
-            Roll: 9.01439762e-06
           }
           Scale {
-            X: 5.51704311
-            Y: 5.51704311
-            Z: 5.51704311
+            X: 14
+            Y: 14
+            Z: 14
           }
         }
         ParentId: 5257750325823734162

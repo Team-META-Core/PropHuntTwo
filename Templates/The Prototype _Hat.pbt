@@ -1,5 +1,5 @@
 Assets {
-  Id: 2708788933824783327
+  Id: 10115027066992966691
   Name: "The Prototype _Hat"
   PlatformAssetType: 5
   TemplateAsset {

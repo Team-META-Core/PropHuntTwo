@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17587986024326657423
+        ParentId: 949995725656095082
         ChildIds: 3561035086635013323
         UnregisteredParameters {
           Overrides {
@@ -79,17 +79,13 @@ Assets {
         Name: "The Canuck"
         Transform {
           Location {
-            X: 1.89816689
-            Y: -3.87728369e-06
-            Z: 10.001893
           }
           Rotation {
-            Pitch: 6.83018879e-06
           }
           Scale {
-            X: 0.368308753
-            Y: 0.368308753
-            Z: 0.368308753
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 13470993980919115267

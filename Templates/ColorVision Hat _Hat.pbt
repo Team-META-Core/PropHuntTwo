@@ -1,5 +1,5 @@
 Assets {
-  Id: 11663461244383500958
+  Id: 412503459525157651
   Name: "ColorVision Hat _Hat"
   PlatformAssetType: 5
   TemplateAsset {
@@ -917,7 +917,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4174204201551471315
+            Id: 5920223932982244516
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1003,7 +1003,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4174204201551471315
+            Id: 5920223932982244516
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1166,7 +1166,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4174204201551471315
+      Id: 5920223932982244516
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {

@@ -1,13 +1,13 @@
 Assets {
-  Id: 18094742549752014729
-  Name: "The High Roller (Black) _Hat"
+  Id: 16720569692086937789
+  Name: "The High Roller (White) _Hat"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 14685288060651269324
+      RootId: 6358977727068220524
       Objects {
-        Id: 14685288060651269324
-        Name: "The High Roller (Black) _Hat"
+        Id: 6358977727068220524
+        Name: "The High Roller (White) _Hat"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 949995725656095082
-        ChildIds: 16414371554239057674
+        ChildIds: 5755522252891223815
         UnregisteredParameters {
           Overrides {
             Name: "cs:VerticalOffset"
@@ -53,7 +53,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ItemName"
-            String: "The Roller (Black)"
+            String: "The Roller (White)"
           }
           Overrides {
             Name: "cs:ItemType"
@@ -75,7 +75,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16414371554239057674
+        Id: 5755522252891223815
         Name: "Casino Dice"
         Transform {
           Location {
@@ -91,8 +91,8 @@ Assets {
             Z: 14
           }
         }
-        ParentId: 14685288060651269324
-        ChildIds: 3295324266191652195
+        ParentId: 6358977727068220524
+        ChildIds: 1739897492930382326
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -104,7 +104,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3295324266191652195
+        Id: 1739897492930382326
         Name: "dcube"
         Transform {
           Location {
@@ -117,14 +117,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16414371554239057674
-        ChildIds: 5864266481409951936
-        ChildIds: 861191800025320185
-        ChildIds: 6203898936391683146
-        ChildIds: 3090092879864241080
-        ChildIds: 11334258253708113017
-        ChildIds: 9590173847671437451
-        ChildIds: 12087965989232727992
+        ParentId: 5755522252891223815
+        ChildIds: 10557437174503054087
+        ChildIds: 12783306003140135345
+        ChildIds: 11400121770556313172
+        ChildIds: 1572048918798264967
+        ChildIds: 11265638599623830611
+        ChildIds: 2548354755804273282
+        ChildIds: 7664754626777007393
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -133,11 +133,11 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "dcube_2"
+          FilePartitionName: "dcube"
         }
       }
       Objects {
-        Id: 5864266481409951936
+        Id: 10557437174503054087
         Name: "die"
         Transform {
           Location {
@@ -153,7 +153,7 @@ Assets {
             Z: 0.0468244068
           }
         }
-        ParentId: 3295324266191652195
+        ParentId: 1739897492930382326
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -164,6 +164,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -188,7 +191,7 @@ Assets {
         }
       }
       Objects {
-        Id: 861191800025320185
+        Id: 12783306003140135345
         Name: "5"
         Transform {
           Location {
@@ -202,12 +205,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3295324266191652195
-        ChildIds: 14904301533296884675
-        ChildIds: 6907785514915089705
-        ChildIds: 4426610974305144457
-        ChildIds: 6356455649573066704
-        ChildIds: 3675157886312315612
+        ParentId: 1739897492930382326
+        ChildIds: 18366872874393073252
+        ChildIds: 365016030729144971
+        ChildIds: 16088096575827420802
+        ChildIds: 16047533220258591515
+        ChildIds: 10792449926628880740
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -216,11 +219,11 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "5_2"
+          FilePartitionName: "5"
         }
       }
       Objects {
-        Id: 14904301533296884675
+        Id: 18366872874393073252
         Name: "sp5"
         Transform {
           Location {
@@ -237,7 +240,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 861191800025320185
+        ParentId: 12783306003140135345
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -248,9 +251,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -277,7 +277,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6907785514915089705
+        Id: 365016030729144971
         Name: "sp5"
         Transform {
           Location {
@@ -296,7 +296,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 861191800025320185
+        ParentId: 12783306003140135345
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -307,9 +307,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -336,7 +333,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4426610974305144457
+        Id: 16088096575827420802
         Name: "sp5"
         Transform {
           Location {
@@ -354,7 +351,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 861191800025320185
+        ParentId: 12783306003140135345
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -365,9 +362,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -394,7 +388,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6356455649573066704
+        Id: 16047533220258591515
         Name: "sp5"
         Transform {
           Location {
@@ -412,7 +406,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 861191800025320185
+        ParentId: 12783306003140135345
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -423,9 +417,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -452,7 +443,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3675157886312315612
+        Id: 10792449926628880740
         Name: "sp5"
         Transform {
           Location {
@@ -471,7 +462,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 861191800025320185
+        ParentId: 12783306003140135345
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -482,9 +473,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -511,7 +499,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6203898936391683146
+        Id: 11400121770556313172
         Name: "3"
         Transform {
           Location {
@@ -526,10 +514,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3295324266191652195
-        ChildIds: 4568355547080331268
-        ChildIds: 12447329446878664608
-        ChildIds: 6002566409049955562
+        ParentId: 1739897492930382326
+        ChildIds: 9237807357158348695
+        ChildIds: 2301508579742755670
+        ChildIds: 612762586039441346
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -538,11 +526,11 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "3_2"
+          FilePartitionName: "3"
         }
       }
       Objects {
-        Id: 4568355547080331268
+        Id: 9237807357158348695
         Name: "sp3"
         Transform {
           Location {
@@ -559,7 +547,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 6203898936391683146
+        ParentId: 11400121770556313172
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -570,9 +558,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -599,7 +584,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12447329446878664608
+        Id: 2301508579742755670
         Name: "sp3"
         Transform {
           Location {
@@ -618,7 +603,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 6203898936391683146
+        ParentId: 11400121770556313172
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -629,9 +614,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -658,7 +640,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6002566409049955562
+        Id: 612762586039441346
         Name: "sp3"
         Transform {
           Location {
@@ -676,7 +658,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 6203898936391683146
+        ParentId: 11400121770556313172
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -687,9 +669,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -716,7 +695,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3090092879864241080
+        Id: 1572048918798264967
         Name: "2"
         Transform {
           Location {
@@ -729,9 +708,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3295324266191652195
-        ChildIds: 6115103749873559308
-        ChildIds: 17957958356323303613
+        ParentId: 1739897492930382326
+        ChildIds: 7912997964246969213
+        ChildIds: 10976233674308470046
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -740,11 +719,11 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "2_2"
+          FilePartitionName: "2"
         }
       }
       Objects {
-        Id: 6115103749873559308
+        Id: 7912997964246969213
         Name: "sp2"
         Transform {
           Location {
@@ -762,7 +741,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 3090092879864241080
+        ParentId: 1572048918798264967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -773,9 +752,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -802,7 +778,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17957958356323303613
+        Id: 10976233674308470046
         Name: "sp2"
         Transform {
           Location {
@@ -821,7 +797,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 3090092879864241080
+        ParentId: 1572048918798264967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -832,9 +808,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -861,7 +834,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11334258253708113017
+        Id: 11265638599623830611
         Name: "4"
         Transform {
           Location {
@@ -874,11 +847,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3295324266191652195
-        ChildIds: 4913896383200071489
-        ChildIds: 1317866991219733980
-        ChildIds: 5763879526740200357
-        ChildIds: 9477254444720641503
+        ParentId: 1739897492930382326
+        ChildIds: 10125688501361633193
+        ChildIds: 2895108404019699917
+        ChildIds: 5281313678319619235
+        ChildIds: 5141339553938077962
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -887,11 +860,11 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "4_2"
+          FilePartitionName: "4"
         }
       }
       Objects {
-        Id: 4913896383200071489
+        Id: 10125688501361633193
         Name: "sp4"
         Transform {
           Location {
@@ -909,7 +882,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 11334258253708113017
+        ParentId: 11265638599623830611
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -920,9 +893,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -949,7 +919,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1317866991219733980
+        Id: 2895108404019699917
         Name: "sp4"
         Transform {
           Location {
@@ -967,7 +937,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 11334258253708113017
+        ParentId: 11265638599623830611
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -978,9 +948,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1007,7 +974,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5763879526740200357
+        Id: 5281313678319619235
         Name: "sp4"
         Transform {
           Location {
@@ -1025,7 +992,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 11334258253708113017
+        ParentId: 11265638599623830611
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1036,9 +1003,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1065,7 +1029,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9477254444720641503
+        Id: 5141339553938077962
         Name: "sp4"
         Transform {
           Location {
@@ -1084,7 +1048,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 11334258253708113017
+        ParentId: 11265638599623830611
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1095,9 +1059,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1124,7 +1085,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9590173847671437451
+        Id: 2548354755804273282
         Name: "6"
         Transform {
           Location {
@@ -1137,13 +1098,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3295324266191652195
-        ChildIds: 5350269489840111515
-        ChildIds: 4680585510877041030
-        ChildIds: 2914552436117949913
-        ChildIds: 1959313134899802590
-        ChildIds: 4936398479126735854
-        ChildIds: 10877284568202293367
+        ParentId: 1739897492930382326
+        ChildIds: 17509369854602433869
+        ChildIds: 1482482174166333940
+        ChildIds: 2871943080192777946
+        ChildIds: 9485338402392008243
+        ChildIds: 16341599902198077662
+        ChildIds: 12734157354698240880
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1152,11 +1113,11 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "6_2"
+          FilePartitionName: "6"
         }
       }
       Objects {
-        Id: 5350269489840111515
+        Id: 17509369854602433869
         Name: "sp6"
         Transform {
           Location {
@@ -1172,7 +1133,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 9590173847671437451
+        ParentId: 2548354755804273282
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1183,9 +1144,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1212,7 +1170,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4680585510877041030
+        Id: 1482482174166333940
         Name: "sp6"
         Transform {
           Location {
@@ -1229,7 +1187,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 9590173847671437451
+        ParentId: 2548354755804273282
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1240,9 +1198,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1269,7 +1224,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2914552436117949913
+        Id: 2871943080192777946
         Name: "sp6"
         Transform {
           Location {
@@ -1287,7 +1242,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 9590173847671437451
+        ParentId: 2548354755804273282
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1298,9 +1253,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1327,7 +1279,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1959313134899802590
+        Id: 9485338402392008243
         Name: "sp6"
         Transform {
           Location {
@@ -1344,7 +1296,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 9590173847671437451
+        ParentId: 2548354755804273282
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1355,9 +1307,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1384,7 +1333,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4936398479126735854
+        Id: 16341599902198077662
         Name: "sp6"
         Transform {
           Location {
@@ -1402,7 +1351,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 9590173847671437451
+        ParentId: 2548354755804273282
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1413,9 +1362,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1442,7 +1388,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10877284568202293367
+        Id: 12734157354698240880
         Name: "sp6"
         Transform {
           Location {
@@ -1460,7 +1406,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 9590173847671437451
+        ParentId: 2548354755804273282
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1471,9 +1417,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
@@ -1500,7 +1443,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12087965989232727992
+        Id: 7664754626777007393
         Name: "1"
         Transform {
           Location {
@@ -1513,8 +1456,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3295324266191652195
-        ChildIds: 5184827430022874887
+        ParentId: 1739897492930382326
+        ChildIds: 14362799181766255959
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1523,11 +1466,11 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "1_2"
+          FilePartitionName: "1"
         }
       }
       Objects {
-        Id: 5184827430022874887
+        Id: 14362799181766255959
         Name: "sp1"
         Transform {
           Location {
@@ -1544,7 +1487,7 @@ Assets {
             Z: 0.001
           }
         }
-        ParentId: 12087965989232727992
+        ParentId: 7664754626777007393
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1555,9 +1498,6 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
           }
