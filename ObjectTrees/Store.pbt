@@ -5654,12 +5654,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:ItemPanelSpawn"
-      ObjectReference {
-        SelfId: 3796740572117519832
-      }
-    }
-    Overrides {
       Name: "cs:StoreUIContainer"
       ObjectReference {
         SelfId: 14734248117319637416
@@ -5720,12 +5714,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RarityColorServer"
-      ObjectReference {
-        SelfId: 5880333270373759119
-      }
-    }
-    Overrides {
       Name: "cs:RarityButtons"
       ObjectReference {
         SelfId: 11120877387354027140
@@ -5735,12 +5723,6 @@ Objects {
       Name: "cs:APIRarityColors"
       AssetReference {
         Id: 7400019609552421304
-      }
-    }
-    Overrides {
-      Name: "cs:TempGroup"
-      ObjectReference {
-        SelfId: 1939246607942477250
       }
     }
     Overrides {
