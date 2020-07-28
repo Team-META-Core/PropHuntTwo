@@ -46,6 +46,7 @@ Objects {
   Name: "mannequin_guy"
   Transform {
     Location {
+      X: 313.28476
     }
     Rotation {
     }

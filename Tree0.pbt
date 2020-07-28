@@ -20,7 +20,7 @@ Objects {
   ChildIds: 7179769915645255894
   ChildIds: 10412283807992892945
   ChildIds: 17453876345837237762
-  ChildIds: 18322811468913647985
+  ChildIds: 6410346230628982749
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18322811468913647985
+  Id: 6410346230628982749
   Name: "Cube"
   Transform {
     Location {
@@ -42,8 +42,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 7.47923756
-      Y: 13.4022579
+      X: 3.09248114
+      Y: 4.11744165
       Z: 1
     }
   }
@@ -74,7 +74,6 @@ Objects {
   Name: "WearableProps(Optimized)"
   Transform {
     Location {
-      X: 424.480164
     }
     Rotation {
     }
@@ -107,8 +106,6 @@ Objects {
   Name: "OldTire"
   Transform {
     Location {
-      X: 110
-      Y: -170
     }
     Rotation {
     }
@@ -1701,7 +1698,7 @@ Objects {
   Name: "PropaneTank"
   Transform {
     Location {
-      X: 128.895981
+      X: 306.367279
     }
     Rotation {
     }
@@ -1734,7 +1731,6 @@ Objects {
   Name: "PropaneTank"
   Transform {
     Location {
-      Z: 5
     }
     Rotation {
     }
@@ -1745,13 +1741,13 @@ Objects {
     }
   }
   ParentId: 10004082891405700348
+  ChildIds: 12215279070506988772
   ChildIds: 5451024948481815655
   ChildIds: 486867209203047178
   ChildIds: 12156213610279970680
   ChildIds: 12807926966840076002
   ChildIds: 1967277810089453835
   ChildIds: 5626552833789076816
-  ChildIds: 12215279070506988772
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1769,69 +1765,13 @@ Objects {
   }
 }
 Objects {
-  Id: 12215279070506988772
-  Name: "Capsule"
-  Transform {
-    Location {
-      X: 0.374069214
-      Y: -0.510009766
-      Z: 43.6328888
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.680705547
-      Y: 0.680705547
-      Z: 0.457965821
-    }
-  }
-  ParentId: 1239640193727194165
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 509706767744584403
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5944393796542654307
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12215279070506988772
-    SubobjectId: 6474516494289126561
-    InstanceId: 15228904848152820202
-    TemplateId: 717395080542816507
-  }
-}
-Objects {
   Id: 5626552833789076816
   Name: "Pipe - Thin"
   Transform {
     Location {
-      X: 0.36769104
-      Y: 0.300537109
-      Z: 99.2970428
+      X: -0.00639343262
+      Y: 0.810546875
+      Z: 104.297043
     }
     Rotation {
     }
@@ -1885,9 +1825,9 @@ Objects {
   Name: "Cylinder - Polished"
   Transform {
     Location {
-      X: 0.397033691
-      Y: 0.0866699219
-      Z: 97.1962585
+      X: 0.0229492188
+      Y: 0.596679688
+      Z: 102.196259
     }
     Rotation {
     }
@@ -1941,9 +1881,9 @@ Objects {
   Name: "Cylinder - Polished"
   Transform {
     Location {
-      X: 0.397033691
-      Y: 0.0866699219
-      Z: 90.0804596
+      X: 0.0229492188
+      Y: 0.596679688
+      Z: 95.0804596
     }
     Rotation {
     }
@@ -1997,9 +1937,9 @@ Objects {
   Name: "Pipe - Half"
   Transform {
     Location {
-      X: 10.7213898
-      Y: -0.280029297
-      Z: 76.77211
+      X: 10.3473053
+      Y: 0.229980469
+      Z: 81.77211
     }
     Rotation {
       Yaw: 89.9999542
@@ -2062,12 +2002,12 @@ Objects {
   Name: "Pipe - Half"
   Transform {
     Location {
-      X: -12.2801666
-      Y: -0.280029297
-      Z: 76.77211
+      X: -12.6542511
+      Y: 0.229980469
+      Z: 81.77211
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -89.9999542
     }
     Scale {
       X: 0.510083199
@@ -2127,8 +2067,9 @@ Objects {
   Name: "Cylinder - Polished"
   Transform {
     Location {
-      X: 0.397033691
-      Y: 0.0866699219
+      X: 0.0229492188
+      Y: 0.596679688
+      Z: 5
     }
     Rotation {
     }
@@ -2173,6 +2114,61 @@ Objects {
   InstanceHistory {
     SelfId: 5451024948481815655
     SubobjectId: 13545305566466475042
+    InstanceId: 15228904848152820202
+    TemplateId: 717395080542816507
+  }
+}
+Objects {
+  Id: 12215279070506988772
+  Name: "Capsule"
+  Transform {
+    Location {
+      X: -1.52587891e-05
+      Z: 48.6328888
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.680705547
+      Y: 0.680705547
+      Z: 0.457965821
+    }
+  }
+  ParentId: 1239640193727194165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 509706767744584403
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5944393796542654307
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12215279070506988772
+    SubobjectId: 6474516494289126561
     InstanceId: 15228904848152820202
     TemplateId: 717395080542816507
   }
